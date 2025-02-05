@@ -1,0 +1,480 @@
+--------- Start  job 207433
+Using device: cuda:0
+
+Initializing dataset from: /home/agauta01/anmol_work/LIMUC-Dataset/train_set
+Checking class directory: /home/agauta01/anmol_work/LIMUC-Dataset/train_set/Mayo 0
+Found 4144 images in Mayo 0
+Checking class directory: /home/agauta01/anmol_work/LIMUC-Dataset/train_set/Mayo 1
+Found 2071 images in Mayo 1
+Checking class directory: /home/agauta01/anmol_work/LIMUC-Dataset/train_set/Mayo 2
+Found 970 images in Mayo 2
+Checking class directory: /home/agauta01/anmol_work/LIMUC-Dataset/train_set/Mayo 3
+Found 596 images in Mayo 3
+Total images loaded for train_set: 7781
+
+Initializing dataset from: /home/agauta01/anmol_work/LIMUC-Dataset/validation_set
+Checking class directory: /home/agauta01/anmol_work/LIMUC-Dataset/validation_set/Mayo 0
+Found 1036 images in Mayo 0
+Checking class directory: /home/agauta01/anmol_work/LIMUC-Dataset/validation_set/Mayo 1
+Found 517 images in Mayo 1
+Checking class directory: /home/agauta01/anmol_work/LIMUC-Dataset/validation_set/Mayo 2
+Found 107 images in Mayo 2
+Checking class directory: /home/agauta01/anmol_work/LIMUC-Dataset/validation_set/Mayo 3
+Found 149 images in Mayo 3
+Total images loaded for validation_set: 1809
+
+Initializing dataset from: /home/agauta01/anmol_work/LIMUC-Dataset/test_set
+Checking class directory: /home/agauta01/anmol_work/LIMUC-Dataset/test_set/Mayo 0
+Found 925 images in Mayo 0
+Checking class directory: /home/agauta01/anmol_work/LIMUC-Dataset/test_set/Mayo 1
+Found 464 images in Mayo 1
+Checking class directory: /home/agauta01/anmol_work/LIMUC-Dataset/test_set/Mayo 2
+Found 177 images in Mayo 2
+Checking class directory: /home/agauta01/anmol_work/LIMUC-Dataset/test_set/Mayo 3
+Found 120 images in Mayo 3
+Total images loaded for test_set: 1686
+
+Epoch 1/50
+/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=EfficientNet_V2_S_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_V2_S_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Batch 10, Loss: 1.232, Acc: 44.06%
+Batch 20, Loss: 1.072, Acc: 49.53%
+Batch 30, Loss: 0.976, Acc: 53.54%
+Batch 40, Loss: 0.924, Acc: 56.41%
+Batch 50, Loss: 1.055, Acc: 57.06%
+Batch 60, Loss: 1.063, Acc: 56.46%
+Batch 70, Loss: 1.014, Acc: 57.10%
+Batch 80, Loss: 0.866, Acc: 58.24%
+Batch 90, Loss: 0.900, Acc: 59.41%
+Batch 100, Loss: 0.863, Acc: 59.66%
+Batch 110, Loss: 0.859, Acc: 60.54%
+Batch 120, Loss: 0.884, Acc: 61.07%
+Batch 130, Loss: 0.828, Acc: 61.49%
+Batch 140, Loss: 0.857, Acc: 62.01%
+Batch 150, Loss: 0.696, Acc: 62.48%
+Batch 160, Loss: 0.750, Acc: 63.05%
+Batch 170, Loss: 0.812, Acc: 63.33%
+Batch 180, Loss: 0.839, Acc: 63.47%
+Batch 190, Loss: 0.833, Acc: 63.63%
+Batch 200, Loss: 0.879, Acc: 63.73%
+Batch 210, Loss: 0.821, Acc: 63.96%
+Batch 220, Loss: 0.822, Acc: 64.11%
+Batch 230, Loss: 0.856, Acc: 64.39%
+Batch 240, Loss: 0.704, Acc: 64.47%
+Validation Accuracy: 76.01%
+
+Epoch 2/50
+Batch 10, Loss: 0.932, Acc: 63.75%
+Batch 20, Loss: 0.827, Acc: 64.53%
+Batch 30, Loss: 0.763, Acc: 66.46%
+Batch 40, Loss: 0.780, Acc: 67.19%
+Batch 50, Loss: 0.689, Acc: 68.06%
+Batch 60, Loss: 0.719, Acc: 68.39%
+Batch 70, Loss: 0.716, Acc: 69.06%
+Batch 80, Loss: 0.673, Acc: 69.61%
+Batch 90, Loss: 0.856, Acc: 69.31%
+Batch 100, Loss: 0.839, Acc: 69.31%
+Batch 110, Loss: 0.795, Acc: 69.46%
+Batch 120, Loss: 0.777, Acc: 69.43%
+Batch 130, Loss: 0.760, Acc: 69.42%
+Batch 140, Loss: 0.781, Acc: 69.49%
+Batch 150, Loss: 0.682, Acc: 69.77%
+Batch 160, Loss: 0.691, Acc: 69.94%
+Batch 170, Loss: 0.740, Acc: 70.00%
+Batch 180, Loss: 0.707, Acc: 70.17%
+Batch 190, Loss: 0.656, Acc: 70.43%
+Batch 200, Loss: 0.545, Acc: 70.64%
+Batch 210, Loss: 0.788, Acc: 70.49%
+Batch 220, Loss: 0.712, Acc: 70.75%
+Batch 230, Loss: 0.912, Acc: 70.29%
+Batch 240, Loss: 0.833, Acc: 70.10%
+Validation Accuracy: 76.29%
+
+Epoch 3/50
+Batch 10, Loss: 0.703, Acc: 74.69%
+Batch 20, Loss: 0.707, Acc: 73.91%
+Batch 30, Loss: 0.682, Acc: 73.12%
+Batch 40, Loss: 0.658, Acc: 73.20%
+Batch 50, Loss: 0.633, Acc: 72.81%
+Batch 60, Loss: 0.758, Acc: 72.40%
+Batch 70, Loss: 0.704, Acc: 72.05%
+Batch 80, Loss: 0.718, Acc: 71.84%
+Batch 90, Loss: 0.713, Acc: 71.67%
+Batch 100, Loss: 0.762, Acc: 71.22%
+Batch 110, Loss: 0.654, Acc: 71.62%
+Batch 120, Loss: 0.725, Acc: 71.74%
+Batch 130, Loss: 0.687, Acc: 71.63%
+Batch 140, Loss: 0.692, Acc: 71.70%
+Batch 150, Loss: 0.673, Acc: 72.02%
+Batch 160, Loss: 0.613, Acc: 72.07%
+Batch 170, Loss: 0.702, Acc: 71.95%
+Batch 180, Loss: 0.699, Acc: 72.03%
+Batch 190, Loss: 0.753, Acc: 72.04%
+Batch 200, Loss: 0.804, Acc: 71.64%
+Batch 210, Loss: 0.703, Acc: 71.77%
+Batch 220, Loss: 0.758, Acc: 71.66%
+Batch 230, Loss: 0.806, Acc: 71.52%
+Batch 240, Loss: 0.643, Acc: 71.78%
+Validation Accuracy: 73.63%
+
+Epoch 4/50
+Batch 10, Loss: 0.687, Acc: 74.69%
+Batch 20, Loss: 0.786, Acc: 73.59%
+Batch 30, Loss: 0.798, Acc: 72.40%
+Batch 40, Loss: 0.854, Acc: 70.70%
+Batch 50, Loss: 0.688, Acc: 70.88%
+Batch 60, Loss: 0.665, Acc: 71.46%
+Batch 70, Loss: 0.753, Acc: 71.29%
+Batch 80, Loss: 0.584, Acc: 71.80%
+Batch 90, Loss: 0.635, Acc: 71.94%
+Batch 100, Loss: 0.812, Acc: 71.59%
+Batch 110, Loss: 0.708, Acc: 71.62%
+Batch 120, Loss: 0.723, Acc: 71.59%
+Batch 130, Loss: 0.728, Acc: 71.39%
+Batch 140, Loss: 0.675, Acc: 71.56%
+Batch 150, Loss: 0.541, Acc: 72.06%
+Batch 160, Loss: 0.828, Acc: 71.80%
+Batch 170, Loss: 0.797, Acc: 71.38%
+Batch 180, Loss: 0.730, Acc: 71.49%
+Batch 190, Loss: 0.724, Acc: 71.23%
+Batch 200, Loss: 0.643, Acc: 71.38%
+Batch 210, Loss: 0.754, Acc: 71.16%
+Batch 220, Loss: 0.682, Acc: 71.22%
+Batch 230, Loss: 0.732, Acc: 71.26%
+Batch 240, Loss: 0.696, Acc: 71.45%
+Validation Accuracy: 63.96%
+
+Epoch 5/50
+Batch 10, Loss: 0.713, Acc: 68.44%
+Batch 20, Loss: 0.741, Acc: 70.62%
+Batch 30, Loss: 0.707, Acc: 71.15%
+Batch 40, Loss: 0.682, Acc: 70.62%
+Batch 50, Loss: 0.661, Acc: 70.88%
+Batch 60, Loss: 0.651, Acc: 71.51%
+Batch 70, Loss: 0.687, Acc: 71.43%
+Batch 80, Loss: 0.678, Acc: 71.25%
+Batch 90, Loss: 0.715, Acc: 71.56%
+Batch 100, Loss: 0.708, Acc: 71.34%
+Batch 110, Loss: 0.686, Acc: 71.08%
+Batch 120, Loss: 0.755, Acc: 71.30%
+Batch 130, Loss: 0.664, Acc: 71.73%
+Batch 140, Loss: 0.655, Acc: 71.72%
+Batch 150, Loss: 0.647, Acc: 72.02%
+Batch 160, Loss: 0.656, Acc: 72.17%
+Batch 170, Loss: 0.700, Acc: 72.22%
+Batch 180, Loss: 0.649, Acc: 72.31%
+Batch 190, Loss: 0.690, Acc: 72.45%
+Batch 200, Loss: 0.776, Acc: 72.38%
+Batch 210, Loss: 0.674, Acc: 72.29%
+Batch 220, Loss: 0.633, Acc: 72.22%
+Batch 230, Loss: 0.630, Acc: 72.32%
+Batch 240, Loss: 0.612, Acc: 72.63%
+Validation Accuracy: 71.03%
+
+Epoch 6/50
+Batch 10, Loss: 0.758, Acc: 70.00%
+Batch 20, Loss: 0.619, Acc: 72.97%
+Batch 30, Loss: 0.681, Acc: 73.33%
+Batch 40, Loss: 0.670, Acc: 72.34%
+Batch 50, Loss: 0.522, Acc: 73.81%
+Batch 60, Loss: 0.638, Acc: 74.32%
+Batch 70, Loss: 0.665, Acc: 74.24%
+Batch 80, Loss: 0.661, Acc: 74.14%
+Batch 90, Loss: 0.689, Acc: 74.27%
+Batch 100, Loss: 0.669, Acc: 74.06%
+Batch 110, Loss: 0.766, Acc: 74.06%
+Batch 120, Loss: 0.612, Acc: 74.11%
+Batch 130, Loss: 0.587, Acc: 74.01%
+Batch 140, Loss: 0.600, Acc: 74.06%
+Batch 150, Loss: 0.718, Acc: 73.50%
+Batch 160, Loss: 0.632, Acc: 73.77%
+Batch 170, Loss: 0.675, Acc: 73.62%
+Batch 180, Loss: 0.712, Acc: 73.66%
+Batch 190, Loss: 0.660, Acc: 73.63%
+Batch 200, Loss: 0.697, Acc: 73.62%
+Batch 210, Loss: 0.552, Acc: 73.74%
+Batch 220, Loss: 0.728, Acc: 73.79%
+Batch 230, Loss: 0.665, Acc: 73.86%
+Batch 240, Loss: 0.624, Acc: 73.82%
+Validation Accuracy: 71.64%
+
+Epoch 7/50
+Batch 10, Loss: 0.634, Acc: 73.75%
+Batch 20, Loss: 0.579, Acc: 76.88%
+Batch 30, Loss: 0.597, Acc: 76.46%
+Batch 40, Loss: 0.695, Acc: 75.31%
+Batch 50, Loss: 0.596, Acc: 76.19%
+Batch 60, Loss: 0.631, Acc: 75.26%
+Batch 70, Loss: 0.616, Acc: 75.40%
+Batch 80, Loss: 0.665, Acc: 75.27%
+Batch 90, Loss: 0.623, Acc: 75.45%
+Batch 100, Loss: 0.634, Acc: 75.53%
+Batch 110, Loss: 0.580, Acc: 75.14%
+Batch 120, Loss: 0.740, Acc: 74.97%
+Batch 130, Loss: 0.648, Acc: 74.86%
+Batch 140, Loss: 0.701, Acc: 74.75%
+Batch 150, Loss: 0.691, Acc: 74.58%
+Batch 160, Loss: 0.612, Acc: 74.69%
+Batch 170, Loss: 0.628, Acc: 74.71%
+Batch 180, Loss: 0.684, Acc: 74.69%
+Batch 190, Loss: 0.779, Acc: 74.34%
+Batch 200, Loss: 0.584, Acc: 74.58%
+Batch 210, Loss: 0.642, Acc: 74.67%
+Batch 220, Loss: 0.649, Acc: 74.60%
+Batch 230, Loss: 0.824, Acc: 74.33%
+Batch 240, Loss: 0.702, Acc: 74.26%
+Validation Accuracy: 74.79%
+
+Epoch 8/50
+Batch 10, Loss: 0.597, Acc: 78.12%
+Batch 20, Loss: 0.751, Acc: 75.47%
+Batch 30, Loss: 0.688, Acc: 73.75%
+Batch 40, Loss: 0.730, Acc: 72.58%
+Batch 50, Loss: 0.694, Acc: 72.62%
+Batch 60, Loss: 0.592, Acc: 73.44%
+Batch 70, Loss: 0.635, Acc: 73.57%
+Batch 80, Loss: 0.579, Acc: 73.71%
+Batch 90, Loss: 0.613, Acc: 73.58%
+Batch 100, Loss: 0.633, Acc: 73.69%
+Batch 110, Loss: 0.669, Acc: 73.41%
+Batch 120, Loss: 0.670, Acc: 73.36%
+Batch 130, Loss: 0.661, Acc: 73.32%
+Batch 140, Loss: 0.634, Acc: 73.39%
+Batch 150, Loss: 0.663, Acc: 73.40%
+Batch 160, Loss: 0.584, Acc: 73.28%
+Batch 170, Loss: 0.582, Acc: 73.47%
+Batch 180, Loss: 0.645, Acc: 73.42%
+Batch 190, Loss: 0.555, Acc: 73.55%
+Batch 200, Loss: 0.587, Acc: 73.66%
+Batch 210, Loss: 0.673, Acc: 73.81%
+Batch 220, Loss: 0.706, Acc: 73.91%
+Batch 230, Loss: 0.644, Acc: 73.94%
+Batch 240, Loss: 0.585, Acc: 73.92%
+Validation Accuracy: 76.45%
+
+Epoch 9/50
+Batch 10, Loss: 0.648, Acc: 74.38%
+Batch 20, Loss: 0.665, Acc: 73.75%
+Batch 30, Loss: 0.719, Acc: 74.06%
+Batch 40, Loss: 0.705, Acc: 73.59%
+Batch 50, Loss: 0.647, Acc: 73.38%
+Batch 60, Loss: 0.582, Acc: 74.69%
+Batch 70, Loss: 0.759, Acc: 74.24%
+Batch 80, Loss: 0.602, Acc: 73.83%
+Batch 90, Loss: 0.689, Acc: 73.65%
+Batch 100, Loss: 0.657, Acc: 73.41%
+Batch 110, Loss: 0.623, Acc: 73.35%
+Batch 120, Loss: 0.647, Acc: 73.65%
+Batch 130, Loss: 0.663, Acc: 73.68%
+Batch 140, Loss: 0.601, Acc: 73.91%
+Batch 150, Loss: 0.672, Acc: 74.04%
+Batch 160, Loss: 0.622, Acc: 74.26%
+Batch 170, Loss: 0.481, Acc: 74.45%
+Batch 180, Loss: 0.555, Acc: 74.64%
+Batch 190, Loss: 0.686, Acc: 74.80%
+Batch 200, Loss: 0.642, Acc: 74.77%
+Batch 210, Loss: 0.674, Acc: 74.64%
+Batch 220, Loss: 0.615, Acc: 74.80%
+Batch 230, Loss: 0.569, Acc: 74.96%
+Batch 240, Loss: 0.644, Acc: 74.82%
+Validation Accuracy: 73.91%
+
+Epoch 10/50
+Batch 10, Loss: 0.570, Acc: 78.12%
+Batch 20, Loss: 0.582, Acc: 78.28%
+Batch 30, Loss: 0.681, Acc: 78.02%
+Batch 40, Loss: 0.534, Acc: 77.50%
+Batch 50, Loss: 0.578, Acc: 78.06%
+Batch 60, Loss: 0.651, Acc: 77.60%
+Batch 70, Loss: 0.714, Acc: 76.25%
+Batch 80, Loss: 0.719, Acc: 75.59%
+Batch 90, Loss: 0.561, Acc: 76.22%
+Batch 100, Loss: 0.685, Acc: 76.09%
+Batch 110, Loss: 0.573, Acc: 76.05%
+Batch 120, Loss: 0.625, Acc: 75.99%
+Batch 130, Loss: 0.583, Acc: 76.18%
+Batch 140, Loss: 0.607, Acc: 76.03%
+Batch 150, Loss: 0.655, Acc: 75.75%
+Batch 160, Loss: 0.719, Acc: 75.41%
+Batch 170, Loss: 0.653, Acc: 75.15%
+Batch 180, Loss: 0.497, Acc: 75.40%
+Batch 190, Loss: 0.551, Acc: 75.69%
+Batch 200, Loss: 0.566, Acc: 75.75%
+Batch 210, Loss: 0.641, Acc: 75.77%
+Batch 220, Loss: 0.624, Acc: 75.85%
+Batch 230, Loss: 0.671, Acc: 75.71%
+Batch 240, Loss: 0.666, Acc: 75.48%
+Validation Accuracy: 69.32%
+
+Epoch 11/50
+Batch 10, Loss: 0.672, Acc: 77.50%
+Batch 20, Loss: 0.638, Acc: 76.09%
+Batch 30, Loss: 0.634, Acc: 76.35%
+Batch 40, Loss: 0.642, Acc: 76.88%
+Batch 50, Loss: 0.710, Acc: 76.88%
+Batch 60, Loss: 0.571, Acc: 76.77%
+Batch 70, Loss: 0.653, Acc: 76.52%
+Batch 80, Loss: 0.735, Acc: 75.66%
+Batch 90, Loss: 0.609, Acc: 75.14%
+Batch 100, Loss: 0.630, Acc: 74.94%
+Batch 110, Loss: 0.616, Acc: 75.06%
+Batch 120, Loss: 0.633, Acc: 75.05%
+Batch 130, Loss: 0.687, Acc: 74.83%
+Batch 140, Loss: 0.539, Acc: 75.04%
+Batch 150, Loss: 0.561, Acc: 75.23%
+Batch 160, Loss: 0.567, Acc: 75.23%
+Batch 170, Loss: 0.698, Acc: 75.07%
+Batch 180, Loss: 0.590, Acc: 75.07%
+Batch 190, Loss: 0.572, Acc: 75.12%
+Batch 200, Loss: 0.652, Acc: 75.08%
+Batch 210, Loss: 0.701, Acc: 74.94%
+Batch 220, Loss: 0.554, Acc: 74.93%
+Batch 230, Loss: 0.593, Acc: 74.95%
+Batch 240, Loss: 0.544, Acc: 75.20%
+Validation Accuracy: 67.11%
+
+Epoch 12/50
+Batch 10, Loss: 0.564, Acc: 73.75%
+Batch 20, Loss: 0.600, Acc: 74.53%
+Batch 30, Loss: 0.676, Acc: 74.06%
+Batch 40, Loss: 0.656, Acc: 73.98%
+Batch 50, Loss: 0.635, Acc: 73.62%
+Batch 60, Loss: 0.533, Acc: 74.53%
+Batch 70, Loss: 0.620, Acc: 75.00%
+Batch 80, Loss: 0.651, Acc: 74.80%
+Batch 90, Loss: 0.683, Acc: 74.86%
+Batch 100, Loss: 0.656, Acc: 74.91%
+Batch 110, Loss: 0.634, Acc: 74.91%
+Batch 120, Loss: 0.656, Acc: 75.13%
+Batch 130, Loss: 0.639, Acc: 75.12%
+Batch 140, Loss: 0.525, Acc: 75.31%
+Batch 150, Loss: 0.567, Acc: 75.25%
+Batch 160, Loss: 0.612, Acc: 75.41%
+Batch 170, Loss: 0.576, Acc: 75.50%
+Batch 180, Loss: 0.632, Acc: 75.62%
+Batch 190, Loss: 0.565, Acc: 75.74%
+Batch 200, Loss: 0.556, Acc: 75.72%
+Batch 210, Loss: 0.619, Acc: 75.71%
+Batch 220, Loss: 0.698, Acc: 75.70%
+Batch 230, Loss: 0.628, Acc: 75.68%
+Batch 240, Loss: 0.525, Acc: 75.68%
+Validation Accuracy: 74.52%
+
+Epoch 13/50
+Batch 10, Loss: 0.593, Acc: 75.00%
+Batch 20, Loss: 0.571, Acc: 74.69%
+Batch 30, Loss: 0.644, Acc: 73.96%
+Batch 40, Loss: 0.610, Acc: 73.91%
+Batch 50, Loss: 0.665, Acc: 74.00%
+Batch 60, Loss: 0.666, Acc: 73.75%
+Batch 70, Loss: 0.581, Acc: 73.97%
+Batch 80, Loss: 0.653, Acc: 74.26%
+Batch 90, Loss: 0.576, Acc: 74.41%
+Batch 100, Loss: 0.592, Acc: 74.44%
+Batch 110, Loss: 0.593, Acc: 74.83%
+Batch 120, Loss: 0.491, Acc: 75.10%
+Batch 130, Loss: 0.586, Acc: 75.19%
+Batch 140, Loss: 0.541, Acc: 75.42%
+Batch 150, Loss: 0.516, Acc: 75.65%
+Batch 160, Loss: 0.560, Acc: 75.70%
+Batch 170, Loss: 0.616, Acc: 75.81%
+Batch 180, Loss: 0.669, Acc: 75.73%
+Batch 190, Loss: 0.611, Acc: 75.79%
+Batch 200, Loss: 0.622, Acc: 75.66%
+Batch 210, Loss: 0.633, Acc: 75.43%
+Batch 220, Loss: 0.642, Acc: 75.55%
+Batch 230, Loss: 0.651, Acc: 75.46%
+Batch 240, Loss: 0.580, Acc: 75.52%
+Validation Accuracy: 76.34%
+
+Epoch 14/50
+Batch 10, Loss: 0.578, Acc: 76.56%
+Batch 20, Loss: 0.629, Acc: 76.72%
+Batch 30, Loss: 0.568, Acc: 78.33%
+Batch 40, Loss: 0.593, Acc: 77.58%
+Batch 50, Loss: 0.660, Acc: 77.56%
+Batch 60, Loss: 0.554, Acc: 77.92%
+Batch 70, Loss: 0.604, Acc: 76.92%
+Batch 80, Loss: 0.599, Acc: 76.88%
+Batch 90, Loss: 0.611, Acc: 76.46%
+Batch 100, Loss: 0.725, Acc: 76.19%
+Batch 110, Loss: 0.651, Acc: 76.16%
+Batch 120, Loss: 0.655, Acc: 75.91%
+Batch 130, Loss: 0.529, Acc: 75.96%
+Batch 140, Loss: 0.646, Acc: 76.07%
+Batch 150, Loss: 0.618, Acc: 76.04%
+Batch 160, Loss: 0.544, Acc: 76.04%
+Batch 170, Loss: 0.546, Acc: 75.99%
+Batch 180, Loss: 0.598, Acc: 76.16%
+Batch 190, Loss: 0.665, Acc: 75.81%
+Batch 200, Loss: 0.552, Acc: 76.02%
+Batch 210, Loss: 0.575, Acc: 76.22%
+Batch 220, Loss: 0.630, Acc: 76.34%
+Batch 230, Loss: 0.579, Acc: 76.21%
+Batch 240, Loss: 0.673, Acc: 76.05%
+Validation Accuracy: 70.15%
+Epoch 00014: reducing learning rate of group 0 to 1.0000e-04.
+
+Epoch 15/50
+Batch 10, Loss: 0.564, Acc: 77.19%
+Batch 20, Loss: 0.599, Acc: 76.09%
+Batch 30, Loss: 0.487, Acc: 76.88%
+Batch 40, Loss: 0.518, Acc: 77.42%
+Batch 50, Loss: 0.488, Acc: 77.75%
+Batch 60, Loss: 0.492, Acc: 78.18%
+Batch 70, Loss: 0.562, Acc: 78.08%
+Batch 80, Loss: 0.572, Acc: 77.97%
+Batch 90, Loss: 0.506, Acc: 78.26%
+Batch 100, Loss: 0.483, Acc: 78.38%
+Batch 110, Loss: 0.513, Acc: 78.49%
+Batch 120, Loss: 0.610, Acc: 78.12%
+Batch 130, Loss: 0.585, Acc: 78.03%
+Batch 140, Loss: 0.530, Acc: 78.10%
+Batch 150, Loss: 0.422, Acc: 78.42%
+Batch 160, Loss: 0.479, Acc: 78.54%
+Batch 170, Loss: 0.584, Acc: 78.33%
+Batch 180, Loss: 0.556, Acc: 78.28%
+Batch 190, Loss: 0.540, Acc: 78.42%
+Batch 200, Loss: 0.550, Acc: 78.48%
+Batch 210, Loss: 0.570, Acc: 78.41%
+Batch 220, Loss: 0.549, Acc: 78.49%
+Batch 230, Loss: 0.509, Acc: 78.67%
+Batch 240, Loss: 0.564, Acc: 78.55%
+Validation Accuracy: 73.47%
+Early stopping triggered
+
+Test Results:
+Per-class metrics:
+
+Mayo 0:
+Precision: 0.9042
+Recall: 0.8065
+F1-score: 0.8526
+
+Mayo 1:
+Precision: 0.5946
+Recall: 0.7651
+F1-score: 0.6692
+
+Mayo 2:
+Precision: 0.5524
+Recall: 0.3277
+F1-score: 0.4113
+
+Mayo 3:
+Precision: 0.6101
+Recall: 0.8083
+F1-score: 0.6953
+
+Overall metrics:
+Accuracy: 0.7450
+Precision: 0.6653
+Recall: 0.6769
+F1-score: 0.6571
+3. ------- Calculate time elapsed ------- 
+Total of 803 seconds elapsed for process
+--------- Finished with job 207433
