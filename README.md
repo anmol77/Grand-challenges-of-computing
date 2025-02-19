@@ -1,3 +1,4 @@
+*efficient-net-v2/*
 **First implementation**
 - training accuracy ~98%
 - validation accuracy - 75.35 %
