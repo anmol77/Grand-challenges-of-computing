@@ -1,0 +1,91 @@
+--------- Start  job 208089
+/opt/scikit-learn/site-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/scikit-learn/site-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/scikit-learn/site-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/scikit-learn/site-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/scikit-learn/site-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/scikit-learn/site-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/scikit-learn/site-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/scikit-learn/site-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/scikit-learn/site-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [1/150] Train Loss: 1.5253 Train Acc: 25.68% Val Acc: 5.91%
+Epoch [2/150] Train Loss: 1.5140 Train Acc: 25.32% Val Acc: 30.51%
+Epoch [3/150] Train Loss: 1.5011 Train Acc: 29.31% Val Acc: 8.13%
+Epoch [4/150] Train Loss: 1.4948 Train Acc: 29.48% Val Acc: 49.92%
+Epoch [5/150] Train Loss: 1.4957 Train Acc: 31.90% Val Acc: 20.18%
+Epoch [6/150] Train Loss: 1.4924 Train Acc: 32.41% Val Acc: 48.48%
+Epoch [7/150] Train Loss: 1.4921 Train Acc: 30.03% Val Acc: 32.78%
+Epoch [8/150] Train Loss: 1.4879 Train Acc: 30.52% Val Acc: 10.89%
+Epoch [9/150] Train Loss: 1.4851 Train Acc: 32.40% Val Acc: 35.49%
+Epoch [10/150] Train Loss: 1.4908 Train Acc: 32.00% Val Acc: 12.38%
+Epoch [11/150] Train Loss: 1.4894 Train Acc: 32.45% Val Acc: 12.82%
+Epoch [12/150] Train Loss: 1.4873 Train Acc: 32.39% Val Acc: 33.55%
+Epoch [13/150] Train Loss: 1.4911 Train Acc: 30.91% Val Acc: 41.85%
+Epoch [14/150] Train Loss: 1.4874 Train Acc: 30.83% Val Acc: 30.35%
+Epoch [15/150] Train Loss: 1.4888 Train Acc: 32.43% Val Acc: 30.57%
+Epoch [16/150] Train Loss: 1.4883 Train Acc: 31.99% Val Acc: 30.90%
+Epoch [17/150] Train Loss: 1.4868 Train Acc: 32.93% Val Acc: 53.23%
+Epoch [18/150] Train Loss: 1.4853 Train Acc: 33.52% Val Acc: 32.89%
+Epoch [19/150] Train Loss: 1.4841 Train Acc: 34.07% Val Acc: 29.19%
+Epoch [20/150] Train Loss: 1.4830 Train Acc: 35.56% Val Acc: 40.02%
+Epoch [21/150] Train Loss: 1.4867 Train Acc: 35.05% Val Acc: 49.53%
+Epoch [22/150] Train Loss: 1.4845 Train Acc: 34.21% Val Acc: 46.93%
+Epoch [23/150] Train Loss: 1.4773 Train Acc: 34.89% Val Acc: 54.45%
+Epoch [24/150] Train Loss: 1.4785 Train Acc: 33.21% Val Acc: 44.06%
+Epoch [25/150] Train Loss: 1.4791 Train Acc: 34.15% Val Acc: 57.82%
+Epoch [26/150] Train Loss: 1.4778 Train Acc: 34.69% Val Acc: 42.07%
+Epoch [27/150] Train Loss: 1.4834 Train Acc: 33.53% Val Acc: 40.91%
+Epoch [28/150] Train Loss: 1.4818 Train Acc: 33.26% Val Acc: 27.81%
+Epoch [29/150] Train Loss: 1.4777 Train Acc: 32.99% Val Acc: 31.79%
+Epoch [30/150] Train Loss: 1.4787 Train Acc: 33.05% Val Acc: 30.74%
+Epoch [31/150] Train Loss: 1.4765 Train Acc: 32.07% Val Acc: 37.04%
+Epoch [32/150] Train Loss: 1.4805 Train Acc: 34.57% Val Acc: 19.57%
+Epoch [33/150] Train Loss: 1.4770 Train Acc: 36.10% Val Acc: 22.72%
+Epoch [34/150] Train Loss: 1.4751 Train Acc: 33.76% Val Acc: 20.45%
+Epoch [35/150] Train Loss: 1.4769 Train Acc: 32.75% Val Acc: 40.96%
+Epoch [36/150] Train Loss: 1.4702 Train Acc: 32.80% Val Acc: 30.35%
+Epoch [37/150] Train Loss: 1.4704 Train Acc: 34.17% Val Acc: 23.33%
+Epoch [38/150] Train Loss: 1.4681 Train Acc: 34.19% Val Acc: 21.61%
+Epoch [39/150] Train Loss: 1.4733 Train Acc: 33.89% Val Acc: 26.70%
+Epoch [40/150] Train Loss: 1.4656 Train Acc: 34.60% Val Acc: 32.28%
+Early stopping triggered after epoch 40
+
+Best Model Performance:
+Validation Accuracy: 57.82%
+
+Detailed Metrics:
+
+Mayo 0:
+Precision: 0.617
+Recall: 0.871
+F1-Score: 0.722
+
+Mayo 1:
+Precision: 0.465
+Recall: 0.273
+F1-Score: 0.344
+
+Mayo 2:
+Precision: 0.000
+Recall: 0.000
+F1-Score: 0.000
+
+Mayo 3:
+Precision: 0.071
+Recall: 0.020
+F1-Score: 0.031
+
+3. ------- Calculate time elapsed ------- 
+Total of 15487 seconds elapsed for process
+3. ------- Calculate time elapsed ------- 
+Total of 15550 seconds elapsed for process
+--------- Finished with job 208089
