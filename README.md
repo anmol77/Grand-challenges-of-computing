@@ -18,11 +18,7 @@ LIMUC-Dataset
 - implementation of early stopping
 - Since Mayo 0 (925 samples), Mayo 1 (464 samples), Mayo 2 (177 samples), Mayo 3 (120 samples), this implementation addresses class imbalance
 
-Kvasir-Dataset
 
-* /first_implementation/
-
-- unable to classify dye-lifted-polyps
 
 
   
