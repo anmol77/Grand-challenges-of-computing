@@ -1,3 +1,4 @@
+*efficient_net_v2/first_implementation*
 **First implementation**
 - training accuracy ~98%
 - validation accuracy - 75.35 %
@@ -6,6 +7,7 @@
 - Per class performance (Mayo 0: f1 0.85, Mayo 1: f1 0.63, Mayo 2: f1 0.47, Mayo 3 f1 0.60)
 - As per class performance (f1 score) Mayo 0 performed the best.
 
+*efficient_net_v2/second_implementation*
 **Second Implementation**
 - addresses issues of first implementation
 - adds more data augmentation
