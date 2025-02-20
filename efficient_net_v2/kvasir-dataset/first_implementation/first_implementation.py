@@ -26,7 +26,7 @@ DATASET_PATH = '/home/agauta01/anmol_work/kvasir-dataset-v2'
 
 # Class names
 CLASSES = [
-    'dye-lifted-polyps', 'dyed-resection-margins', 'esophagitis',
+    'dyed-lifted-polyps', 'dyed-resection-margins', 'esophagitis',
     'normal-cecum', 'normal-pylorus', 'normal-z-line',
     'polyps', 'ulcerative-colitis'
 ]
