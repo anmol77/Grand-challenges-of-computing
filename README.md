@@ -20,7 +20,7 @@ LIMUC-Dataset
 
 Kvasir-Dataset
 
-*first_implementation
+* /first_implementation/
 
 - unable to classify dye-lifted-polyps
 
