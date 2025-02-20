@@ -2,7 +2,7 @@
 
 LIMUC-Dataset
 
-* /first_implementation*
+* /first_implementation/
 
 - training accuracy ~98%
 - validation accuracy - 75.35 %
@@ -11,7 +11,7 @@ LIMUC-Dataset
 - Per class performance (Mayo 0: f1 0.85, Mayo 1: f1 0.63, Mayo 2: f1 0.47, Mayo 3 f1 0.60)
 - As per class performance (f1 score) Mayo 0 performed the best.
 
-* /second_implementation*
+* /second_implementation/
 
 - addresses issues of first implementation
 - adds more data augmentation
