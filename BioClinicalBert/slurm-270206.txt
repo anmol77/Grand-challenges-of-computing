@@ -1,0 +1,2463 @@
+--------- Start  job 270206
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: PyPDF2 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (3.0.1)
+Requirement already satisfied: typing_extensions>=3.10.0.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from PyPDF2) (4.1.1)
+
+[notice] A new release of pip is available: 23.2.1 -> 25.0.1
+[notice] To update, run: python -m pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: PyMuPDF in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (1.24.11)
+
+[notice] A new release of pip is available: 23.2.1 -> 25.0.1
+[notice] To update, run: python -m pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: transformers in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (4.46.3)
+Requirement already satisfied: filelock in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from transformers) (3.9.0)
+Requirement already satisfied: huggingface-hub<1.0,>=0.23.2 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (0.35.3)
+Requirement already satisfied: numpy>=1.17 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from transformers) (1.22.2)
+Requirement already satisfied: packaging>=20.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (25.0)
+Requirement already satisfied: pyyaml>=5.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (6.0.3)
+Requirement already satisfied: regex!=2019.12.17 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (2024.11.6)
+Requirement already satisfied: requests in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from transformers) (2.27.1)
+Requirement already satisfied: tokenizers<0.21,>=0.20 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (0.20.3)
+Requirement already satisfied: safetensors>=0.4.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (0.5.3)
+Requirement already satisfied: tqdm>=4.27 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (4.67.1)
+Requirement already satisfied: fsspec>=2023.5.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from huggingface-hub<1.0,>=0.23.2->transformers) (2025.3.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from huggingface-hub<1.0,>=0.23.2->transformers) (4.1.1)
+Requirement already satisfied: hf-xet<2.0.0,>=1.1.3 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from huggingface-hub<1.0,>=0.23.2->transformers) (1.1.10)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->transformers) (1.26.8)
+Requirement already satisfied: certifi>=2017.4.17 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->transformers) (2021.10.8)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->transformers) (2.0.12)
+Requirement already satisfied: idna<4,>=2.5 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->transformers) (3.3)
+
+[notice] A new release of pip is available: 23.2.1 -> 25.0.1
+[notice] To update, run: python -m pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: sentence-transformers in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (3.2.1)
+Requirement already satisfied: transformers<5.0.0,>=4.41.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from sentence-transformers) (4.46.3)
+Requirement already satisfied: tqdm in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from sentence-transformers) (4.67.1)
+Requirement already satisfied: torch>=1.11.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from sentence-transformers) (2.1.0+cu118)
+Requirement already satisfied: scikit-learn in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from sentence-transformers) (1.3.2)
+Requirement already satisfied: scipy in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from sentence-transformers) (1.10.1)
+Requirement already satisfied: huggingface-hub>=0.20.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from sentence-transformers) (0.35.3)
+Requirement already satisfied: Pillow in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from sentence-transformers) (9.3.0)
+Requirement already satisfied: filelock in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (3.9.0)
+Requirement already satisfied: fsspec>=2023.5.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (2025.3.0)
+Requirement already satisfied: packaging>=20.9 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (25.0)
+Requirement already satisfied: pyyaml>=5.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (6.0.3)
+Requirement already satisfied: requests in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (2.27.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (4.1.1)
+Requirement already satisfied: hf-xet<2.0.0,>=1.1.3 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (1.1.10)
+Requirement already satisfied: sympy in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from torch>=1.11.0->sentence-transformers) (1.11.1)
+Requirement already satisfied: networkx in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from torch>=1.11.0->sentence-transformers) (3.0)
+Requirement already satisfied: jinja2 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from torch>=1.11.0->sentence-transformers) (3.1.2)
+Requirement already satisfied: triton==2.1.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from torch>=1.11.0->sentence-transformers) (2.1.0)
+Requirement already satisfied: numpy>=1.17 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from transformers<5.0.0,>=4.41.0->sentence-transformers) (1.22.2)
+Requirement already satisfied: regex!=2019.12.17 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers<5.0.0,>=4.41.0->sentence-transformers) (2024.11.6)
+Requirement already satisfied: tokenizers<0.21,>=0.20 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers<5.0.0,>=4.41.0->sentence-transformers) (0.20.3)
+Requirement already satisfied: safetensors>=0.4.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers<5.0.0,>=4.41.0->sentence-transformers) (0.5.3)
+Requirement already satisfied: joblib>=1.1.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from scikit-learn->sentence-transformers) (1.4.2)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from scikit-learn->sentence-transformers) (3.5.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from jinja2->torch>=1.11.0->sentence-transformers) (2.1.2)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->huggingface-hub>=0.20.0->sentence-transformers) (1.26.8)
+Requirement already satisfied: certifi>=2017.4.17 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->huggingface-hub>=0.20.0->sentence-transformers) (2021.10.8)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->huggingface-hub>=0.20.0->sentence-transformers) (2.0.12)
+Requirement already satisfied: idna<4,>=2.5 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->huggingface-hub>=0.20.0->sentence-transformers) (3.3)
+Requirement already satisfied: mpmath>=0.19 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from sympy->torch>=1.11.0->sentence-transformers) (1.2.1)
+
+[notice] A new release of pip is available: 23.2.1 -> 25.0.1
+[notice] To update, run: python -m pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: matplotlib in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (3.7.5)
+Requirement already satisfied: contourpy>=1.0.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (1.1.1)
+Requirement already satisfied: cycler>=0.10 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (4.57.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (1.4.7)
+Requirement already satisfied: numpy<2,>=1.20 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from matplotlib) (1.22.2)
+Requirement already satisfied: packaging>=20.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (25.0)
+Requirement already satisfied: pillow>=6.2.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from matplotlib) (9.3.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (3.1.4)
+Requirement already satisfied: python-dateutil>=2.7 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from matplotlib) (2.8.2)
+Requirement already satisfied: importlib-resources>=3.2.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (6.4.5)
+Requirement already satisfied: zipp>=3.1.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from importlib-resources>=3.2.0->matplotlib) (3.7.0)
+Requirement already satisfied: six>=1.5 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+
+[notice] A new release of pip is available: 23.2.1 -> 25.0.1
+[notice] To update, run: python -m pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: seaborn in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (0.13.2)
+Requirement already satisfied: numpy!=1.24.0,>=1.20 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from seaborn) (1.22.2)
+Requirement already satisfied: pandas>=1.2 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from seaborn) (1.4.1)
+Requirement already satisfied: matplotlib!=3.6.1,>=3.4 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from seaborn) (3.7.5)
+Requirement already satisfied: contourpy>=1.0.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.1.1)
+Requirement already satisfied: cycler>=0.10 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (4.57.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.4.7)
+Requirement already satisfied: packaging>=20.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (25.0)
+Requirement already satisfied: pillow>=6.2.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (9.3.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (3.1.4)
+Requirement already satisfied: python-dateutil>=2.7 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (2.8.2)
+Requirement already satisfied: importlib-resources>=3.2.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (6.4.5)
+Requirement already satisfied: pytz>=2020.1 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from pandas>=1.2->seaborn) (2021.3)
+Requirement already satisfied: zipp>=3.1.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from importlib-resources>=3.2.0->matplotlib!=3.6.1,>=3.4->seaborn) (3.7.0)
+Requirement already satisfied: six>=1.5 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from python-dateutil>=2.7->matplotlib!=3.6.1,>=3.4->seaborn) (1.16.0)
+
+[notice] A new release of pip is available: 23.2.1 -> 25.0.1
+[notice] To update, run: python -m pip install --upgrade pip
+/opt/scikit-learn/site-packages/sklearn/manifold/_t_sne.py:780: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/opt/scikit-learn/site-packages/sklearn/manifold/_t_sne.py:790: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+======================================================================
+UC PATHOLOGY REPORT CLUSTERING WITH BioClinicalBERT
+======================================================================
+Device: cuda
+Model: /home/agauta01/anmol_work/bioclinicalbert_local
+Offline mode: True
+Number of clusters: 4
+
+======================================================================
+STEP 1: LOADING PDF REPORTS
+======================================================================
+
+Found 2000 PDF files in /home/agauta01/anmol_work/uc_textual_reports
+Extracting text from PDFs...
+[1/2000] ✓ uc_00317.pdf - 4375 characters
+[2/2000] ✓ uc_01797.pdf - 4296 characters
+[3/2000] ✓ uc_01393.pdf - 4456 characters
+[4/2000] ✓ uc_01455.pdf - 5074 characters
+[5/2000] ✓ uc_00051.pdf - 4662 characters
+[6/2000] ✓ uc_01539.pdf - 4420 characters
+[7/2000] ✓ uc_00837.pdf - 4278 characters
+[8/2000] ✓ uc_00737.pdf - 4466 characters
+[9/2000] ✓ uc_00959.pdf - 4439 characters
+[10/2000] ✓ uc_00567.pdf - 4721 characters
+[11/2000] ✓ uc_01170.pdf - 4680 characters
+[12/2000] ✓ uc_01135.pdf - 5417 characters
+[13/2000] ✓ uc_01670.pdf - 4378 characters
+[14/2000] ✓ uc_00536.pdf - 4840 characters
+[15/2000] ✓ uc_01317.pdf - 4401 characters
+[16/2000] ✓ uc_01925.pdf - 4469 characters
+[17/2000] ✓ uc_00036.pdf - 4734 characters
+[18/2000] ✓ uc_01921.pdf - 4697 characters
+[19/2000] ✓ uc_01507.pdf - 4323 characters
+[20/2000] ✓ uc_00005.pdf - 4950 characters
+[21/2000] ✓ uc_01688.pdf - 4752 characters
+[22/2000] ✓ uc_01606.pdf - 4332 characters
+[23/2000] ✓ uc_01453.pdf - 4656 characters
+[24/2000] ✓ uc_01584.pdf - 4820 characters
+[25/2000] ✓ uc_01915.pdf - 4417 characters
+[26/2000] ✓ uc_01029.pdf - 4953 characters
+[27/2000] ✓ uc_00145.pdf - 5609 characters
+[28/2000] ✓ uc_00253.pdf - 4466 characters
+[29/2000] ✓ uc_00693.pdf - 4797 characters
+[30/2000] ✓ uc_01762.pdf - 4437 characters
+[31/2000] ✓ uc_00797.pdf - 4462 characters
+[32/2000] ✓ uc_01668.pdf - 4398 characters
+[33/2000] ✓ uc_01399.pdf - 5225 characters
+[34/2000] ✓ uc_01190.pdf - 4689 characters
+[35/2000] ✓ uc_00492.pdf - 4331 characters
+[36/2000] ✓ uc_00735.pdf - 4329 characters
+[37/2000] ✓ uc_00265.pdf - 4866 characters
+[38/2000] ✓ uc_00225.pdf - 4915 characters
+[39/2000] ✓ uc_00656.pdf - 4463 characters
+[40/2000] ✓ uc_01566.pdf - 5203 characters
+[41/2000] ✓ uc_00746.pdf - 4609 characters
+[42/2000] ✓ uc_01035.pdf - 4679 characters
+[43/2000] ✓ uc_01221.pdf - 4400 characters
+[44/2000] ✓ uc_01472.pdf - 4470 characters
+[45/2000] ✓ uc_00451.pdf - 4377 characters
+[46/2000] ✓ uc_00090.pdf - 4312 characters
+[47/2000] ✓ uc_01987.pdf - 4351 characters
+[48/2000] ✓ uc_00760.pdf - 4338 characters
+[49/2000] ✓ uc_00626.pdf - 4326 characters
+[50/2000] ✓ uc_01979.pdf - 4644 characters
+[51/2000] ✓ uc_00322.pdf - 4438 characters
+[52/2000] ✓ uc_00045.pdf - 4831 characters
+[53/2000] ✓ uc_00570.pdf - 4416 characters
+[54/2000] ✓ uc_01703.pdf - 4698 characters
+[55/2000] ✓ uc_01308.pdf - 4726 characters
+[56/2000] ✓ uc_00749.pdf - 4408 characters
+[57/2000] ✓ uc_01880.pdf - 4288 characters
+[58/2000] ✓ uc_00122.pdf - 4526 characters
+[59/2000] ✓ uc_00782.pdf - 4352 characters
+[60/2000] ✓ uc_00022.pdf - 4759 characters
+[61/2000] ✓ uc_01141.pdf - 4301 characters
+[62/2000] ✓ uc_01001.pdf - 4826 characters
+[63/2000] ✓ uc_01476.pdf - 4486 characters
+[64/2000] ✓ uc_01196.pdf - 5051 characters
+[65/2000] ✓ uc_01468.pdf - 4903 characters
+[66/2000] ✓ uc_00423.pdf - 4733 characters
+[67/2000] ✓ uc_00377.pdf - 4253 characters
+[68/2000] ✓ uc_00897.pdf - 4878 characters
+[69/2000] ✓ uc_01582.pdf - 4803 characters
+[70/2000] ✓ uc_01638.pdf - 5402 characters
+[71/2000] ✓ uc_00210.pdf - 4309 characters
+[72/2000] ✓ uc_00124.pdf - 4667 characters
+[73/2000] ✓ uc_00702.pdf - 4385 characters
+[74/2000] ✓ uc_00179.pdf - 4575 characters
+[75/2000] ✓ uc_00031.pdf - 4318 characters
+[76/2000] ✓ uc_00434.pdf - 4749 characters
+[77/2000] ✓ uc_00026.pdf - 5216 characters
+[78/2000] ✓ uc_00826.pdf - 4450 characters
+[79/2000] ✓ uc_00149.pdf - 4749 characters
+[80/2000] ✓ uc_01851.pdf - 4329 characters
+[81/2000] ✓ uc_01725.pdf - 4716 characters
+[82/2000] ✓ uc_01681.pdf - 4448 characters
+[83/2000] ✓ uc_00192.pdf - 4874 characters
+[84/2000] ✓ uc_00481.pdf - 5213 characters
+[85/2000] ✓ uc_00800.pdf - 4361 characters
+[86/2000] ✓ uc_00637.pdf - 4715 characters
+[87/2000] ✓ uc_01738.pdf - 4791 characters
+[88/2000] ✓ uc_01075.pdf - 4341 characters
+[89/2000] ✓ uc_01619.pdf - 4316 characters
+[90/2000] ✓ uc_01502.pdf - 4773 characters
+[91/2000] ✓ uc_00158.pdf - 4324 characters
+[92/2000] ✓ uc_01759.pdf - 4752 characters
+[93/2000] ✓ uc_01270.pdf - 4850 characters
+[94/2000] ✓ uc_00752.pdf - 4692 characters
+[95/2000] ✓ uc_01549.pdf - 4449 characters
+[96/2000] ✓ uc_00332.pdf - 4347 characters
+[97/2000] ✓ uc_01361.pdf - 4792 characters
+[98/2000] ✓ uc_01185.pdf - 5028 characters
+[99/2000] ✓ uc_00516.pdf - 4375 characters
+[100/2000] ✓ uc_00585.pdf - 4427 characters
+[101/2000] ✓ uc_01701.pdf - 4363 characters
+[102/2000] ✓ uc_01785.pdf - 4845 characters
+[103/2000] ✓ uc_00953.pdf - 5041 characters
+[104/2000] ✓ uc_01005.pdf - 4334 characters
+[105/2000] ✓ uc_00016.pdf - 4432 characters
+[106/2000] ✓ uc_00264.pdf - 4824 characters
+[107/2000] ✓ uc_00619.pdf - 4772 characters
+[108/2000] ✓ uc_00343.pdf - 5198 characters
+[109/2000] ✓ uc_01564.pdf - 4403 characters
+[110/2000] ✓ uc_00775.pdf - 4451 characters
+[111/2000] ✓ uc_01511.pdf - 4399 characters
+[112/2000] ✓ uc_00278.pdf - 4444 characters
+[113/2000] ✓ uc_01065.pdf - 4346 characters
+[114/2000] ✓ uc_01441.pdf - 4518 characters
+[115/2000] ✓ uc_01015.pdf - 4823 characters
+[116/2000] ✓ uc_01269.pdf - 4711 characters
+[117/2000] ✓ uc_00407.pdf - 4913 characters
+[118/2000] ✓ uc_00921.pdf - 4356 characters
+[119/2000] ✓ uc_01899.pdf - 4441 characters
+[120/2000] ✓ uc_01959.pdf - 5277 characters
+[121/2000] ✓ uc_00414.pdf - 4417 characters
+[122/2000] ✓ uc_01320.pdf - 4743 characters
+[123/2000] ✓ uc_00934.pdf - 4307 characters
+[124/2000] ✓ uc_01597.pdf - 4760 characters
+[125/2000] ✓ uc_01811.pdf - 4301 characters
+[126/2000] ✓ uc_00563.pdf - 4751 characters
+[127/2000] ✓ uc_01460.pdf - 4379 characters
+[128/2000] ✓ uc_01292.pdf - 5154 characters
+[129/2000] ✓ uc_01575.pdf - 5095 characters
+[130/2000] ✓ uc_00347.pdf - 4430 characters
+[131/2000] ✓ uc_00550.pdf - 5105 characters
+[132/2000] ✓ uc_01646.pdf - 4432 characters
+[133/2000] ✓ uc_00465.pdf - 4650 characters
+[134/2000] ✓ uc_00053.pdf - 4753 characters
+[135/2000] ✓ uc_00828.pdf - 4363 characters
+[136/2000] ✓ uc_00655.pdf - 4457 characters
+[137/2000] ✓ uc_01773.pdf - 4300 characters
+[138/2000] ✓ uc_01765.pdf - 4367 characters
+[139/2000] ✓ uc_01089.pdf - 4400 characters
+[140/2000] ✓ uc_01833.pdf - 5198 characters
+[141/2000] ✓ uc_01404.pdf - 5282 characters
+[142/2000] ✓ uc_00320.pdf - 5260 characters
+[143/2000] ✓ uc_00983.pdf - 4398 characters
+[144/2000] ✓ uc_00398.pdf - 5402 characters
+[145/2000] ✓ uc_00522.pdf - 4762 characters
+[146/2000] ✓ uc_00075.pdf - 4342 characters
+[147/2000] ✓ uc_01784.pdf - 4731 characters
+[148/2000] ✓ uc_01516.pdf - 4785 characters
+[149/2000] ✓ uc_00256.pdf - 4701 characters
+[150/2000] ✓ uc_00260.pdf - 5218 characters
+[151/2000] ✓ uc_01489.pdf - 4476 characters
+[152/2000] ✓ uc_00331.pdf - 4278 characters
+[153/2000] ✓ uc_01814.pdf - 4399 characters
+[154/2000] ✓ uc_01440.pdf - 4457 characters
+[155/2000] ✓ uc_01996.pdf - 4843 characters
+[156/2000] ✓ uc_01025.pdf - 4857 characters
+[157/2000] ✓ uc_01492.pdf - 4864 characters
+[158/2000] ✓ uc_01347.pdf - 4349 characters
+[159/2000] ✓ uc_00067.pdf - 4344 characters
+[160/2000] ✓ uc_00868.pdf - 4498 characters
+[161/2000] ✓ uc_00301.pdf - 4393 characters
+[162/2000] ✓ uc_00132.pdf - 4329 characters
+[163/2000] ✓ uc_01854.pdf - 4362 characters
+[164/2000] ✓ uc_00643.pdf - 4335 characters
+[165/2000] ✓ uc_01469.pdf - 4334 characters
+[166/2000] ✓ uc_00679.pdf - 4707 characters
+[167/2000] ✓ uc_01129.pdf - 4396 characters
+[168/2000] ✓ uc_00889.pdf - 4323 characters
+[169/2000] ✓ uc_01621.pdf - 4454 characters
+[170/2000] ✓ uc_00998.pdf - 4287 characters
+[171/2000] ✓ uc_00461.pdf - 4286 characters
+[172/2000] ✓ uc_01223.pdf - 5060 characters
+[173/2000] ✓ uc_01020.pdf - 4273 characters
+[174/2000] ✓ uc_00574.pdf - 4366 characters
+[175/2000] ✓ uc_01712.pdf - 4561 characters
+[176/2000] ✓ uc_01546.pdf - 4314 characters
+[177/2000] ✓ uc_01307.pdf - 5259 characters
+[178/2000] ✓ uc_01169.pdf - 4830 characters
+[179/2000] ✓ uc_01235.pdf - 4356 characters
+[180/2000] ✓ uc_01635.pdf - 5157 characters
+[181/2000] ✓ uc_00794.pdf - 5256 characters
+[182/2000] ✓ uc_00448.pdf - 4862 characters
+[183/2000] ✓ uc_01604.pdf - 4320 characters
+[184/2000] ✓ uc_00533.pdf - 4276 characters
+[185/2000] ✓ uc_01723.pdf - 4300 characters
+[186/2000] ✓ uc_00189.pdf - 4377 characters
+[187/2000] ✓ uc_01409.pdf - 4677 characters
+[188/2000] ✓ uc_00547.pdf - 4407 characters
+[189/2000] ✓ uc_00658.pdf - 4381 characters
+[190/2000] ✓ uc_01431.pdf - 5193 characters
+[191/2000] ✓ uc_00408.pdf - 4403 characters
+[192/2000] ✓ uc_00335.pdf - 4315 characters
+[193/2000] ✓ uc_01412.pdf - 4337 characters
+[194/2000] ✓ uc_01333.pdf - 4921 characters
+[195/2000] ✓ uc_01336.pdf - 4266 characters
+[196/2000] ✓ uc_00859.pdf - 4768 characters
+[197/2000] ✓ uc_01381.pdf - 4715 characters
+[198/2000] ✓ uc_00013.pdf - 4672 characters
+[199/2000] ✓ uc_00972.pdf - 4511 characters
+[200/2000] ✓ uc_00858.pdf - 4903 characters
+[201/2000] ✓ uc_00957.pdf - 4438 characters
+[202/2000] ✓ uc_00425.pdf - 4661 characters
+[203/2000] ✓ uc_01494.pdf - 4437 characters
+[204/2000] ✓ uc_00351.pdf - 4709 characters
+[205/2000] ✓ uc_01250.pdf - 4395 characters
+[206/2000] ✓ uc_01764.pdf - 4768 characters
+[207/2000] ✓ uc_00891.pdf - 4770 characters
+[208/2000] ✓ uc_01297.pdf - 4767 characters
+[209/2000] ✓ uc_00142.pdf - 4383 characters
+[210/2000] ✓ uc_01892.pdf - 5249 characters
+[211/2000] ✓ uc_00221.pdf - 4386 characters
+[212/2000] ✓ uc_01878.pdf - 4487 characters
+[213/2000] ✓ uc_00390.pdf - 4543 characters
+[214/2000] ✓ uc_00354.pdf - 4383 characters
+[215/2000] ✓ uc_00450.pdf - 4370 characters
+[216/2000] ✓ uc_00340.pdf - 4823 characters
+[217/2000] ✓ uc_00988.pdf - 4660 characters
+[218/2000] ✓ uc_01862.pdf - 4390 characters
+[219/2000] ✓ uc_00711.pdf - 4307 characters
+[220/2000] ✓ uc_01620.pdf - 4400 characters
+[221/2000] ✓ uc_00318.pdf - 4964 characters
+[222/2000] ✓ uc_00107.pdf - 4813 characters
+[223/2000] ✓ uc_00019.pdf - 4959 characters
+[224/2000] ✓ uc_00895.pdf - 5341 characters
+[225/2000] ✓ uc_01095.pdf - 4773 characters
+[226/2000] ✓ uc_01461.pdf - 4646 characters
+[227/2000] ✓ uc_00809.pdf - 4856 characters
+[228/2000] ✓ uc_01890.pdf - 4321 characters
+[229/2000] ✓ uc_01847.pdf - 5273 characters
+[230/2000] ✓ uc_00437.pdf - 4648 characters
+[231/2000] ✓ uc_00455.pdf - 4473 characters
+[232/2000] ✓ uc_01195.pdf - 4302 characters
+[233/2000] ✓ uc_01105.pdf - 4294 characters
+[234/2000] ✓ uc_00411.pdf - 4808 characters
+[235/2000] ✓ uc_01248.pdf - 4363 characters
+[236/2000] ✓ uc_00362.pdf - 4336 characters
+[237/2000] ✓ uc_01665.pdf - 4644 characters
+[238/2000] ✓ uc_00229.pdf - 4313 characters
+[239/2000] ✓ uc_00787.pdf - 4751 characters
+[240/2000] ✓ uc_01439.pdf - 4449 characters
+[241/2000] ✓ uc_01690.pdf - 4433 characters
+[242/2000] ✓ uc_00057.pdf - 4354 characters
+[243/2000] ✓ uc_01281.pdf - 5079 characters
+[244/2000] ✓ uc_00882.pdf - 4400 characters
+[245/2000] ✓ uc_01272.pdf - 4330 characters
+[246/2000] ✓ uc_01500.pdf - 5208 characters
+[247/2000] ✓ uc_00764.pdf - 4741 characters
+[248/2000] ✓ uc_01044.pdf - 4917 characters
+[249/2000] ✓ uc_00094.pdf - 5310 characters
+[250/2000] ✓ uc_00753.pdf - 4437 characters
+[251/2000] ✓ uc_00473.pdf - 4885 characters
+[252/2000] ✓ uc_01578.pdf - 4477 characters
+[253/2000] ✓ uc_00181.pdf - 4391 characters
+[254/2000] ✓ uc_01841.pdf - 4612 characters
+[255/2000] ✓ uc_01909.pdf - 4825 characters
+[256/2000] ✓ uc_01424.pdf - 4804 characters
+[257/2000] ✓ uc_01011.pdf - 4251 characters
+[258/2000] ✓ uc_00847.pdf - 4423 characters
+[259/2000] ✓ uc_01626.pdf - 4403 characters
+[260/2000] ✓ uc_00308.pdf - 4430 characters
+[261/2000] ✓ uc_00539.pdf - 4805 characters
+[262/2000] ✓ uc_01023.pdf - 4718 characters
+[263/2000] ✓ uc_01290.pdf - 4896 characters
+[264/2000] ✓ uc_01237.pdf - 4635 characters
+[265/2000] ✓ uc_00363.pdf - 4745 characters
+[266/2000] ✓ uc_00195.pdf - 4768 characters
+[267/2000] ✓ uc_00719.pdf - 4387 characters
+[268/2000] ✓ uc_00994.pdf - 4920 characters
+[269/2000] ✓ uc_00861.pdf - 4682 characters
+[270/2000] ✓ uc_01631.pdf - 4924 characters
+[271/2000] ✓ uc_01362.pdf - 4321 characters
+[272/2000] ✓ uc_01276.pdf - 4399 characters
+[273/2000] ✓ uc_01802.pdf - 4427 characters
+[274/2000] ✓ uc_00510.pdf - 4735 characters
+[275/2000] ✓ uc_01682.pdf - 4371 characters
+[276/2000] ✓ uc_01372.pdf - 4407 characters
+[277/2000] ✓ uc_00078.pdf - 4347 characters
+[278/2000] ✓ uc_01535.pdf - 4302 characters
+[279/2000] ✓ uc_00888.pdf - 4396 characters
+[280/2000] ✓ uc_01930.pdf - 4469 characters
+[281/2000] ✓ uc_01913.pdf - 4399 characters
+[282/2000] ✓ uc_01323.pdf - 4455 characters
+[283/2000] ✓ uc_01624.pdf - 4689 characters
+[284/2000] ✓ uc_01303.pdf - 4709 characters
+[285/2000] ✓ uc_00873.pdf - 4632 characters
+[286/2000] ✓ uc_00397.pdf - 4738 characters
+[287/2000] ✓ uc_01054.pdf - 4430 characters
+[288/2000] ✓ uc_00381.pdf - 4332 characters
+[289/2000] ✓ uc_01187.pdf - 4670 characters
+[290/2000] ✓ uc_01490.pdf - 4695 characters
+[291/2000] ✓ uc_00971.pdf - 4370 characters
+[292/2000] ✓ uc_00852.pdf - 4372 characters
+[293/2000] ✓ uc_01266.pdf - 4435 characters
+[294/2000] ✓ uc_00379.pdf - 4679 characters
+[295/2000] ✓ uc_00756.pdf - 4409 characters
+[296/2000] ✓ uc_00915.pdf - 4838 characters
+[297/2000] ✓ uc_01630.pdf - 4310 characters
+[298/2000] ✓ uc_00410.pdf - 4851 characters
+[299/2000] ✓ uc_00235.pdf - 4385 characters
+[300/2000] ✓ uc_00119.pdf - 4318 characters
+[301/2000] ✓ uc_00874.pdf - 5336 characters
+[302/2000] ✓ uc_00185.pdf - 4667 characters
+[303/2000] ✓ uc_00035.pdf - 4420 characters
+[304/2000] ✓ uc_00321.pdf - 4846 characters
+[305/2000] ✓ uc_00339.pdf - 4334 characters
+[306/2000] ✓ uc_00200.pdf - 5279 characters
+[307/2000] ✓ uc_01324.pdf - 4335 characters
+[308/2000] ✓ uc_01799.pdf - 4434 characters
+[309/2000] ✓ uc_01478.pdf - 4404 characters
+[310/2000] ✓ uc_00904.pdf - 5235 characters
+[311/2000] ✓ uc_00538.pdf - 4872 characters
+[312/2000] ✓ uc_00560.pdf - 4793 characters
+[313/2000] ✓ uc_00616.pdf - 4943 characters
+[314/2000] ✓ uc_00418.pdf - 4746 characters
+[315/2000] ✓ uc_01136.pdf - 4842 characters
+[316/2000] ✓ uc_00283.pdf - 4331 characters
+[317/2000] ✓ uc_00268.pdf - 4914 characters
+[318/2000] ✓ uc_01018.pdf - 4379 characters
+[319/2000] ✓ uc_01962.pdf - 4277 characters
+[320/2000] ✓ uc_00958.pdf - 4434 characters
+[321/2000] ✓ uc_01724.pdf - 5200 characters
+[322/2000] ✓ uc_01435.pdf - 4362 characters
+[323/2000] ✓ uc_00092.pdf - 4356 characters
+[324/2000] ✓ uc_01201.pdf - 4405 characters
+[325/2000] ✓ uc_01053.pdf - 5278 characters
+[326/2000] ✓ uc_00798.pdf - 4977 characters
+[327/2000] ✓ uc_00368.pdf - 4419 characters
+[328/2000] ✓ uc_00611.pdf - 4377 characters
+[329/2000] ✓ uc_00917.pdf - 4790 characters
+[330/2000] ✓ uc_01560.pdf - 4644 characters
+[331/2000] ✓ uc_01194.pdf - 4383 characters
+[332/2000] ✓ uc_00083.pdf - 4412 characters
+[333/2000] ✓ uc_00401.pdf - 4795 characters
+[334/2000] ✓ uc_00982.pdf - 4869 characters
+[335/2000] ✓ uc_00942.pdf - 4387 characters
+[336/2000] ✓ uc_00109.pdf - 4712 characters
+[337/2000] ✓ uc_01059.pdf - 4835 characters
+[338/2000] ✓ uc_00815.pdf - 4728 characters
+[339/2000] ✓ uc_01603.pdf - 4672 characters
+[340/2000] ✓ uc_01844.pdf - 4316 characters
+[341/2000] ✓ uc_01448.pdf - 4849 characters
+[342/2000] ✓ uc_00835.pdf - 4180 characters
+[343/2000] ✓ uc_01739.pdf - 4338 characters
+[344/2000] ✓ uc_00697.pdf - 4716 characters
+[345/2000] ✓ uc_00160.pdf - 4425 characters
+[346/2000] ✓ uc_00285.pdf - 4731 characters
+[347/2000] ✓ uc_00215.pdf - 4785 characters
+[348/2000] ✓ uc_01947.pdf - 4487 characters
+[349/2000] ✓ uc_00427.pdf - 4612 characters
+[350/2000] ✓ uc_00791.pdf - 4362 characters
+[351/2000] ✓ uc_01397.pdf - 4360 characters
+[352/2000] ✓ uc_01165.pdf - 4249 characters
+[353/2000] ✓ uc_00420.pdf - 4852 characters
+[354/2000] ✓ uc_01118.pdf - 4300 characters
+[355/2000] ✓ uc_00012.pdf - 4411 characters
+[356/2000] ✓ uc_01893.pdf - 4441 characters
+[357/2000] ✓ uc_00602.pdf - 4214 characters
+[358/2000] ✓ uc_01022.pdf - 4932 characters
+[359/2000] ✓ uc_01090.pdf - 4406 characters
+[360/2000] ✓ uc_00230.pdf - 4797 characters
+[361/2000] ✓ uc_01094.pdf - 4452 characters
+[362/2000] ✓ uc_00477.pdf - 4366 characters
+[363/2000] ✓ uc_00789.pdf - 4846 characters
+[364/2000] ✓ uc_01342.pdf - 4991 characters
+[365/2000] ✓ uc_01617.pdf - 4404 characters
+[366/2000] ✓ uc_00224.pdf - 4436 characters
+[367/2000] ✓ uc_00615.pdf - 4417 characters
+[368/2000] ✓ uc_00415.pdf - 4900 characters
+[369/2000] ✓ uc_01942.pdf - 4301 characters
+[370/2000] ✓ uc_01978.pdf - 4300 characters
+[371/2000] ✓ uc_00628.pdf - 4765 characters
+[372/2000] ✓ uc_00759.pdf - 4815 characters
+[373/2000] ✓ uc_00494.pdf - 4866 characters
+[374/2000] ✓ uc_01884.pdf - 4364 characters
+[375/2000] ✓ uc_00327.pdf - 4802 characters
+[376/2000] ✓ uc_00956.pdf - 4966 characters
+[377/2000] ✓ uc_00444.pdf - 5141 characters
+[378/2000] ✓ uc_01385.pdf - 4451 characters
+[379/2000] ✓ uc_01326.pdf - 4365 characters
+[380/2000] ✓ uc_00773.pdf - 4650 characters
+[381/2000] ✓ uc_01443.pdf - 4745 characters
+[382/2000] ✓ uc_00190.pdf - 4304 characters
+[383/2000] ✓ uc_01254.pdf - 4252 characters
+[384/2000] ✓ uc_00987.pdf - 4427 characters
+[385/2000] ✓ uc_01238.pdf - 4346 characters
+[386/2000] ✓ uc_00170.pdf - 4404 characters
+[387/2000] ✓ uc_01322.pdf - 4442 characters
+[388/2000] ✓ uc_01592.pdf - 4694 characters
+[389/2000] ✓ uc_01088.pdf - 4320 characters
+[390/2000] ✓ uc_00281.pdf - 4364 characters
+[391/2000] ✓ uc_01750.pdf - 4320 characters
+[392/2000] ✓ uc_00614.pdf - 4372 characters
+[393/2000] ✓ uc_00553.pdf - 4815 characters
+[394/2000] ✓ uc_01121.pdf - 4349 characters
+[395/2000] ✓ uc_01694.pdf - 4461 characters
+[396/2000] ✓ uc_01229.pdf - 4903 characters
+[397/2000] ✓ uc_00950.pdf - 5167 characters
+[398/2000] ✓ uc_00018.pdf - 5357 characters
+[399/2000] ✓ uc_00532.pdf - 4819 characters
+[400/2000] ✓ uc_00668.pdf - 4330 characters
+[401/2000] ✓ uc_00250.pdf - 4319 characters
+[402/2000] ✓ uc_00110.pdf - 4348 characters
+[403/2000] ✓ uc_01084.pdf - 4284 characters
+[404/2000] ✓ uc_01406.pdf - 4631 characters
+[405/2000] ✓ uc_00584.pdf - 4849 characters
+[406/2000] ✓ uc_00937.pdf - 4850 characters
+[407/2000] ✓ uc_01204.pdf - 4752 characters
+[408/2000] ✓ uc_01284.pdf - 4444 characters
+[409/2000] ✓ uc_01360.pdf - 4380 characters
+[410/2000] ✓ uc_01853.pdf - 4776 characters
+[411/2000] ✓ uc_00315.pdf - 4331 characters
+[412/2000] ✓ uc_00286.pdf - 4649 characters
+[413/2000] ✓ uc_01783.pdf - 4338 characters
+[414/2000] ✓ uc_00644.pdf - 4733 characters
+[415/2000] ✓ uc_00886.pdf - 4644 characters
+[416/2000] ✓ uc_01898.pdf - 4390 characters
+[417/2000] ✓ uc_00144.pdf - 4432 characters
+[418/2000] ✓ uc_01509.pdf - 4366 characters
+[419/2000] ✓ uc_01123.pdf - 4720 characters
+[420/2000] ✓ uc_01749.pdf - 4668 characters
+[421/2000] ✓ uc_01969.pdf - 4412 characters
+[422/2000] ✓ uc_00375.pdf - 4257 characters
+[423/2000] ✓ uc_01144.pdf - 4592 characters
+[424/2000] ✓ uc_01403.pdf - 4842 characters
+[425/2000] ✓ uc_01508.pdf - 5307 characters
+[426/2000] ✓ uc_01849.pdf - 4427 characters
+[427/2000] ✓ uc_01863.pdf - 4475 characters
+[428/2000] ✓ uc_01625.pdf - 4339 characters
+[429/2000] ✓ uc_01602.pdf - 4861 characters
+[430/2000] ✓ uc_00678.pdf - 4406 characters
+[431/2000] ✓ uc_01672.pdf - 4735 characters
+[432/2000] ✓ uc_01438.pdf - 4767 characters
+[433/2000] ✓ uc_01533.pdf - 4463 characters
+[434/2000] ✓ uc_00778.pdf - 4368 characters
+[435/2000] ✓ uc_01420.pdf - 4399 characters
+[436/2000] ✓ uc_01991.pdf - 4736 characters
+[437/2000] ✓ uc_00204.pdf - 4970 characters
+[438/2000] ✓ uc_00612.pdf - 4345 characters
+[439/2000] ✓ uc_01876.pdf - 4612 characters
+[440/2000] ✓ uc_01471.pdf - 4452 characters
+[441/2000] ✓ uc_01325.pdf - 4429 characters
+[442/2000] ✓ uc_00767.pdf - 4429 characters
+[443/2000] ✓ uc_01919.pdf - 5314 characters
+[444/2000] ✓ uc_01800.pdf - 4369 characters
+[445/2000] ✓ uc_01889.pdf - 4607 characters
+[446/2000] ✓ uc_01536.pdf - 5212 characters
+[447/2000] ✓ uc_00352.pdf - 4529 characters
+[448/2000] ✓ uc_01408.pdf - 4924 characters
+[449/2000] ✓ uc_00165.pdf - 4433 characters
+[450/2000] ✓ uc_01830.pdf - 4652 characters
+[451/2000] ✓ uc_00162.pdf - 4353 characters
+[452/2000] ✓ uc_00860.pdf - 4374 characters
+[453/2000] ✓ uc_01910.pdf - 4909 characters
+[454/2000] ✓ uc_01315.pdf - 4377 characters
+[455/2000] ✓ uc_01208.pdf - 4344 characters
+[456/2000] ✓ uc_01048.pdf - 4407 characters
+[457/2000] ✓ uc_01289.pdf - 4842 characters
+[458/2000] ✓ uc_00263.pdf - 4831 characters
+[459/2000] ✓ uc_01728.pdf - 4782 characters
+[460/2000] ✓ uc_01098.pdf - 4240 characters
+[461/2000] ✓ uc_01719.pdf - 4350 characters
+[462/2000] ✓ uc_01548.pdf - 4641 characters
+[463/2000] ✓ uc_00834.pdf - 4429 characters
+[464/2000] ✓ uc_01071.pdf - 5240 characters
+[465/2000] ✓ uc_00291.pdf - 4652 characters
+[466/2000] ✓ uc_01865.pdf - 4387 characters
+[467/2000] ✓ uc_00640.pdf - 4299 characters
+[468/2000] ✓ uc_00217.pdf - 4399 characters
+[469/2000] ✓ uc_00400.pdf - 4453 characters
+[470/2000] ✓ uc_01057.pdf - 4755 characters
+[471/2000] ✓ uc_00733.pdf - 4358 characters
+[472/2000] ✓ uc_01752.pdf - 4812 characters
+[473/2000] ✓ uc_00486.pdf - 4662 characters
+[474/2000] ✓ uc_00303.pdf - 4823 characters
+[475/2000] ✓ uc_01885.pdf - 4424 characters
+[476/2000] ✓ uc_01515.pdf - 4764 characters
+[477/2000] ✓ uc_00336.pdf - 5261 characters
+[478/2000] ✓ uc_01960.pdf - 4250 characters
+[479/2000] ✓ uc_00207.pdf - 4968 characters
+[480/2000] ✓ uc_01691.pdf - 4438 characters
+[481/2000] ✓ uc_01032.pdf - 4717 characters
+[482/2000] ✓ uc_00846.pdf - 4778 characters
+[483/2000] ✓ uc_01583.pdf - 4549 characters
+[484/2000] ✓ uc_00965.pdf - 4430 characters
+[485/2000] ✓ uc_00562.pdf - 4373 characters
+[486/2000] ✓ uc_00011.pdf - 4616 characters
+[487/2000] ✓ uc_00662.pdf - 4327 characters
+[488/2000] ✓ uc_00970.pdf - 4426 characters
+[489/2000] ✓ uc_00748.pdf - 4349 characters
+[490/2000] ✓ uc_00672.pdf - 4295 characters
+[491/2000] ✓ uc_01569.pdf - 4601 characters
+[492/2000] ✓ uc_01108.pdf - 4466 characters
+[493/2000] ✓ uc_00740.pdf - 4338 characters
+[494/2000] ✓ uc_01017.pdf - 4504 characters
+[495/2000] ✓ uc_00034.pdf - 4332 characters
+[496/2000] ✓ uc_01259.pdf - 4675 characters
+[497/2000] ✓ uc_01917.pdf - 5232 characters
+[498/2000] ✓ uc_01859.pdf - 4443 characters
+[499/2000] ✓ uc_00454.pdf - 4415 characters
+[500/2000] ✓ uc_00429.pdf - 4401 characters
+[501/2000] ✓ uc_02000.pdf - 4776 characters
+[502/2000] ✓ uc_01275.pdf - 4821 characters
+[503/2000] ✓ uc_01321.pdf - 4860 characters
+[504/2000] ✓ uc_01614.pdf - 4839 characters
+[505/2000] ✓ uc_01623.pdf - 4391 characters
+[506/2000] ✓ uc_01154.pdf - 4407 characters
+[507/2000] ✓ uc_00027.pdf - 4748 characters
+[508/2000] ✓ uc_00645.pdf - 4759 characters
+[509/2000] ✓ uc_01421.pdf - 4688 characters
+[510/2000] ✓ uc_00128.pdf - 4720 characters
+[511/2000] ✓ uc_01328.pdf - 4372 characters
+[512/2000] ✓ uc_00443.pdf - 4391 characters
+[513/2000] ✓ uc_01786.pdf - 4332 characters
+[514/2000] ✓ uc_00095.pdf - 4408 characters
+[515/2000] ✓ uc_01318.pdf - 4848 characters
+[516/2000] ✓ uc_00112.pdf - 4378 characters
+[517/2000] ✓ uc_01386.pdf - 4789 characters
+[518/2000] ✓ uc_01950.pdf - 4710 characters
+[519/2000] ✓ uc_01754.pdf - 4450 characters
+[520/2000] ✓ uc_01205.pdf - 4388 characters
+[521/2000] ✓ uc_01963.pdf - 4767 characters
+[522/2000] ✓ uc_00346.pdf - 4672 characters
+[523/2000] ✓ uc_00822.pdf - 4326 characters
+[524/2000] ✓ uc_01188.pdf - 4867 characters
+[525/2000] ✓ uc_00270.pdf - 4714 characters
+[526/2000] ✓ uc_00240.pdf - 4270 characters
+[527/2000] ✓ uc_00406.pdf - 4641 characters
+[528/2000] ✓ uc_01101.pdf - 4849 characters
+[529/2000] ✓ uc_01060.pdf - 4916 characters
+[530/2000] ✓ uc_00911.pdf - 4419 characters
+[531/2000] ✓ uc_01810.pdf - 5482 characters
+[532/2000] ✓ uc_01051.pdf - 4395 characters
+[533/2000] ✓ uc_00935.pdf - 4337 characters
+[534/2000] ✓ uc_01774.pdf - 4942 characters
+[535/2000] ✓ uc_00462.pdf - 4372 characters
+[536/2000] ✓ uc_01499.pdf - 4756 characters
+[537/2000] ✓ uc_01349.pdf - 4729 characters
+[538/2000] ✓ uc_01482.pdf - 4459 characters
+[539/2000] ✓ uc_00736.pdf - 4346 characters
+[540/2000] ✓ uc_01422.pdf - 4728 characters
+[541/2000] ✓ uc_00394.pdf - 4422 characters
+[542/2000] ✓ uc_00485.pdf - 4866 characters
+[543/2000] ✓ uc_01163.pdf - 4323 characters
+[544/2000] ✓ uc_00943.pdf - 4482 characters
+[545/2000] ✓ uc_00969.pdf - 4441 characters
+[546/2000] ✓ uc_00790.pdf - 4391 characters
+[547/2000] ✓ uc_01064.pdf - 4598 characters
+[548/2000] ✓ uc_01470.pdf - 4512 characters
+[549/2000] ✓ uc_00864.pdf - 4458 characters
+[550/2000] ✓ uc_00506.pdf - 4808 characters
+[551/2000] ✓ uc_00699.pdf - 4290 characters
+[552/2000] ✓ uc_00963.pdf - 4414 characters
+[553/2000] ✓ uc_00044.pdf - 4391 characters
+[554/2000] ✓ uc_01965.pdf - 4771 characters
+[555/2000] ✓ uc_00854.pdf - 4378 characters
+[556/2000] ✓ uc_01329.pdf - 4861 characters
+[557/2000] ✓ uc_01219.pdf - 4398 characters
+[558/2000] ✓ uc_01926.pdf - 4480 characters
+[559/2000] ✓ uc_00515.pdf - 4669 characters
+[560/2000] ✓ uc_01550.pdf - 4332 characters
+[561/2000] ✓ uc_01955.pdf - 4438 characters
+[562/2000] ✓ uc_01813.pdf - 4749 characters
+[563/2000] ✓ uc_00777.pdf - 4808 characters
+[564/2000] ✓ uc_01565.pdf - 4673 characters
+[565/2000] ✓ uc_01931.pdf - 4462 characters
+[566/2000] ✓ uc_01487.pdf - 4758 characters
+[567/2000] ✓ uc_01184.pdf - 4795 characters
+[568/2000] ✓ uc_01949.pdf - 4514 characters
+[569/2000] ✓ uc_00979.pdf - 4893 characters
+[570/2000] ✓ uc_00111.pdf - 4434 characters
+[571/2000] ✓ uc_00068.pdf - 4385 characters
+[572/2000] ✓ uc_00832.pdf - 4760 characters
+[573/2000] ✓ uc_01896.pdf - 4713 characters
+[574/2000] ✓ uc_01243.pdf - 4368 characters
+[575/2000] ✓ uc_01067.pdf - 5076 characters
+[576/2000] ✓ uc_00841.pdf - 4395 characters
+[577/2000] ✓ uc_00174.pdf - 5566 characters
+[578/2000] ✓ uc_01721.pdf - 4445 characters
+[579/2000] ✓ uc_01667.pdf - 4342 characters
+[580/2000] ✓ uc_00924.pdf - 4721 characters
+[581/2000] ✓ uc_00812.pdf - 4368 characters
+[582/2000] ✓ uc_01827.pdf - 4671 characters
+[583/2000] ✓ uc_01218.pdf - 5025 characters
+[584/2000] ✓ uc_00573.pdf - 4285 characters
+[585/2000] ✓ uc_00713.pdf - 4844 characters
+[586/2000] ✓ uc_01839.pdf - 4437 characters
+[587/2000] ✓ uc_01277.pdf - 4624 characters
+[588/2000] ✓ uc_01314.pdf - 4464 characters
+[589/2000] ✓ uc_00154.pdf - 4334 characters
+[590/2000] ✓ uc_00432.pdf - 4535 characters
+[591/2000] ✓ uc_00974.pdf - 4766 characters
+[592/2000] ✓ uc_01384.pdf - 5407 characters
+[593/2000] ✓ uc_01824.pdf - 4258 characters
+[594/2000] ✓ uc_01946.pdf - 4376 characters
+[595/2000] ✓ uc_00844.pdf - 4363 characters
+[596/2000] ✓ uc_00143.pdf - 4478 characters
+[597/2000] ✓ uc_01831.pdf - 4263 characters
+[598/2000] ✓ uc_00893.pdf - 4811 characters
+[599/2000] ✓ uc_00099.pdf - 4268 characters
+[600/2000] ✓ uc_01943.pdf - 4768 characters
+[601/2000] ✓ uc_01662.pdf - 4502 characters
+[602/2000] ✓ uc_01378.pdf - 4363 characters
+[603/2000] ✓ uc_00649.pdf - 4413 characters
+[604/2000] ✓ uc_01872.pdf - 4649 characters
+[605/2000] ✓ uc_00564.pdf - 4743 characters
+[606/2000] ✓ uc_00304.pdf - 4802 characters
+[607/2000] ✓ uc_01803.pdf - 4902 characters
+[608/2000] ✓ uc_00167.pdf - 4416 characters
+[609/2000] ✓ uc_01722.pdf - 4683 characters
+[610/2000] ✓ uc_01504.pdf - 4797 characters
+[611/2000] ✓ uc_00184.pdf - 4682 characters
+[612/2000] ✓ uc_00609.pdf - 4314 characters
+[613/2000] ✓ uc_01543.pdf - 4765 characters
+[614/2000] ✓ uc_00653.pdf - 4362 characters
+[615/2000] ✓ uc_01161.pdf - 4340 characters
+[616/2000] ✓ uc_01410.pdf - 4723 characters
+[617/2000] ✓ uc_00446.pdf - 4416 characters
+[618/2000] ✓ uc_01936.pdf - 4900 characters
+[619/2000] ✓ uc_00951.pdf - 4370 characters
+[620/2000] ✓ uc_00474.pdf - 4638 characters
+[621/2000] ✓ uc_01200.pdf - 4263 characters
+[622/2000] ✓ uc_01590.pdf - 4453 characters
+[623/2000] ✓ uc_00514.pdf - 4879 characters
+[624/2000] ✓ uc_01419.pdf - 4455 characters
+[625/2000] ✓ uc_01009.pdf - 4911 characters
+[626/2000] ✓ uc_00209.pdf - 4436 characters
+[627/2000] ✓ uc_01176.pdf - 4907 characters
+[628/2000] ✓ uc_01036.pdf - 4592 characters
+[629/2000] ✓ uc_01998.pdf - 4344 characters
+[630/2000] ✓ uc_00807.pdf - 4350 characters
+[631/2000] ✓ uc_01287.pdf - 4342 characters
+[632/2000] ✓ uc_00421.pdf - 4727 characters
+[633/2000] ✓ uc_01241.pdf - 4857 characters
+[634/2000] ✓ uc_00508.pdf - 4411 characters
+[635/2000] ✓ uc_00355.pdf - 4650 characters
+[636/2000] ✓ uc_01673.pdf - 4315 characters
+[637/2000] ✓ uc_01935.pdf - 5355 characters
+[638/2000] ✓ uc_01789.pdf - 4350 characters
+[639/2000] ✓ uc_00361.pdf - 4315 characters
+[640/2000] ✓ uc_01976.pdf - 4391 characters
+[641/2000] ✓ uc_00206.pdf - 4405 characters
+[642/2000] ✓ uc_01116.pdf - 4760 characters
+[643/2000] ✓ uc_00728.pdf - 4822 characters
+[644/2000] ✓ uc_00597.pdf - 4498 characters
+[645/2000] ✓ uc_00220.pdf - 4437 characters
+[646/2000] ✓ uc_01459.pdf - 4339 characters
+[647/2000] ✓ uc_01867.pdf - 4683 characters
+[648/2000] ✓ uc_01026.pdf - 5129 characters
+[649/2000] ✓ uc_01463.pdf - 4395 characters
+[650/2000] ✓ uc_00097.pdf - 4384 characters
+[651/2000] ✓ uc_00804.pdf - 4830 characters
+[652/2000] ✓ uc_00072.pdf - 4800 characters
+[653/2000] ✓ uc_00531.pdf - 4919 characters
+[654/2000] ✓ uc_00388.pdf - 4875 characters
+[655/2000] ✓ uc_01008.pdf - 5185 characters
+[656/2000] ✓ uc_00669.pdf - 4420 characters
+[657/2000] ✓ uc_01283.pdf - 4361 characters
+[658/2000] ✓ uc_00333.pdf - 5394 characters
+[659/2000] ✓ uc_00817.pdf - 4705 characters
+[660/2000] ✓ uc_01104.pdf - 4789 characters
+[661/2000] ✓ uc_00783.pdf - 4423 characters
+[662/2000] ✓ uc_01363.pdf - 4837 characters
+[663/2000] ✓ uc_01717.pdf - 4475 characters
+[664/2000] ✓ uc_00925.pdf - 4378 characters
+[665/2000] ✓ uc_00779.pdf - 4334 characters
+[666/2000] ✓ uc_01586.pdf - 4824 characters
+[667/2000] ✓ uc_01160.pdf - 4494 characters
+[668/2000] ✓ uc_01791.pdf - 4888 characters
+[669/2000] ✓ uc_01988.pdf - 4410 characters
+[670/2000] ✓ uc_01647.pdf - 4387 characters
+[671/2000] ✓ uc_00919.pdf - 4379 characters
+[672/2000] ✓ uc_00920.pdf - 4647 characters
+[673/2000] ✓ uc_01033.pdf - 4760 characters
+[674/2000] ✓ uc_01585.pdf - 4298 characters
+[675/2000] ✓ uc_00976.pdf - 5243 characters
+[676/2000] ✓ uc_00428.pdf - 4721 characters
+[677/2000] ✓ uc_00337.pdf - 4513 characters
+[678/2000] ✓ uc_00136.pdf - 4864 characters
+[679/2000] ✓ uc_01775.pdf - 5125 characters
+[680/2000] ✓ uc_01083.pdf - 4388 characters
+[681/2000] ✓ uc_01834.pdf - 5410 characters
+[682/2000] ✓ uc_00466.pdf - 4361 characters
+[683/2000] ✓ uc_00561.pdf - 4888 characters
+[684/2000] ✓ uc_01711.pdf - 4416 characters
+[685/2000] ✓ uc_00877.pdf - 4873 characters
+[686/2000] ✓ uc_01777.pdf - 4402 characters
+[687/2000] ✓ uc_00546.pdf - 5193 characters
+[688/2000] ✓ uc_00776.pdf - 4928 characters
+[689/2000] ✓ uc_00500.pdf - 4801 characters
+[690/2000] ✓ uc_01239.pdf - 4735 characters
+[691/2000] ✓ uc_00435.pdf - 4356 characters
+[692/2000] ✓ uc_00600.pdf - 4748 characters
+[693/2000] ✓ uc_00559.pdf - 4389 characters
+[694/2000] ✓ uc_00121.pdf - 4836 characters
+[695/2000] ✓ uc_00082.pdf - 4844 characters
+[696/2000] ✓ uc_01677.pdf - 4345 characters
+[697/2000] ✓ uc_01306.pdf - 4366 characters
+[698/2000] ✓ uc_00922.pdf - 4891 characters
+[699/2000] ✓ uc_01510.pdf - 5092 characters
+[700/2000] ✓ uc_00657.pdf - 4260 characters
+[701/2000] ✓ uc_00125.pdf - 4451 characters
+[702/2000] ✓ uc_01753.pdf - 4616 characters
+[703/2000] ✓ uc_01486.pdf - 4285 characters
+[704/2000] ✓ uc_01832.pdf - 5269 characters
+[705/2000] ✓ uc_00382.pdf - 4981 characters
+[706/2000] ✓ uc_00431.pdf - 4377 characters
+[707/2000] ✓ uc_01855.pdf - 5224 characters
+[708/2000] ✓ uc_01782.pdf - 4392 characters
+[709/2000] ✓ uc_00503.pdf - 4439 characters
+[710/2000] ✓ uc_01268.pdf - 4652 characters
+[711/2000] ✓ uc_00084.pdf - 4294 characters
+[712/2000] ✓ uc_01034.pdf - 4333 characters
+[713/2000] ✓ uc_01972.pdf - 4530 characters
+[714/2000] ✓ uc_01718.pdf - 4756 characters
+[715/2000] ✓ uc_00805.pdf - 4929 characters
+[716/2000] ✓ uc_00705.pdf - 4390 characters
+[717/2000] ✓ uc_01924.pdf - 4381 characters
+[718/2000] ✓ uc_00273.pdf - 4270 characters
+[719/2000] ✓ uc_01529.pdf - 4423 characters
+[720/2000] ✓ uc_01388.pdf - 4397 characters
+[721/2000] ✓ uc_00879.pdf - 4290 characters
+[722/2000] ✓ uc_00104.pdf - 4767 characters
+[723/2000] ✓ uc_00419.pdf - 4454 characters
+[724/2000] ✓ uc_01003.pdf - 4339 characters
+[725/2000] ✓ uc_00208.pdf - 4774 characters
+[726/2000] ✓ uc_01927.pdf - 4461 characters
+[727/2000] ✓ uc_00535.pdf - 4381 characters
+[728/2000] ✓ uc_00727.pdf - 4295 characters
+[729/2000] ✓ uc_01755.pdf - 4963 characters
+[730/2000] ✓ uc_00507.pdf - 4756 characters
+[731/2000] ✓ uc_01555.pdf - 4477 characters
+[732/2000] ✓ uc_00717.pdf - 4884 characters
+[733/2000] ✓ uc_00528.pdf - 4341 characters
+[734/2000] ✓ uc_00613.pdf - 4367 characters
+[735/2000] ✓ uc_01846.pdf - 4505 characters
+[736/2000] ✓ uc_01629.pdf - 4648 characters
+[737/2000] ✓ uc_01039.pdf - 4398 characters
+[738/2000] ✓ uc_00947.pdf - 4522 characters
+[739/2000] ✓ uc_01085.pdf - 5079 characters
+[740/2000] ✓ uc_01383.pdf - 4718 characters
+[741/2000] ✓ uc_01734.pdf - 5245 characters
+[742/2000] ✓ uc_00694.pdf - 4343 characters
+[743/2000] ✓ uc_00227.pdf - 5100 characters
+[744/2000] ✓ uc_00642.pdf - 4644 characters
+[745/2000] ✓ uc_00824.pdf - 4511 characters
+[746/2000] ✓ uc_01380.pdf - 5119 characters
+[747/2000] ✓ uc_01338.pdf - 4773 characters
+[748/2000] ✓ uc_01244.pdf - 4412 characters
+[749/2000] ✓ uc_00499.pdf - 4390 characters
+[750/2000] ✓ uc_01726.pdf - 4295 characters
+[751/2000] ✓ uc_01523.pdf - 5236 characters
+[752/2000] ✓ uc_00901.pdf - 4409 characters
+[753/2000] ✓ uc_00292.pdf - 4796 characters
+[754/2000] ✓ uc_00576.pdf - 4838 characters
+[755/2000] ✓ uc_01371.pdf - 4412 characters
+[756/2000] ✓ uc_00459.pdf - 4376 characters
+[757/2000] ✓ uc_01526.pdf - 4881 characters
+[758/2000] ✓ uc_01882.pdf - 4688 characters
+[759/2000] ✓ uc_01894.pdf - 4325 characters
+[760/2000] ✓ uc_01905.pdf - 5169 characters
+[761/2000] ✓ uc_00021.pdf - 5071 characters
+[762/2000] ✓ uc_00493.pdf - 4384 characters
+[763/2000] ✓ uc_00555.pdf - 4329 characters
+[764/2000] ✓ uc_01870.pdf - 5119 characters
+[765/2000] ✓ uc_00108.pdf - 4848 characters
+[766/2000] ✓ uc_00788.pdf - 5300 characters
+[767/2000] ✓ uc_01808.pdf - 4833 characters
+[768/2000] ✓ uc_01496.pdf - 4966 characters
+[769/2000] ✓ uc_00565.pdf - 4948 characters
+[770/2000] ✓ uc_00771.pdf - 4307 characters
+[771/2000] ✓ uc_01522.pdf - 4499 characters
+[772/2000] ✓ uc_00180.pdf - 4326 characters
+[773/2000] ✓ uc_00806.pdf - 4355 characters
+[774/2000] ✓ uc_00376.pdf - 4478 characters
+[775/2000] ✓ uc_01050.pdf - 4376 characters
+[776/2000] ✓ uc_00566.pdf - 4397 characters
+[777/2000] ✓ uc_01162.pdf - 4823 characters
+[778/2000] ✓ uc_01594.pdf - 4375 characters
+[779/2000] ✓ uc_00024.pdf - 5387 characters
+[780/2000] ✓ uc_00017.pdf - 4362 characters
+[781/2000] ✓ uc_01495.pdf - 4976 characters
+[782/2000] ✓ uc_01343.pdf - 5332 characters
+[783/2000] ✓ uc_00661.pdf - 4830 characters
+[784/2000] ✓ uc_00848.pdf - 4676 characters
+[785/2000] ✓ uc_00247.pdf - 4457 characters
+[786/2000] ✓ uc_01103.pdf - 4318 characters
+[787/2000] ✓ uc_01418.pdf - 4427 characters
+[788/2000] ✓ uc_00823.pdf - 4374 characters
+[789/2000] ✓ uc_00700.pdf - 4723 characters
+[790/2000] ✓ uc_01687.pdf - 5654 characters
+[791/2000] ✓ uc_01679.pdf - 4371 characters
+[792/2000] ✓ uc_01304.pdf - 4378 characters
+[793/2000] ✓ uc_01300.pdf - 4974 characters
+[794/2000] ✓ uc_01920.pdf - 4857 characters
+[795/2000] ✓ uc_01981.pdf - 4952 characters
+[796/2000] ✓ uc_00796.pdf - 4391 characters
+[797/2000] ✓ uc_01242.pdf - 4502 characters
+[798/2000] ✓ uc_00262.pdf - 4775 characters
+[799/2000] ✓ uc_01203.pdf - 4468 characters
+[800/2000] ✓ uc_00480.pdf - 4331 characters
+[801/2000] ✓ uc_01335.pdf - 4317 characters
+[802/2000] ✓ uc_00578.pdf - 4846 characters
+[803/2000] ✓ uc_00311.pdf - 4247 characters
+[804/2000] ✓ uc_00928.pdf - 4321 characters
+[805/2000] ✓ uc_00660.pdf - 4371 characters
+[806/2000] ✓ uc_01028.pdf - 4625 characters
+[807/2000] ✓ uc_00413.pdf - 5193 characters
+[808/2000] ✓ uc_00384.pdf - 4309 characters
+[809/2000] ✓ uc_00065.pdf - 4729 characters
+[810/2000] ✓ uc_00440.pdf - 4651 characters
+[811/2000] ✓ uc_01484.pdf - 4799 characters
+[812/2000] ✓ uc_01405.pdf - 4476 characters
+[813/2000] ✓ uc_01997.pdf - 4796 characters
+[814/2000] ✓ uc_01189.pdf - 4474 characters
+[815/2000] ✓ uc_01596.pdf - 4311 characters
+[816/2000] ✓ uc_00541.pdf - 4252 characters
+[817/2000] ✓ uc_00580.pdf - 4744 characters
+[818/2000] ✓ uc_01866.pdf - 5016 characters
+[819/2000] ✓ uc_00731.pdf - 4399 characters
+[820/2000] ✓ uc_00519.pdf - 4872 characters
+[821/2000] ✓ uc_01804.pdf - 4363 characters
+[822/2000] ✓ uc_01224.pdf - 4310 characters
+[823/2000] ✓ uc_01213.pdf - 4804 characters
+[824/2000] ✓ uc_00085.pdf - 4750 characters
+[825/2000] ✓ uc_00169.pdf - 4613 characters
+[826/2000] ✓ uc_00294.pdf - 4418 characters
+[827/2000] ✓ uc_01080.pdf - 4374 characters
+[828/2000] ✓ uc_01462.pdf - 5166 characters
+[829/2000] ✓ uc_01812.pdf - 4741 characters
+[830/2000] ✓ uc_00650.pdf - 4401 characters
+[831/2000] ✓ uc_01758.pdf - 4340 characters
+[832/2000] ✓ uc_00161.pdf - 5153 characters
+[833/2000] ✓ uc_01452.pdf - 4807 characters
+[834/2000] ✓ uc_00284.pdf - 4250 characters
+[835/2000] ✓ uc_00632.pdf - 5190 characters
+[836/2000] ✓ uc_00755.pdf - 4421 characters
+[837/2000] ✓ uc_01092.pdf - 4328 characters
+[838/2000] ✓ uc_01825.pdf - 4416 characters
+[839/2000] ✓ uc_01450.pdf - 4506 characters
+[840/2000] ✓ uc_01598.pdf - 4966 characters
+[841/2000] ✓ uc_00050.pdf - 4299 characters
+[842/2000] ✓ uc_00188.pdf - 4306 characters
+[843/2000] ✓ uc_00808.pdf - 4768 characters
+[844/2000] ✓ uc_01264.pdf - 4650 characters
+[845/2000] ✓ uc_00003.pdf - 5227 characters
+[846/2000] ✓ uc_00404.pdf - 4736 characters
+[847/2000] ✓ uc_01046.pdf - 4843 characters
+[848/2000] ✓ uc_01013.pdf - 4840 characters
+[849/2000] ✓ uc_00232.pdf - 4377 characters
+[850/2000] ✓ uc_01982.pdf - 4372 characters
+[851/2000] ✓ uc_00772.pdf - 4351 characters
+[852/2000] ✓ uc_00927.pdf - 4349 characters
+[853/2000] ✓ uc_00537.pdf - 4504 characters
+[854/2000] ✓ uc_01506.pdf - 4368 characters
+[855/2000] ✓ uc_01365.pdf - 4394 characters
+[856/2000] ✓ uc_00358.pdf - 4379 characters
+[857/2000] ✓ uc_01024.pdf - 4941 characters
+[858/2000] ✓ uc_00721.pdf - 4415 characters
+[859/2000] ✓ uc_00038.pdf - 5162 characters
+[860/2000] ✓ uc_00745.pdf - 4321 characters
+[861/2000] ✓ uc_00002.pdf - 4277 characters
+[862/2000] ✓ uc_01376.pdf - 4375 characters
+[863/2000] ✓ uc_00436.pdf - 4389 characters
+[864/2000] ✓ uc_01394.pdf - 4325 characters
+[865/2000] ✓ uc_01685.pdf - 4377 characters
+[866/2000] ✓ uc_01249.pdf - 4521 characters
+[867/2000] ✓ uc_01097.pdf - 4384 characters
+[868/2000] ✓ uc_01939.pdf - 4365 characters
+[869/2000] ✓ uc_00938.pdf - 4343 characters
+[870/2000] ✓ uc_01835.pdf - 4397 characters
+[871/2000] ✓ uc_00223.pdf - 4422 characters
+[872/2000] ✓ uc_01152.pdf - 4703 characters
+[873/2000] ✓ uc_01043.pdf - 4477 characters
+[874/2000] ✓ uc_01674.pdf - 5114 characters
+[875/2000] ✓ uc_01704.pdf - 4881 characters
+[876/2000] ✓ uc_00328.pdf - 4903 characters
+[877/2000] ✓ uc_01358.pdf - 4409 characters
+[878/2000] ✓ uc_01134.pdf - 4458 characters
+[879/2000] ✓ uc_01148.pdf - 4343 characters
+[880/2000] ✓ uc_00245.pdf - 4763 characters
+[881/2000] ✓ uc_00452.pdf - 4383 characters
+[882/2000] ✓ uc_01675.pdf - 4750 characters
+[883/2000] ✓ uc_00367.pdf - 4854 characters
+[884/2000] ✓ uc_01595.pdf - 4386 characters
+[885/2000] ✓ uc_00629.pdf - 4648 characters
+[886/2000] ✓ uc_01542.pdf - 4438 characters
+[887/2000] ✓ uc_01133.pdf - 4431 characters
+[888/2000] ✓ uc_00865.pdf - 4803 characters
+[889/2000] ✓ uc_00810.pdf - 4804 characters
+[890/2000] ✓ uc_00487.pdf - 4453 characters
+[891/2000] ✓ uc_01021.pdf - 4855 characters
+[892/2000] ✓ uc_01258.pdf - 5033 characters
+[893/2000] ✓ uc_01644.pdf - 4388 characters
+[894/2000] ✓ uc_00881.pdf - 4786 characters
+[895/2000] ✓ uc_01091.pdf - 4450 characters
+[896/2000] ✓ uc_01706.pdf - 4471 characters
+[897/2000] ✓ uc_01375.pdf - 5182 characters
+[898/2000] ✓ uc_01002.pdf - 4310 characters
+[899/2000] ✓ uc_00137.pdf - 4508 characters
+[900/2000] ✓ uc_01070.pdf - 4295 characters
+[901/2000] ✓ uc_00344.pdf - 4954 characters
+[902/2000] ✓ uc_00234.pdf - 4449 characters
+[903/2000] ✓ uc_00871.pdf - 4421 characters
+[904/2000] ✓ uc_00282.pdf - 4334 characters
+[905/2000] ✓ uc_00151.pdf - 4708 characters
+[906/2000] ✓ uc_00726.pdf - 4492 characters
+[907/2000] ✓ uc_01457.pdf - 4377 characters
+[908/2000] ✓ uc_01640.pdf - 4609 characters
+[909/2000] ✓ uc_00527.pdf - 4430 characters
+[910/2000] ✓ uc_01076.pdf - 5167 characters
+[911/2000] ✓ uc_00630.pdf - 4274 characters
+[912/2000] ✓ uc_00622.pdf - 4353 characters
+[913/2000] ✓ uc_01041.pdf - 4309 characters
+[914/2000] ✓ uc_00681.pdf - 4435 characters
+[915/2000] ✓ uc_01149.pdf - 4301 characters
+[916/2000] ✓ uc_01608.pdf - 5249 characters
+[917/2000] ✓ uc_01100.pdf - 4279 characters
+[918/2000] ✓ uc_01153.pdf - 4340 characters
+[919/2000] ✓ uc_00521.pdf - 4299 characters
+[920/2000] ✓ uc_00123.pdf - 4780 characters
+[921/2000] ✓ uc_01520.pdf - 4515 characters
+[922/2000] ✓ uc_01395.pdf - 4496 characters
+[923/2000] ✓ uc_00667.pdf - 4373 characters
+[924/2000] ✓ uc_01649.pdf - 4766 characters
+[925/2000] ✓ uc_00396.pdf - 4669 characters
+[926/2000] ✓ uc_00147.pdf - 4713 characters
+[927/2000] ✓ uc_00675.pdf - 4662 characters
+[928/2000] ✓ uc_00056.pdf - 4435 characters
+[929/2000] ✓ uc_00639.pdf - 4418 characters
+[930/2000] ✓ uc_01346.pdf - 5373 characters
+[931/2000] ✓ uc_01368.pdf - 4357 characters
+[932/2000] ✓ uc_00168.pdf - 4396 characters
+[933/2000] ✓ uc_00288.pdf - 4469 characters
+[934/2000] ✓ uc_01012.pdf - 4631 characters
+[935/2000] ✓ uc_01364.pdf - 4275 characters
+[936/2000] ✓ uc_00130.pdf - 4404 characters
+[937/2000] ✓ uc_00647.pdf - 4335 characters
+[938/2000] ✓ uc_00738.pdf - 4431 characters
+[939/2000] ✓ uc_00863.pdf - 4769 characters
+[940/2000] ✓ uc_01055.pdf - 4762 characters
+[941/2000] ✓ uc_00290.pdf - 4790 characters
+[942/2000] ✓ uc_00912.pdf - 5311 characters
+[943/2000] ✓ uc_00041.pdf - 5305 characters
+[944/2000] ✓ uc_01906.pdf - 5176 characters
+[945/2000] ✓ uc_00399.pdf - 4430 characters
+[946/2000] ✓ uc_00191.pdf - 4429 characters
+[947/2000] ✓ uc_00183.pdf - 4801 characters
+[948/2000] ✓ uc_01245.pdf - 4733 characters
+[949/2000] ✓ uc_00441.pdf - 4247 characters
+[950/2000] ✓ uc_00064.pdf - 4437 characters
+[951/2000] ✓ uc_01601.pdf - 4436 characters
+[952/2000] ✓ uc_01843.pdf - 5168 characters
+[953/2000] ✓ uc_00267.pdf - 4836 characters
+[954/2000] ✓ uc_01568.pdf - 4329 characters
+[955/2000] ✓ uc_00818.pdf - 4295 characters
+[956/2000] ✓ uc_00135.pdf - 4850 characters
+[957/2000] ✓ uc_00905.pdf - 4772 characters
+[958/2000] ✓ uc_01633.pdf - 4480 characters
+[959/2000] ✓ uc_00228.pdf - 4305 characters
+[960/2000] ✓ uc_01571.pdf - 4647 characters
+[961/2000] ✓ uc_00652.pdf - 4343 characters
+[962/2000] ✓ uc_00716.pdf - 4692 characters
+[963/2000] ✓ uc_01512.pdf - 4784 characters
+[964/2000] ✓ uc_01538.pdf - 4328 characters
+[965/2000] ✓ uc_00037.pdf - 4721 characters
+[966/2000] ✓ uc_00103.pdf - 4911 characters
+[967/2000] ✓ uc_00330.pdf - 4783 characters
+[968/2000] ✓ uc_01049.pdf - 4330 characters
+[969/2000] ✓ uc_00341.pdf - 4402 characters
+[970/2000] ✓ uc_00610.pdf - 5178 characters
+[971/2000] ✓ uc_00845.pdf - 4452 characters
+[972/2000] ✓ uc_00239.pdf - 5877 characters
+[973/2000] ✓ uc_00862.pdf - 4861 characters
+[974/2000] ✓ uc_00453.pdf - 5392 characters
+[975/2000] ✓ uc_00964.pdf - 4375 characters
+[976/2000] ✓ uc_00689.pdf - 4641 characters
+[977/2000] ✓ uc_00785.pdf - 4438 characters
+[978/2000] ✓ uc_00582.pdf - 4408 characters
+[979/2000] ✓ uc_00316.pdf - 4323 characters
+[980/2000] ✓ uc_01302.pdf - 5086 characters
+[981/2000] ✓ uc_00014.pdf - 4318 characters
+[982/2000] ✓ uc_00205.pdf - 4843 characters
+[983/2000] ✓ uc_01447.pdf - 5179 characters
+[984/2000] ✓ uc_01369.pdf - 4370 characters
+[985/2000] ✓ uc_01107.pdf - 4392 characters
+[986/2000] ✓ uc_01689.pdf - 4375 characters
+[987/2000] ✓ uc_01951.pdf - 4471 characters
+[988/2000] ✓ uc_01087.pdf - 4362 characters
+[989/2000] ✓ uc_01174.pdf - 4396 characters
+[990/2000] ✓ uc_01078.pdf - 4291 characters
+[991/2000] ✓ uc_00952.pdf - 4376 characters
+[992/2000] ✓ uc_01995.pdf - 4365 characters
+[993/2000] ✓ uc_01427.pdf - 4917 characters
+[994/2000] ✓ uc_01119.pdf - 4402 characters
+[995/2000] ✓ uc_01524.pdf - 4330 characters
+[996/2000] ✓ uc_00048.pdf - 5354 characters
+[997/2000] ✓ uc_01286.pdf - 4466 characters
+[998/2000] ✓ uc_00682.pdf - 5008 characters
+[999/2000] ✓ uc_01430.pdf - 4901 characters
+[1000/2000] ✓ uc_00006.pdf - 4444 characters
+[1001/2000] ✓ uc_00483.pdf - 4434 characters
+[1002/2000] ✓ uc_00518.pdf - 4680 characters
+[1003/2000] ✓ uc_01537.pdf - 4354 characters
+[1004/2000] ✓ uc_00795.pdf - 5203 characters
+[1005/2000] ✓ uc_00884.pdf - 4406 characters
+[1006/2000] ✓ uc_01891.pdf - 4906 characters
+[1007/2000] ✓ uc_01655.pdf - 4459 characters
+[1008/2000] ✓ uc_00479.pdf - 4640 characters
+[1009/2000] ✓ uc_00605.pdf - 5104 characters
+[1010/2000] ✓ uc_01557.pdf - 4819 characters
+[1011/2000] ✓ uc_01295.pdf - 5255 characters
+[1012/2000] ✓ uc_01840.pdf - 4429 characters
+[1013/2000] ✓ uc_00028.pdf - 4407 characters
+[1014/2000] ✓ uc_01790.pdf - 4318 characters
+[1015/2000] ✓ uc_00960.pdf - 4304 characters
+[1016/2000] ✓ uc_00936.pdf - 4695 characters
+[1017/2000] ✓ uc_00054.pdf - 4510 characters
+[1018/2000] ✓ uc_00261.pdf - 4322 characters
+[1019/2000] ✓ uc_01310.pdf - 4818 characters
+[1020/2000] ✓ uc_00471.pdf - 4393 characters
+[1021/2000] ✓ uc_00366.pdf - 4801 characters
+[1022/2000] ✓ uc_01513.pdf - 4473 characters
+[1023/2000] ✓ uc_00999.pdf - 4362 characters
+[1024/2000] ✓ uc_01330.pdf - 4516 characters
+[1025/2000] ✓ uc_00708.pdf - 4445 characters
+[1026/2000] ✓ uc_01483.pdf - 4270 characters
+[1027/2000] ✓ uc_01425.pdf - 4325 characters
+[1028/2000] ✓ uc_01099.pdf - 4871 characters
+[1029/2000] ✓ uc_00350.pdf - 5564 characters
+[1030/2000] ✓ uc_00501.pdf - 4378 characters
+[1031/2000] ✓ uc_01501.pdf - 4342 characters
+[1032/2000] ✓ uc_01994.pdf - 4470 characters
+[1033/2000] ✓ uc_00157.pdf - 5122 characters
+[1034/2000] ✓ uc_01132.pdf - 4414 characters
+[1035/2000] ✓ uc_00680.pdf - 4323 characters
+[1036/2000] ✓ uc_01004.pdf - 4640 characters
+[1037/2000] ✓ uc_01663.pdf - 4833 characters
+[1038/2000] ✓ uc_01411.pdf - 4333 characters
+[1039/2000] ✓ uc_00378.pdf - 4642 characters
+[1040/2000] ✓ uc_00159.pdf - 4403 characters
+[1041/2000] ✓ uc_01733.pdf - 4746 characters
+[1042/2000] ✓ uc_00704.pdf - 5189 characters
+[1043/2000] ✓ uc_01868.pdf - 4811 characters
+[1044/2000] ✓ uc_00706.pdf - 4630 characters
+[1045/2000] ✓ uc_01110.pdf - 6009 characters
+[1046/2000] ✓ uc_01401.pdf - 4725 characters
+[1047/2000] ✓ uc_00359.pdf - 4470 characters
+[1048/2000] ✓ uc_01807.pdf - 4875 characters
+[1049/2000] ✓ uc_01756.pdf - 4766 characters
+[1050/2000] ✓ uc_00734.pdf - 4330 characters
+[1051/2000] ✓ uc_00741.pdf - 4778 characters
+[1052/2000] ✓ uc_00058.pdf - 5249 characters
+[1053/2000] ✓ uc_01000.pdf - 5169 characters
+[1054/2000] ✓ uc_01106.pdf - 4346 characters
+[1055/2000] ✓ uc_00856.pdf - 4338 characters
+[1056/2000] ✓ uc_01312.pdf - 4772 characters
+[1057/2000] ✓ uc_00750.pdf - 4369 characters
+[1058/2000] ✓ uc_00214.pdf - 4353 characters
+[1059/2000] ✓ uc_01678.pdf - 4440 characters
+[1060/2000] ✓ uc_00842.pdf - 4379 characters
+[1061/2000] ✓ uc_01806.pdf - 4652 characters
+[1062/2000] ✓ uc_01172.pdf - 5090 characters
+[1063/2000] ✓ uc_01966.pdf - 4311 characters
+[1064/2000] ✓ uc_01671.pdf - 4867 characters
+[1065/2000] ✓ uc_01210.pdf - 4351 characters
+[1066/2000] ✓ uc_01479.pdf - 4412 characters
+[1067/2000] ✓ uc_00323.pdf - 4222 characters
+[1068/2000] ✓ uc_01396.pdf - 5185 characters
+[1069/2000] ✓ uc_01985.pdf - 4827 characters
+[1070/2000] ✓ uc_01296.pdf - 4334 characters
+[1071/2000] ✓ uc_00216.pdf - 4257 characters
+[1072/2000] ✓ uc_00093.pdf - 4340 characters
+[1073/2000] ✓ uc_01168.pdf - 5266 characters
+[1074/2000] ✓ uc_01122.pdf - 4273 characters
+[1075/2000] ✓ uc_01632.pdf - 4454 characters
+[1076/2000] ✓ uc_00621.pdf - 5195 characters
+[1077/2000] ✓ uc_00545.pdf - 4249 characters
+[1078/2000] ✓ uc_00551.pdf - 4912 characters
+[1079/2000] ✓ uc_01442.pdf - 4677 characters
+[1080/2000] ✓ uc_00237.pdf - 5357 characters
+[1081/2000] ✓ uc_01636.pdf - 4614 characters
+[1082/2000] ✓ uc_01263.pdf - 4323 characters
+[1083/2000] ✓ uc_01822.pdf - 4863 characters
+[1084/2000] ✓ uc_00371.pdf - 4456 characters
+[1085/2000] ✓ uc_00046.pdf - 4695 characters
+[1086/2000] ✓ uc_01938.pdf - 4843 characters
+[1087/2000] ✓ uc_00929.pdf - 4336 characters
+[1088/2000] ✓ uc_01226.pdf - 4607 characters
+[1089/2000] ✓ uc_00769.pdf - 4835 characters
+[1090/2000] ✓ uc_01407.pdf - 4327 characters
+[1091/2000] ✓ uc_00607.pdf - 4312 characters
+[1092/2000] ✓ uc_00310.pdf - 4711 characters
+[1093/2000] ✓ uc_01705.pdf - 4458 characters
+[1094/2000] ✓ uc_00153.pdf - 5374 characters
+[1095/2000] ✓ uc_00325.pdf - 4932 characters
+[1096/2000] ✓ uc_01311.pdf - 5601 characters
+[1097/2000] ✓ uc_00949.pdf - 4458 characters
+[1098/2000] ✓ uc_01838.pdf - 4418 characters
+[1099/2000] ✓ uc_00484.pdf - 4390 characters
+[1100/2000] ✓ uc_01732.pdf - 4852 characters
+[1101/2000] ✓ uc_01341.pdf - 4257 characters
+[1102/2000] ✓ uc_01615.pdf - 4357 characters
+[1103/2000] ✓ uc_01666.pdf - 5828 characters
+[1104/2000] ✓ uc_01145.pdf - 4452 characters
+[1105/2000] ✓ uc_01795.pdf - 5278 characters
+[1106/2000] ✓ uc_00299.pdf - 5055 characters
+[1107/2000] ✓ uc_01429.pdf - 4256 characters
+[1108/2000] ✓ uc_01077.pdf - 4332 characters
+[1109/2000] ✓ uc_00133.pdf - 4469 characters
+[1110/2000] ✓ uc_00369.pdf - 4840 characters
+[1111/2000] ✓ uc_00623.pdf - 4361 characters
+[1112/2000] ✓ uc_01708.pdf - 4603 characters
+[1113/2000] ✓ uc_01941.pdf - 5216 characters
+[1114/2000] ✓ uc_00212.pdf - 4280 characters
+[1115/2000] ✓ uc_00029.pdf - 4456 characters
+[1116/2000] ✓ uc_01063.pdf - 4855 characters
+[1117/2000] ✓ uc_00867.pdf - 4921 characters
+[1118/2000] ✓ uc_01852.pdf - 4895 characters
+[1119/2000] ✓ uc_00768.pdf - 4682 characters
+[1120/2000] ✓ uc_00793.pdf - 4440 characters
+[1121/2000] ✓ uc_00233.pdf - 4772 characters
+[1122/2000] ✓ uc_00819.pdf - 4388 characters
+[1123/2000] ✓ uc_01074.pdf - 4293 characters
+[1124/2000] ✓ uc_01952.pdf - 4738 characters
+[1125/2000] ✓ uc_00069.pdf - 4989 characters
+[1126/2000] ✓ uc_00940.pdf - 4212 characters
+[1127/2000] ✓ uc_00993.pdf - 4845 characters
+[1128/2000] ✓ uc_00101.pdf - 5095 characters
+[1129/2000] ✓ uc_00671.pdf - 5100 characters
+[1130/2000] ✓ uc_00780.pdf - 4844 characters
+[1131/2000] ✓ uc_00648.pdf - 4826 characters
+[1132/2000] ✓ uc_00319.pdf - 4975 characters
+[1133/2000] ✓ uc_00984.pdf - 4512 characters
+[1134/2000] ✓ uc_00836.pdf - 4700 characters
+[1135/2000] ✓ uc_00025.pdf - 4825 characters
+[1136/2000] ✓ uc_01779.pdf - 4472 characters
+[1137/2000] ✓ uc_01086.pdf - 4361 characters
+[1138/2000] ✓ uc_01953.pdf - 4826 characters
+[1139/2000] ✓ uc_00177.pdf - 4883 characters
+[1140/2000] ✓ uc_01660.pdf - 4450 characters
+[1141/2000] ✓ uc_00902.pdf - 4294 characters
+[1142/2000] ✓ uc_01695.pdf - 4778 characters
+[1143/2000] ✓ uc_01697.pdf - 4296 characters
+[1144/2000] ✓ uc_01147.pdf - 4643 characters
+[1145/2000] ✓ uc_00548.pdf - 4398 characters
+[1146/2000] ✓ uc_01657.pdf - 4393 characters
+[1147/2000] ✓ uc_01768.pdf - 4481 characters
+[1148/2000] ✓ uc_00762.pdf - 4294 characters
+[1149/2000] ✓ uc_01819.pdf - 4436 characters
+[1150/2000] ✓ uc_01817.pdf - 4724 characters
+[1151/2000] ✓ uc_01454.pdf - 4458 characters
+[1152/2000] ✓ uc_00329.pdf - 4472 characters
+[1153/2000] ✓ uc_00684.pdf - 4337 characters
+[1154/2000] ✓ uc_01217.pdf - 4461 characters
+[1155/2000] ✓ uc_00074.pdf - 4808 characters
+[1156/2000] ✓ uc_00439.pdf - 4732 characters
+[1157/2000] ✓ uc_00076.pdf - 4855 characters
+[1158/2000] ✓ uc_00718.pdf - 4423 characters
+[1159/2000] ✓ uc_00591.pdf - 4324 characters
+[1160/2000] ✓ uc_01031.pdf - 4752 characters
+[1161/2000] ✓ uc_01556.pdf - 5194 characters
+[1162/2000] ✓ uc_01818.pdf - 4389 characters
+[1163/2000] ✓ uc_00066.pdf - 4290 characters
+[1164/2000] ✓ uc_01027.pdf - 4414 characters
+[1165/2000] ✓ uc_00219.pdf - 5191 characters
+[1166/2000] ✓ uc_01138.pdf - 4467 characters
+[1167/2000] ✓ uc_00389.pdf - 4376 characters
+[1168/2000] ✓ uc_01661.pdf - 4356 characters
+[1169/2000] ✓ uc_01713.pdf - 4372 characters
+[1170/2000] ✓ uc_01183.pdf - 4397 characters
+[1171/2000] ✓ uc_00945.pdf - 4757 characters
+[1172/2000] ✓ uc_01236.pdf - 4321 characters
+[1173/2000] ✓ uc_01142.pdf - 4698 characters
+[1174/2000] ✓ uc_01114.pdf - 4782 characters
+[1175/2000] ✓ uc_00062.pdf - 4989 characters
+[1176/2000] ✓ uc_00269.pdf - 4473 characters
+[1177/2000] ✓ uc_01658.pdf - 5082 characters
+[1178/2000] ✓ uc_00944.pdf - 4423 characters
+[1179/2000] ✓ uc_01587.pdf - 4764 characters
+[1180/2000] ✓ uc_00786.pdf - 4296 characters
+[1181/2000] ✓ uc_00430.pdf - 4638 characters
+[1182/2000] ✓ uc_00914.pdf - 4923 characters
+[1183/2000] ✓ uc_00962.pdf - 4786 characters
+[1184/2000] ✓ uc_00374.pdf - 4794 characters
+[1185/2000] ✓ uc_00464.pdf - 4577 characters
+[1186/2000] ✓ uc_01788.pdf - 4441 characters
+[1187/2000] ✓ uc_01559.pdf - 4411 characters
+[1188/2000] ✓ uc_00495.pdf - 4381 characters
+[1189/2000] ✓ uc_01045.pdf - 4382 characters
+[1190/2000] ✓ uc_01191.pdf - 4821 characters
+[1191/2000] ✓ uc_01856.pdf - 5184 characters
+[1192/2000] ✓ uc_00345.pdf - 4363 characters
+[1193/2000] ✓ uc_01115.pdf - 5331 characters
+[1194/2000] ✓ uc_01193.pdf - 4766 characters
+[1195/2000] ✓ uc_01357.pdf - 4780 characters
+[1196/2000] ✓ uc_00599.pdf - 4834 characters
+[1197/2000] ✓ uc_01233.pdf - 4872 characters
+[1198/2000] ✓ uc_00520.pdf - 5186 characters
+[1199/2000] ✓ uc_00687.pdf - 4373 characters
+[1200/2000] ✓ uc_01528.pdf - 4421 characters
+[1201/2000] ✓ uc_01613.pdf - 4369 characters
+[1202/2000] ✓ uc_01883.pdf - 4285 characters
+[1203/2000] ✓ uc_01911.pdf - 4331 characters
+[1204/2000] ✓ uc_01714.pdf - 4831 characters
+[1205/2000] ✓ uc_01650.pdf - 5251 characters
+[1206/2000] ✓ uc_00725.pdf - 4653 characters
+[1207/2000] ✓ uc_00326.pdf - 4303 characters
+[1208/2000] ✓ uc_01366.pdf - 4763 characters
+[1209/2000] ✓ uc_01225.pdf - 4257 characters
+[1210/2000] ✓ uc_01497.pdf - 4782 characters
+[1211/2000] ✓ uc_00274.pdf - 4433 characters
+[1212/2000] ✓ uc_00513.pdf - 5163 characters
+[1213/2000] ✓ uc_01928.pdf - 4610 characters
+[1214/2000] ✓ uc_01527.pdf - 4412 characters
+[1215/2000] ✓ uc_01171.pdf - 4419 characters
+[1216/2000] ✓ uc_01056.pdf - 4467 characters
+[1217/2000] ✓ uc_01214.pdf - 4866 characters
+[1218/2000] ✓ uc_00061.pdf - 4758 characters
+[1219/2000] ✓ uc_01933.pdf - 5179 characters
+[1220/2000] ✓ uc_00592.pdf - 4265 characters
+[1221/2000] ✓ uc_01676.pdf - 4367 characters
+[1222/2000] ✓ uc_01146.pdf - 5087 characters
+[1223/2000] ✓ uc_00348.pdf - 4357 characters
+[1224/2000] ✓ uc_00732.pdf - 4368 characters
+[1225/2000] ✓ uc_01871.pdf - 4462 characters
+[1226/2000] ✓ uc_01079.pdf - 4329 characters
+[1227/2000] ✓ uc_01124.pdf - 4407 characters
+[1228/2000] ✓ uc_01914.pdf - 4329 characters
+[1229/2000] ✓ uc_00692.pdf - 4340 characters
+[1230/2000] ✓ uc_01588.pdf - 4777 characters
+[1231/2000] ✓ uc_01554.pdf - 5109 characters
+[1232/2000] ✓ uc_00833.pdf - 4780 characters
+[1233/2000] ✓ uc_01616.pdf - 4688 characters
+[1234/2000] ✓ uc_00869.pdf - 5220 characters
+[1235/2000] ✓ uc_00134.pdf - 4848 characters
+[1236/2000] ✓ uc_00116.pdf - 4366 characters
+[1237/2000] ✓ uc_00739.pdf - 5121 characters
+[1238/2000] ✓ uc_01047.pdf - 4416 characters
+[1239/2000] ✓ uc_00105.pdf - 4859 characters
+[1240/2000] ✓ uc_01294.pdf - 4503 characters
+[1241/2000] ✓ uc_01353.pdf - 4839 characters
+[1242/2000] ✓ uc_00438.pdf - 4449 characters
+[1243/2000] ✓ uc_01967.pdf - 4339 characters
+[1244/2000] ✓ uc_01957.pdf - 4821 characters
+[1245/2000] ✓ uc_01446.pdf - 4785 characters
+[1246/2000] ✓ uc_01061.pdf - 4303 characters
+[1247/2000] ✓ uc_01062.pdf - 4917 characters
+[1248/2000] ✓ uc_01355.pdf - 4692 characters
+[1249/2000] ✓ uc_00040.pdf - 4363 characters
+[1250/2000] ✓ uc_00091.pdf - 4746 characters
+[1251/2000] ✓ uc_01156.pdf - 4476 characters
+[1252/2000] ✓ uc_00554.pdf - 4893 characters
+[1253/2000] ✓ uc_01389.pdf - 5266 characters
+[1254/2000] ✓ uc_00715.pdf - 4377 characters
+[1255/2000] ✓ uc_01562.pdf - 4488 characters
+[1256/2000] ✓ uc_01182.pdf - 4433 characters
+[1257/2000] ✓ uc_01212.pdf - 4728 characters
+[1258/2000] ✓ uc_00478.pdf - 5105 characters
+[1259/2000] ✓ uc_01339.pdf - 4778 characters
+[1260/2000] ✓ uc_00380.pdf - 4418 characters
+[1261/2000] ✓ uc_01488.pdf - 4334 characters
+[1262/2000] ✓ uc_00001.pdf - 4346 characters
+[1263/2000] ✓ uc_01531.pdf - 4291 characters
+[1264/2000] ✓ uc_00685.pdf - 4718 characters
+[1265/2000] ✓ uc_01618.pdf - 4828 characters
+[1266/2000] ✓ uc_00457.pdf - 4406 characters
+[1267/2000] ✓ uc_01948.pdf - 4831 characters
+[1268/2000] ✓ uc_00392.pdf - 4806 characters
+[1269/2000] ✓ uc_00080.pdf - 4819 characters
+[1270/2000] ✓ uc_00926.pdf - 4424 characters
+[1271/2000] ✓ uc_00558.pdf - 4872 characters
+[1272/2000] ✓ uc_00356.pdf - 4696 characters
+[1273/2000] ✓ uc_00298.pdf - 4379 characters
+[1274/2000] ✓ uc_00989.pdf - 4696 characters
+[1275/2000] ✓ uc_00876.pdf - 4941 characters
+[1276/2000] ✓ uc_00248.pdf - 4269 characters
+[1277/2000] ✓ uc_00127.pdf - 4363 characters
+[1278/2000] ✓ uc_01052.pdf - 4955 characters
+[1279/2000] ✓ uc_00342.pdf - 4289 characters
+[1280/2000] ✓ uc_00588.pdf - 4418 characters
+[1281/2000] ✓ uc_01197.pdf - 4362 characters
+[1282/2000] ✓ uc_01992.pdf - 4786 characters
+[1283/2000] ✓ uc_01273.pdf - 4415 characters
+[1284/2000] ✓ uc_01980.pdf - 4667 characters
+[1285/2000] ✓ uc_00617.pdf - 4494 characters
+[1286/2000] ✓ uc_01125.pdf - 4732 characters
+[1287/2000] ✓ uc_01485.pdf - 4222 characters
+[1288/2000] ✓ uc_00722.pdf - 4636 characters
+[1289/2000] ✓ uc_00556.pdf - 4412 characters
+[1290/2000] ✓ uc_00433.pdf - 4430 characters
+[1291/2000] ✓ uc_01503.pdf - 4667 characters
+[1292/2000] ✓ uc_01186.pdf - 4890 characters
+[1293/2000] ✓ uc_01798.pdf - 4813 characters
+[1294/2000] ✓ uc_01493.pdf - 5217 characters
+[1295/2000] ✓ uc_00887.pdf - 4421 characters
+[1296/2000] ✓ uc_00405.pdf - 4687 characters
+[1297/2000] ✓ uc_00334.pdf - 4380 characters
+[1298/2000] ✓ uc_01157.pdf - 4390 characters
+[1299/2000] ✓ uc_00635.pdf - 4285 characters
+[1300/2000] ✓ uc_01897.pdf - 4361 characters
+[1301/2000] ✓ uc_00967.pdf - 4663 characters
+[1302/2000] ✓ uc_00218.pdf - 4601 characters
+[1303/2000] ✓ uc_01466.pdf - 5136 characters
+[1304/2000] ✓ uc_00931.pdf - 5114 characters
+[1305/2000] ✓ uc_01139.pdf - 4371 characters
+[1306/2000] ✓ uc_01781.pdf - 4448 characters
+[1307/2000] ✓ uc_01828.pdf - 4782 characters
+[1308/2000] ✓ uc_01352.pdf - 4268 characters
+[1309/2000] ✓ uc_01428.pdf - 4372 characters
+[1310/2000] ✓ uc_00039.pdf - 4400 characters
+[1311/2000] ✓ uc_01530.pdf - 4697 characters
+[1312/2000] ✓ uc_00126.pdf - 4803 characters
+[1313/2000] ✓ uc_00242.pdf - 4398 characters
+[1314/2000] ✓ uc_01745.pdf - 4350 characters
+[1315/2000] ✓ uc_01801.pdf - 4382 characters
+[1316/2000] ✓ uc_01058.pdf - 4450 characters
+[1317/2000] ✓ uc_00587.pdf - 4344 characters
+[1318/2000] ✓ uc_00297.pdf - 4411 characters
+[1319/2000] ✓ uc_00729.pdf - 6092 characters
+[1320/2000] ✓ uc_00412.pdf - 4352 characters
+[1321/2000] ✓ uc_00641.pdf - 4371 characters
+[1322/2000] ✓ uc_01873.pdf - 4463 characters
+[1323/2000] ✓ uc_00932.pdf - 4779 characters
+[1324/2000] ✓ uc_00470.pdf - 4853 characters
+[1325/2000] ✓ uc_00305.pdf - 4401 characters
+[1326/2000] ✓ uc_00357.pdf - 4835 characters
+[1327/2000] ✓ uc_00383.pdf - 4773 characters
+[1328/2000] ✓ uc_01648.pdf - 4285 characters
+[1329/2000] ✓ uc_00417.pdf - 4862 characters
+[1330/2000] ✓ uc_00601.pdf - 4432 characters
+[1331/2000] ✓ uc_01627.pdf - 5693 characters
+[1332/2000] ✓ uc_01120.pdf - 4388 characters
+[1333/2000] ✓ uc_01382.pdf - 4816 characters
+[1334/2000] ✓ uc_01879.pdf - 4496 characters
+[1335/2000] ✓ uc_00579.pdf - 4919 characters
+[1336/2000] ✓ uc_00395.pdf - 4838 characters
+[1337/2000] ✓ uc_00996.pdf - 4825 characters
+[1338/2000] ✓ uc_00954.pdf - 4750 characters
+[1339/2000] ✓ uc_01730.pdf - 4711 characters
+[1340/2000] ✓ uc_00849.pdf - 4508 characters
+[1341/2000] ✓ uc_01416.pdf - 4395 characters
+[1342/2000] ✓ uc_00707.pdf - 4395 characters
+[1343/2000] ✓ uc_00463.pdf - 4791 characters
+[1344/2000] ✓ uc_00990.pdf - 6557 characters
+[1345/2000] ✓ uc_00851.pdf - 4363 characters
+[1346/2000] ✓ uc_00089.pdf - 4767 characters
+[1347/2000] ✓ uc_01567.pdf - 4742 characters
+[1348/2000] ✓ uc_01505.pdf - 4425 characters
+[1349/2000] ✓ uc_00008.pdf - 4311 characters
+[1350/2000] ✓ uc_00071.pdf - 4342 characters
+[1351/2000] ✓ uc_00890.pdf - 4869 characters
+[1352/2000] ✓ uc_01826.pdf - 4847 characters
+[1353/2000] ✓ uc_01356.pdf - 4814 characters
+[1354/2000] ✓ uc_01612.pdf - 4301 characters
+[1355/2000] ✓ uc_01316.pdf - 4453 characters
+[1356/2000] ✓ uc_01845.pdf - 4487 characters
+[1357/2000] ✓ uc_00287.pdf - 4644 characters
+[1358/2000] ✓ uc_00624.pdf - 4497 characters
+[1359/2000] ✓ uc_00509.pdf - 4439 characters
+[1360/2000] ✓ uc_00866.pdf - 4366 characters
+[1361/2000] ✓ uc_00980.pdf - 5242 characters
+[1362/2000] ✓ uc_01267.pdf - 4711 characters
+[1363/2000] ✓ uc_01816.pdf - 4474 characters
+[1364/2000] ✓ uc_01014.pdf - 4608 characters
+[1365/2000] ✓ uc_01291.pdf - 5321 characters
+[1366/2000] ✓ uc_01519.pdf - 5273 characters
+[1367/2000] ✓ uc_01415.pdf - 4366 characters
+[1368/2000] ✓ uc_00096.pdf - 4378 characters
+[1369/2000] ✓ uc_00710.pdf - 5338 characters
+[1370/2000] ✓ uc_01975.pdf - 4839 characters
+[1371/2000] ✓ uc_01426.pdf - 5244 characters
+[1372/2000] ✓ uc_01451.pdf - 4366 characters
+[1373/2000] ✓ uc_00007.pdf - 4663 characters
+[1374/2000] ✓ uc_01159.pdf - 4309 characters
+[1375/2000] ✓ uc_00293.pdf - 4806 characters
+[1376/2000] ✓ uc_00199.pdf - 4353 characters
+[1377/2000] ✓ uc_00742.pdf - 4783 characters
+[1378/2000] ✓ uc_00424.pdf - 4240 characters
+[1379/2000] ✓ uc_00690.pdf - 4472 characters
+[1380/2000] ✓ uc_01444.pdf - 4879 characters
+[1381/2000] ✓ uc_00586.pdf - 4646 characters
+[1382/2000] ✓ uc_00202.pdf - 5270 characters
+[1383/2000] ✓ uc_01857.pdf - 4415 characters
+[1384/2000] ✓ uc_00131.pdf - 4666 characters
+[1385/2000] ✓ uc_00712.pdf - 4377 characters
+[1386/2000] ✓ uc_00838.pdf - 4749 characters
+[1387/2000] ✓ uc_01968.pdf - 4579 characters
+[1388/2000] ✓ uc_01651.pdf - 4508 characters
+[1389/2000] ✓ uc_01072.pdf - 4850 characters
+[1390/2000] ✓ uc_00370.pdf - 4445 characters
+[1391/2000] ✓ uc_00939.pdf - 4444 characters
+[1392/2000] ✓ uc_01042.pdf - 4824 characters
+[1393/2000] ✓ uc_00754.pdf - 4419 characters
+[1394/2000] ✓ uc_01895.pdf - 4398 characters
+[1395/2000] ✓ uc_00885.pdf - 4318 characters
+[1396/2000] ✓ uc_00252.pdf - 4315 characters
+[1397/2000] ✓ uc_00254.pdf - 4387 characters
+[1398/2000] ✓ uc_00163.pdf - 4730 characters
+[1399/2000] ✓ uc_00870.pdf - 4354 characters
+[1400/2000] ✓ uc_00409.pdf - 4705 characters
+[1401/2000] ✓ uc_01770.pdf - 4394 characters
+[1402/2000] ✓ uc_01901.pdf - 4763 characters
+[1403/2000] ✓ uc_01449.pdf - 4403 characters
+[1404/2000] ✓ uc_01280.pdf - 4859 characters
+[1405/2000] ✓ uc_00765.pdf - 4375 characters
+[1406/2000] ✓ uc_00193.pdf - 4582 characters
+[1407/2000] ✓ uc_01298.pdf - 4349 characters
+[1408/2000] ✓ uc_01990.pdf - 4483 characters
+[1409/2000] ✓ uc_01600.pdf - 4923 characters
+[1410/2000] ✓ uc_00313.pdf - 4915 characters
+[1411/2000] ✓ uc_01498.pdf - 5444 characters
+[1412/2000] ✓ uc_01737.pdf - 4448 characters
+[1413/2000] ✓ uc_00255.pdf - 4526 characters
+[1414/2000] ✓ uc_01010.pdf - 4377 characters
+[1415/2000] ✓ uc_01964.pdf - 4894 characters
+[1416/2000] ✓ uc_01945.pdf - 4851 characters
+[1417/2000] ✓ uc_00469.pdf - 4483 characters
+[1418/2000] ✓ uc_00086.pdf - 4387 characters
+[1419/2000] ✓ uc_00840.pdf - 4903 characters
+[1420/2000] ✓ uc_00164.pdf - 4625 characters
+[1421/2000] ✓ uc_01700.pdf - 4835 characters
+[1422/2000] ✓ uc_01305.pdf - 4376 characters
+[1423/2000] ✓ uc_01916.pdf - 4302 characters
+[1424/2000] ✓ uc_00636.pdf - 4323 characters
+[1425/2000] ✓ uc_01580.pdf - 4806 characters
+[1426/2000] ✓ uc_01327.pdf - 4729 characters
+[1427/2000] ✓ uc_00324.pdf - 5222 characters
+[1428/2000] ✓ uc_01757.pdf - 4407 characters
+[1429/2000] ✓ uc_01541.pdf - 4460 characters
+[1430/2000] ✓ uc_00373.pdf - 4587 characters
+[1431/2000] ✓ uc_00665.pdf - 4791 characters
+[1432/2000] ✓ uc_00620.pdf - 4380 characters
+[1433/2000] ✓ uc_00723.pdf - 4424 characters
+[1434/2000] ✓ uc_01902.pdf - 4884 characters
+[1435/2000] ✓ uc_01467.pdf - 4507 characters
+[1436/2000] ✓ uc_00364.pdf - 4849 characters
+[1437/2000] ✓ uc_01130.pdf - 4466 characters
+[1438/2000] ✓ uc_00173.pdf - 4602 characters
+[1439/2000] ✓ uc_00449.pdf - 4671 characters
+[1440/2000] ✓ uc_01563.pdf - 5163 characters
+[1441/2000] ✓ uc_01491.pdf - 4335 characters
+[1442/2000] ✓ uc_01374.pdf - 4285 characters
+[1443/2000] ✓ uc_01771.pdf - 4604 characters
+[1444/2000] ✓ uc_00698.pdf - 4468 characters
+[1445/2000] ✓ uc_00023.pdf - 4544 characters
+[1446/2000] ✓ uc_00529.pdf - 5280 characters
+[1447/2000] ✓ uc_00458.pdf - 4898 characters
+[1448/2000] ✓ uc_00387.pdf - 4337 characters
+[1449/2000] ✓ uc_00981.pdf - 4814 characters
+[1450/2000] ✓ uc_00102.pdf - 4713 characters
+[1451/2000] ✓ uc_01246.pdf - 4381 characters
+[1452/2000] ✓ uc_01474.pdf - 4390 characters
+[1453/2000] ✓ uc_01787.pdf - 4317 characters
+[1454/2000] ✓ uc_00525.pdf - 4801 characters
+[1455/2000] ✓ uc_01113.pdf - 5270 characters
+[1456/2000] ✓ uc_01417.pdf - 4666 characters
+[1457/2000] ✓ uc_01904.pdf - 4413 characters
+[1458/2000] ✓ uc_01772.pdf - 4304 characters
+[1459/2000] ✓ uc_01301.pdf - 4373 characters
+[1460/2000] ✓ uc_01664.pdf - 5033 characters
+[1461/2000] ✓ uc_00472.pdf - 4318 characters
+[1462/2000] ✓ uc_00534.pdf - 4433 characters
+[1463/2000] ✓ uc_01545.pdf - 4722 characters
+[1464/2000] ✓ uc_01285.pdf - 4919 characters
+[1465/2000] ✓ uc_00975.pdf - 4625 characters
+[1466/2000] ✓ uc_00243.pdf - 4769 characters
+[1467/2000] ✓ uc_01109.pdf - 5301 characters
+[1468/2000] ✓ uc_00312.pdf - 4275 characters
+[1469/2000] ✓ uc_01400.pdf - 4317 characters
+[1470/2000] ✓ uc_01256.pdf - 4745 characters
+[1471/2000] ✓ uc_00923.pdf - 4375 characters
+[1472/2000] ✓ uc_01198.pdf - 4689 characters
+[1473/2000] ✓ uc_01423.pdf - 4299 characters
+[1474/2000] ✓ uc_00664.pdf - 4399 characters
+[1475/2000] ✓ uc_00211.pdf - 4344 characters
+[1476/2000] ✓ uc_00070.pdf - 4383 characters
+[1477/2000] ✓ uc_01888.pdf - 4499 characters
+[1478/2000] ✓ uc_01164.pdf - 4454 characters
+[1479/2000] ✓ uc_01066.pdf - 4677 characters
+[1480/2000] ✓ uc_01391.pdf - 4751 characters
+[1481/2000] ✓ uc_01727.pdf - 4445 characters
+[1482/2000] ✓ uc_00426.pdf - 5150 characters
+[1483/2000] ✓ uc_00683.pdf - 4404 characters
+[1484/2000] ✓ uc_01525.pdf - 4231 characters
+[1485/2000] ✓ uc_00257.pdf - 4327 characters
+[1486/2000] ✓ uc_00047.pdf - 4379 characters
+[1487/2000] ✓ uc_01350.pdf - 4645 characters
+[1488/2000] ✓ uc_01387.pdf - 4368 characters
+[1489/2000] ✓ uc_00272.pdf - 4386 characters
+[1490/2000] ✓ uc_00456.pdf - 4361 characters
+[1491/2000] ✓ uc_01577.pdf - 4363 characters
+[1492/2000] ✓ uc_00496.pdf - 4772 characters
+[1493/2000] ✓ uc_00422.pdf - 4745 characters
+[1494/2000] ✓ uc_00490.pdf - 4890 characters
+[1495/2000] ✓ uc_01517.pdf - 4402 characters
+[1496/2000] ✓ uc_01551.pdf - 4499 characters
+[1497/2000] ✓ uc_00676.pdf - 4468 characters
+[1498/2000] ✓ uc_01823.pdf - 4680 characters
+[1499/2000] ✓ uc_01433.pdf - 4378 characters
+[1500/2000] ✓ uc_00985.pdf - 4338 characters
+[1501/2000] ✓ uc_00820.pdf - 4424 characters
+[1502/2000] ✓ uc_00302.pdf - 4345 characters
+[1503/2000] ✓ uc_00201.pdf - 4848 characters
+[1504/2000] ✓ uc_01278.pdf - 4670 characters
+[1505/2000] ✓ uc_01117.pdf - 4410 characters
+[1506/2000] ✓ uc_01247.pdf - 4216 characters
+[1507/2000] ✓ uc_00079.pdf - 4339 characters
+[1508/2000] ✓ uc_00638.pdf - 4256 characters
+[1509/2000] ✓ uc_00577.pdf - 4797 characters
+[1510/2000] ✓ uc_00120.pdf - 4637 characters
+[1511/2000] ✓ uc_00491.pdf - 4436 characters
+[1512/2000] ✓ uc_00081.pdf - 4671 characters
+[1513/2000] ✓ uc_00488.pdf - 4354 characters
+[1514/2000] ✓ uc_00770.pdf - 4921 characters
+[1515/2000] ✓ uc_00115.pdf - 4660 characters
+[1516/2000] ✓ uc_00544.pdf - 4923 characters
+[1517/2000] ✓ uc_01702.pdf - 4485 characters
+[1518/2000] ✓ uc_01216.pdf - 4807 characters
+[1519/2000] ✓ uc_00386.pdf - 4848 characters
+[1520/2000] ✓ uc_01240.pdf - 4457 characters
+[1521/2000] ✓ uc_01222.pdf - 4340 characters
+[1522/2000] ✓ uc_00581.pdf - 4292 characters
+[1523/2000] ✓ uc_01837.pdf - 4405 characters
+[1524/2000] ✓ uc_01082.pdf - 4685 characters
+[1525/2000] ✓ uc_01611.pdf - 4425 characters
+[1526/2000] ✓ uc_01760.pdf - 4486 characters
+[1527/2000] ✓ uc_01392.pdf - 5251 characters
+[1528/2000] ✓ uc_00100.pdf - 4431 characters
+[1529/2000] ✓ uc_01692.pdf - 4398 characters
+[1530/2000] ✓ uc_00995.pdf - 4319 characters
+[1531/2000] ✓ uc_00973.pdf - 4776 characters
+[1532/2000] ✓ uc_01081.pdf - 4837 characters
+[1533/2000] ✓ uc_01887.pdf - 4246 characters
+[1534/2000] ✓ uc_00055.pdf - 5072 characters
+[1535/2000] ✓ uc_01521.pdf - 4490 characters
+[1536/2000] ✓ uc_00766.pdf - 4601 characters
+[1537/2000] ✓ uc_00502.pdf - 4873 characters
+[1538/2000] ✓ uc_01829.pdf - 4723 characters
+[1539/2000] ✓ uc_00875.pdf - 4805 characters
+[1540/2000] ✓ uc_00203.pdf - 4812 characters
+[1541/2000] ✓ uc_01645.pdf - 4846 characters
+[1542/2000] ✓ uc_01337.pdf - 4470 characters
+[1543/2000] ✓ uc_01908.pdf - 4822 characters
+[1544/2000] ✓ uc_01877.pdf - 4793 characters
+[1545/2000] ✓ uc_00557.pdf - 4356 characters
+[1546/2000] ✓ uc_01748.pdf - 4286 characters
+[1547/2000] ✓ uc_01178.pdf - 4406 characters
+[1548/2000] ✓ uc_01977.pdf - 4673 characters
+[1549/2000] ✓ uc_01348.pdf - 5149 characters
+[1550/2000] ✓ uc_00803.pdf - 4456 characters
+[1551/2000] ✓ uc_00275.pdf - 4726 characters
+[1552/2000] ✓ uc_01886.pdf - 4345 characters
+[1553/2000] ✓ uc_01729.pdf - 4417 characters
+[1554/2000] ✓ uc_01309.pdf - 4481 characters
+[1555/2000] ✓ uc_01696.pdf - 4328 characters
+[1556/2000] ✓ uc_00801.pdf - 4360 characters
+[1557/2000] ✓ uc_00703.pdf - 4362 characters
+[1558/2000] ✓ uc_00113.pdf - 4476 characters
+[1559/2000] ✓ uc_01456.pdf - 4757 characters
+[1560/2000] ✓ uc_00015.pdf - 4373 characters
+[1561/2000] ✓ uc_00360.pdf - 4352 characters
+[1562/2000] ✓ uc_01207.pdf - 4617 characters
+[1563/2000] ✓ uc_00236.pdf - 4710 characters
+[1564/2000] ✓ uc_01780.pdf - 4442 characters
+[1565/2000] ✓ uc_00673.pdf - 4451 characters
+[1566/2000] ✓ uc_01707.pdf - 4489 characters
+[1567/2000] ✓ uc_01299.pdf - 5007 characters
+[1568/2000] ✓ uc_01477.pdf - 4376 characters
+[1569/2000] ✓ uc_01354.pdf - 4781 characters
+[1570/2000] ✓ uc_01634.pdf - 4383 characters
+[1571/2000] ✓ uc_01332.pdf - 5165 characters
+[1572/2000] ✓ uc_00792.pdf - 4724 characters
+[1573/2000] ✓ uc_00196.pdf - 4778 characters
+[1574/2000] ✓ uc_01179.pdf - 4362 characters
+[1575/2000] ✓ uc_00129.pdf - 5589 characters
+[1576/2000] ✓ uc_01253.pdf - 4673 characters
+[1577/2000] ✓ uc_00306.pdf - 4800 characters
+[1578/2000] ✓ uc_00968.pdf - 4763 characters
+[1579/2000] ✓ uc_00241.pdf - 4322 characters
+[1580/2000] ✓ uc_01912.pdf - 4396 characters
+[1581/2000] ✓ uc_01874.pdf - 4702 characters
+[1582/2000] ✓ uc_00688.pdf - 4293 characters
+[1583/2000] ✓ uc_01709.pdf - 4285 characters
+[1584/2000] ✓ uc_01220.pdf - 4359 characters
+[1585/2000] ✓ uc_01767.pdf - 4465 characters
+[1586/2000] ✓ uc_00595.pdf - 4337 characters
+[1587/2000] ✓ uc_00899.pdf - 5521 characters
+[1588/2000] ✓ uc_01740.pdf - 5137 characters
+[1589/2000] ✓ uc_00757.pdf - 4428 characters
+[1590/2000] ✓ uc_00677.pdf - 5153 characters
+[1591/2000] ✓ uc_00878.pdf - 4686 characters
+[1592/2000] ✓ uc_00307.pdf - 4829 characters
+[1593/2000] ✓ uc_01228.pdf - 4369 characters
+[1594/2000] ✓ uc_01794.pdf - 4515 characters
+[1595/2000] ✓ uc_00853.pdf - 4392 characters
+[1596/2000] ✓ uc_01514.pdf - 4389 characters
+[1597/2000] ✓ uc_01265.pdf - 4322 characters
+[1598/2000] ✓ uc_00802.pdf - 4759 characters
+[1599/2000] ✓ uc_00314.pdf - 4401 characters
+[1600/2000] ✓ uc_01319.pdf - 4462 characters
+[1601/2000] ✓ uc_00761.pdf - 4378 characters
+[1602/2000] ✓ uc_01747.pdf - 4383 characters
+[1603/2000] ✓ uc_00663.pdf - 4824 characters
+[1604/2000] ✓ uc_01639.pdf - 5140 characters
+[1605/2000] ✓ uc_00910.pdf - 4522 characters
+[1606/2000] ✓ uc_00916.pdf - 4833 characters
+[1607/2000] ✓ uc_00365.pdf - 4555 characters
+[1608/2000] ✓ uc_00280.pdf - 4422 characters
+[1609/2000] ✓ uc_01465.pdf - 4874 characters
+[1610/2000] ✓ uc_00821.pdf - 4434 characters
+[1611/2000] ✓ uc_01377.pdf - 4346 characters
+[1612/2000] ✓ uc_00150.pdf - 4650 characters
+[1613/2000] ✓ uc_01437.pdf - 4880 characters
+[1614/2000] ✓ uc_01019.pdf - 4890 characters
+[1615/2000] ✓ uc_00475.pdf - 4830 characters
+[1616/2000] ✓ uc_00077.pdf - 4450 characters
+[1617/2000] ✓ uc_00758.pdf - 4615 characters
+[1618/2000] ✓ uc_00763.pdf - 4322 characters
+[1619/2000] ✓ uc_00139.pdf - 4752 characters
+[1620/2000] ✓ uc_00226.pdf - 4331 characters
+[1621/2000] ✓ uc_00213.pdf - 5128 characters
+[1622/2000] ✓ uc_00701.pdf - 5146 characters
+[1623/2000] ✓ uc_01151.pdf - 4418 characters
+[1624/2000] ✓ uc_00338.pdf - 4412 characters
+[1625/2000] ✓ uc_00059.pdf - 5382 characters
+[1626/2000] ✓ uc_00049.pdf - 4594 characters
+[1627/2000] ✓ uc_00222.pdf - 4354 characters
+[1628/2000] ✓ uc_00568.pdf - 4842 characters
+[1629/2000] ✓ uc_01282.pdf - 4345 characters
+[1630/2000] ✓ uc_00266.pdf - 4766 characters
+[1631/2000] ✓ uc_01313.pdf - 4561 characters
+[1632/2000] ✓ uc_01458.pdf - 4765 characters
+[1633/2000] ✓ uc_01234.pdf - 4767 characters
+[1634/2000] ✓ uc_01574.pdf - 4239 characters
+[1635/2000] ✓ uc_00060.pdf - 5214 characters
+[1636/2000] ✓ uc_00088.pdf - 4277 characters
+[1637/2000] ✓ uc_01445.pdf - 4318 characters
+[1638/2000] ✓ uc_01796.pdf - 4337 characters
+[1639/2000] ✓ uc_01579.pdf - 4740 characters
+[1640/2000] ✓ uc_01544.pdf - 4341 characters
+[1641/2000] ✓ uc_00670.pdf - 4617 characters
+[1642/2000] ✓ uc_01111.pdf - 4271 characters
+[1643/2000] ✓ uc_01653.pdf - 4475 characters
+[1644/2000] ✓ uc_00296.pdf - 4358 characters
+[1645/2000] ✓ uc_01903.pdf - 4426 characters
+[1646/2000] ✓ uc_01609.pdf - 4436 characters
+[1647/2000] ✓ uc_01230.pdf - 5000 characters
+[1648/2000] ✓ uc_00020.pdf - 4880 characters
+[1649/2000] ✓ uc_01720.pdf - 4490 characters
+[1650/2000] ✓ uc_00992.pdf - 4824 characters
+[1651/2000] ✓ uc_01180.pdf - 4793 characters
+[1652/2000] ✓ uc_01231.pdf - 4814 characters
+[1653/2000] ✓ uc_01143.pdf - 4655 characters
+[1654/2000] ✓ uc_01989.pdf - 4714 characters
+[1655/2000] ✓ uc_01128.pdf - 4895 characters
+[1656/2000] ✓ uc_01209.pdf - 4331 characters
+[1657/2000] ✓ uc_01199.pdf - 4443 characters
+[1658/2000] ✓ uc_01390.pdf - 4884 characters
+[1659/2000] ✓ uc_00674.pdf - 4423 characters
+[1660/2000] ✓ uc_01628.pdf - 4385 characters
+[1661/2000] ✓ uc_00117.pdf - 4740 characters
+[1662/2000] ✓ uc_01558.pdf - 4281 characters
+[1663/2000] ✓ uc_01030.pdf - 4342 characters
+[1664/2000] ✓ uc_00651.pdf - 4727 characters
+[1665/2000] ✓ uc_00489.pdf - 4486 characters
+[1666/2000] ✓ uc_01974.pdf - 4293 characters
+[1667/2000] ✓ uc_00608.pdf - 5066 characters
+[1668/2000] ✓ uc_01532.pdf - 4363 characters
+[1669/2000] ✓ uc_01956.pdf - 4428 characters
+[1670/2000] ✓ uc_00896.pdf - 4406 characters
+[1671/2000] ✓ uc_01274.pdf - 4413 characters
+[1672/2000] ✓ uc_00898.pdf - 4539 characters
+[1673/2000] ✓ uc_00552.pdf - 4416 characters
+[1674/2000] ✓ uc_00403.pdf - 4430 characters
+[1675/2000] ✓ uc_00784.pdf - 4708 characters
+[1676/2000] ✓ uc_01743.pdf - 4386 characters
+[1677/2000] ✓ uc_01881.pdf - 4325 characters
+[1678/2000] ✓ uc_00295.pdf - 4485 characters
+[1679/2000] ✓ uc_01934.pdf - 4253 characters
+[1680/2000] ✓ uc_01436.pdf - 4626 characters
+[1681/2000] ✓ uc_01173.pdf - 4838 characters
+[1682/2000] ✓ uc_00774.pdf - 4412 characters
+[1683/2000] ✓ uc_01836.pdf - 4658 characters
+[1684/2000] ✓ uc_01940.pdf - 4323 characters
+[1685/2000] ✓ uc_00799.pdf - 4886 characters
+[1686/2000] ✓ uc_01279.pdf - 4959 characters
+[1687/2000] ✓ uc_00052.pdf - 4543 characters
+[1688/2000] ✓ uc_01398.pdf - 4370 characters
+[1689/2000] ✓ uc_01344.pdf - 4680 characters
+[1690/2000] ✓ uc_00991.pdf - 4778 characters
+[1691/2000] ✓ uc_01518.pdf - 4367 characters
+[1692/2000] ✓ uc_01150.pdf - 4357 characters
+[1693/2000] ✓ uc_01858.pdf - 4759 characters
+[1694/2000] ✓ uc_01370.pdf - 4358 characters
+[1695/2000] ✓ uc_00194.pdf - 4725 characters
+[1696/2000] ✓ uc_01177.pdf - 4355 characters
+[1697/2000] ✓ uc_01710.pdf - 4641 characters
+[1698/2000] ✓ uc_01251.pdf - 4363 characters
+[1699/2000] ✓ uc_00709.pdf - 4645 characters
+[1700/2000] ✓ uc_00030.pdf - 4357 characters
+[1701/2000] ✓ uc_00933.pdf - 5133 characters
+[1702/2000] ✓ uc_01202.pdf - 4543 characters
+[1703/2000] ✓ uc_01848.pdf - 4431 characters
+[1704/2000] ✓ uc_00087.pdf - 4394 characters
+[1705/2000] ✓ uc_01641.pdf - 4368 characters
+[1706/2000] ✓ uc_00289.pdf - 5625 characters
+[1707/2000] ✓ uc_01367.pdf - 4462 characters
+[1708/2000] ✓ uc_01553.pdf - 4905 characters
+[1709/2000] ✓ uc_01181.pdf - 4884 characters
+[1710/2000] ✓ uc_00606.pdf - 4275 characters
+[1711/2000] ✓ uc_00505.pdf - 4383 characters
+[1712/2000] ✓ uc_01573.pdf - 4765 characters
+[1713/2000] ✓ uc_01599.pdf - 4715 characters
+[1714/2000] ✓ uc_01715.pdf - 4335 characters
+[1715/2000] ✓ uc_01260.pdf - 4441 characters
+[1716/2000] ✓ uc_01271.pdf - 4403 characters
+[1717/2000] ✓ uc_01821.pdf - 4696 characters
+[1718/2000] ✓ uc_01766.pdf - 5250 characters
+[1719/2000] ✓ uc_01576.pdf - 4779 characters
+[1720/2000] ✓ uc_01763.pdf - 4460 characters
+[1721/2000] ✓ uc_00447.pdf - 4385 characters
+[1722/2000] ✓ uc_01570.pdf - 5187 characters
+[1723/2000] ✓ uc_00571.pdf - 4196 characters
+[1724/2000] ✓ uc_01605.pdf - 4326 characters
+[1725/2000] ✓ uc_01610.pdf - 4369 characters
+[1726/2000] ✓ uc_01741.pdf - 4850 characters
+[1727/2000] ✓ uc_00178.pdf - 4657 characters
+[1728/2000] ✓ uc_01252.pdf - 4736 characters
+[1729/2000] ✓ uc_00572.pdf - 4289 characters
+[1730/2000] ✓ uc_01622.pdf - 4460 characters
+[1731/2000] ✓ uc_01155.pdf - 4866 characters
+[1732/2000] ✓ uc_00604.pdf - 4341 characters
+[1733/2000] ✓ uc_01007.pdf - 4402 characters
+[1734/2000] ✓ uc_00696.pdf - 4308 characters
+[1735/2000] ✓ uc_01481.pdf - 4457 characters
+[1736/2000] ✓ uc_00033.pdf - 4756 characters
+[1737/2000] ✓ uc_00634.pdf - 4399 characters
+[1738/2000] ✓ uc_01686.pdf - 4796 characters
+[1739/2000] ✓ uc_01699.pdf - 4279 characters
+[1740/2000] ✓ uc_00900.pdf - 4423 characters
+[1741/2000] ✓ uc_00141.pdf - 4376 characters
+[1742/2000] ✓ uc_00182.pdf - 4319 characters
+[1743/2000] ✓ uc_00393.pdf - 4311 characters
+[1744/2000] ✓ uc_01112.pdf - 4763 characters
+[1745/2000] ✓ uc_00855.pdf - 4322 characters
+[1746/2000] ✓ uc_01654.pdf - 4973 characters
+[1747/2000] ✓ uc_00498.pdf - 4495 characters
+[1748/2000] ✓ uc_00442.pdf - 5226 characters
+[1749/2000] ✓ uc_00063.pdf - 4904 characters
+[1750/2000] ✓ uc_01414.pdf - 4395 characters
+[1751/2000] ✓ uc_00526.pdf - 4444 characters
+[1752/2000] ✓ uc_01929.pdf - 4407 characters
+[1753/2000] ✓ uc_00391.pdf - 4422 characters
+[1754/2000] ✓ uc_01331.pdf - 4843 characters
+[1755/2000] ✓ uc_00042.pdf - 4790 characters
+[1756/2000] ✓ uc_00811.pdf - 4409 characters
+[1757/2000] ✓ uc_00948.pdf - 4463 characters
+[1758/2000] ✓ uc_01432.pdf - 4333 characters
+[1759/2000] ✓ uc_01683.pdf - 4729 characters
+[1760/2000] ✓ uc_00747.pdf - 4949 characters
+[1761/2000] ✓ uc_01096.pdf - 5139 characters
+[1762/2000] ✓ uc_01809.pdf - 4468 characters
+[1763/2000] ✓ uc_00467.pdf - 5124 characters
+[1764/2000] ✓ uc_01211.pdf - 4415 characters
+[1765/2000] ✓ uc_00073.pdf - 4793 characters
+[1766/2000] ✓ uc_01642.pdf - 4388 characters
+[1767/2000] ✓ uc_00231.pdf - 4383 characters
+[1768/2000] ✓ uc_01680.pdf - 4365 characters
+[1769/2000] ✓ uc_00654.pdf - 4456 characters
+[1770/2000] ✓ uc_01698.pdf - 4304 characters
+[1771/2000] ✓ uc_00816.pdf - 4417 characters
+[1772/2000] ✓ uc_00372.pdf - 5294 characters
+[1773/2000] ✓ uc_01820.pdf - 4413 characters
+[1774/2000] ✓ uc_00659.pdf - 5806 characters
+[1775/2000] ✓ uc_01137.pdf - 4742 characters
+[1776/2000] ✓ uc_00118.pdf - 4623 characters
+[1777/2000] ✓ uc_00839.pdf - 4454 characters
+[1778/2000] ✓ uc_01293.pdf - 5097 characters
+[1779/2000] ✓ uc_01255.pdf - 4332 characters
+[1780/2000] ✓ uc_01413.pdf - 4422 characters
+[1781/2000] ✓ uc_01434.pdf - 4780 characters
+[1782/2000] ✓ uc_01735.pdf - 5339 characters
+[1783/2000] ✓ uc_00246.pdf - 4301 characters
+[1784/2000] ✓ uc_00114.pdf - 4879 characters
+[1785/2000] ✓ uc_00850.pdf - 4907 characters
+[1786/2000] ✓ uc_00445.pdf - 4419 characters
+[1787/2000] ✓ uc_00517.pdf - 4314 characters
+[1788/2000] ✓ uc_00172.pdf - 4728 characters
+[1789/2000] ✓ uc_01480.pdf - 4338 characters
+[1790/2000] ✓ uc_00909.pdf - 4818 characters
+[1791/2000] ✓ uc_01776.pdf - 4406 characters
+[1792/2000] ✓ uc_01351.pdf - 4795 characters
+[1793/2000] ✓ uc_01656.pdf - 4775 characters
+[1794/2000] ✓ uc_00977.pdf - 4785 characters
+[1795/2000] ✓ uc_00646.pdf - 4383 characters
+[1796/2000] ✓ uc_00277.pdf - 4808 characters
+[1797/2000] ✓ uc_01068.pdf - 4364 characters
+[1798/2000] ✓ uc_00497.pdf - 4321 characters
+[1799/2000] ✓ uc_00187.pdf - 4759 characters
+[1800/2000] ✓ uc_00618.pdf - 4716 characters
+[1801/2000] ✓ uc_01637.pdf - 4525 characters
+[1802/2000] ✓ uc_00238.pdf - 4858 characters
+[1803/2000] ✓ uc_01589.pdf - 4798 characters
+[1804/2000] ✓ uc_00941.pdf - 4701 characters
+[1805/2000] ✓ uc_01192.pdf - 4382 characters
+[1806/2000] ✓ uc_01971.pdf - 4892 characters
+[1807/2000] ✓ uc_00171.pdf - 4640 characters
+[1808/2000] ✓ uc_00138.pdf - 4864 characters
+[1809/2000] ✓ uc_00829.pdf - 6088 characters
+[1810/2000] ✓ uc_00010.pdf - 4885 characters
+[1811/2000] ✓ uc_00946.pdf - 4251 characters
+[1812/2000] ✓ uc_01158.pdf - 4811 characters
+[1813/2000] ✓ uc_00903.pdf - 4493 characters
+[1814/2000] ✓ uc_01761.pdf - 4570 characters
+[1815/2000] ✓ uc_00906.pdf - 4746 characters
+[1816/2000] ✓ uc_01751.pdf - 4379 characters
+[1817/2000] ✓ uc_01288.pdf - 4389 characters
+[1818/2000] ✓ uc_00300.pdf - 4354 characters
+[1819/2000] ✓ uc_00197.pdf - 4282 characters
+[1820/2000] ✓ uc_01167.pdf - 5418 characters
+[1821/2000] ✓ uc_00098.pdf - 4771 characters
+[1822/2000] ✓ uc_00402.pdf - 4355 characters
+[1823/2000] ✓ uc_00831.pdf - 4219 characters
+[1824/2000] ✓ uc_00625.pdf - 4825 characters
+[1825/2000] ✓ uc_01127.pdf - 4897 characters
+[1826/2000] ✓ uc_00583.pdf - 4817 characters
+[1827/2000] ✓ uc_00986.pdf - 4616 characters
+[1828/2000] ✓ uc_00590.pdf - 4375 characters
+[1829/2000] ✓ uc_00251.pdf - 4385 characters
+[1830/2000] ✓ uc_01475.pdf - 4430 characters
+[1831/2000] ✓ uc_00175.pdf - 4418 characters
+[1832/2000] ✓ uc_01744.pdf - 5783 characters
+[1833/2000] ✓ uc_01922.pdf - 4596 characters
+[1834/2000] ✓ uc_00997.pdf - 4492 characters
+[1835/2000] ✓ uc_01869.pdf - 4364 characters
+[1836/2000] ✓ uc_01257.pdf - 4594 characters
+[1837/2000] ✓ uc_00186.pdf - 4461 characters
+[1838/2000] ✓ uc_01069.pdf - 4382 characters
+[1839/2000] ✓ uc_00843.pdf - 4399 characters
+[1840/2000] ✓ uc_01716.pdf - 4810 characters
+[1841/2000] ✓ uc_00724.pdf - 4680 characters
+[1842/2000] ✓ uc_01340.pdf - 4313 characters
+[1843/2000] ✓ uc_01999.pdf - 4366 characters
+[1844/2000] ✓ uc_00543.pdf - 4917 characters
+[1845/2000] ✓ uc_00955.pdf - 5196 characters
+[1846/2000] ✓ uc_00271.pdf - 5213 characters
+[1847/2000] ✓ uc_01547.pdf - 4429 characters
+[1848/2000] ✓ uc_01073.pdf - 4397 characters
+[1849/2000] ✓ uc_00156.pdf - 4993 characters
+[1850/2000] ✓ uc_00148.pdf - 5264 characters
+[1851/2000] ✓ uc_01206.pdf - 4804 characters
+[1852/2000] ✓ uc_01815.pdf - 4464 characters
+[1853/2000] ✓ uc_01126.pdf - 4373 characters
+[1854/2000] ✓ uc_00542.pdf - 5298 characters
+[1855/2000] ✓ uc_01040.pdf - 4379 characters
+[1856/2000] ✓ uc_00106.pdf - 4947 characters
+[1857/2000] ✓ uc_01552.pdf - 4313 characters
+[1858/2000] ✓ uc_00523.pdf - 4340 characters
+[1859/2000] ✓ uc_00009.pdf - 4636 characters
+[1860/2000] ✓ uc_01262.pdf - 4431 characters
+[1861/2000] ✓ uc_00594.pdf - 4649 characters
+[1862/2000] ✓ uc_00686.pdf - 4238 characters
+[1863/2000] ✓ uc_00666.pdf - 4622 characters
+[1864/2000] ✓ uc_01842.pdf - 4678 characters
+[1865/2000] ✓ uc_01954.pdf - 4349 characters
+[1866/2000] ✓ uc_00244.pdf - 4574 characters
+[1867/2000] ✓ uc_00825.pdf - 4410 characters
+[1868/2000] ✓ uc_00918.pdf - 4645 characters
+[1869/2000] ✓ uc_01037.pdf - 4806 characters
+[1870/2000] ✓ uc_00309.pdf - 4387 characters
+[1871/2000] ✓ uc_01561.pdf - 4294 characters
+[1872/2000] ✓ uc_00633.pdf - 4615 characters
+[1873/2000] ✓ uc_00146.pdf - 4455 characters
+[1874/2000] ✓ uc_01932.pdf - 4818 characters
+[1875/2000] ✓ uc_00908.pdf - 5413 characters
+[1876/2000] ✓ uc_01652.pdf - 4668 characters
+[1877/2000] ✓ uc_00814.pdf - 4825 characters
+[1878/2000] ✓ uc_01742.pdf - 4728 characters
+[1879/2000] ✓ uc_00827.pdf - 4703 characters
+[1880/2000] ✓ uc_01373.pdf - 4440 characters
+[1881/2000] ✓ uc_00249.pdf - 4490 characters
+[1882/2000] ✓ uc_00349.pdf - 4810 characters
+[1883/2000] ✓ uc_01918.pdf - 4423 characters
+[1884/2000] ✓ uc_00468.pdf - 4440 characters
+[1885/2000] ✓ uc_00530.pdf - 4920 characters
+[1886/2000] ✓ uc_00511.pdf - 4295 characters
+[1887/2000] ✓ uc_00152.pdf - 4415 characters
+[1888/2000] ✓ uc_00830.pdf - 4856 characters
+[1889/2000] ✓ uc_01746.pdf - 4241 characters
+[1890/2000] ✓ uc_01581.pdf - 4283 characters
+[1891/2000] ✓ uc_01792.pdf - 4981 characters
+[1892/2000] ✓ uc_01864.pdf - 4752 characters
+[1893/2000] ✓ uc_01907.pdf - 4352 characters
+[1894/2000] ✓ uc_01379.pdf - 4369 characters
+[1895/2000] ✓ uc_01769.pdf - 4424 characters
+[1896/2000] ✓ uc_01227.pdf - 4358 characters
+[1897/2000] ✓ uc_00258.pdf - 4801 characters
+[1898/2000] ✓ uc_01731.pdf - 4828 characters
+[1899/2000] ✓ uc_01684.pdf - 4413 characters
+[1900/2000] ✓ uc_00598.pdf - 4304 characters
+[1901/2000] ✓ uc_01593.pdf - 4741 characters
+[1902/2000] ✓ uc_01937.pdf - 4733 characters
+[1903/2000] ✓ uc_00140.pdf - 4380 characters
+[1904/2000] ✓ uc_01359.pdf - 4330 characters
+[1905/2000] ✓ uc_00004.pdf - 5169 characters
+[1906/2000] ✓ uc_00857.pdf - 4436 characters
+[1907/2000] ✓ uc_01232.pdf - 4374 characters
+[1908/2000] ✓ uc_00353.pdf - 4415 characters
+[1909/2000] ✓ uc_01345.pdf - 4444 characters
+[1910/2000] ✓ uc_00730.pdf - 4840 characters
+[1911/2000] ✓ uc_00894.pdf - 5019 characters
+[1912/2000] ✓ uc_01958.pdf - 4888 characters
+[1913/2000] ✓ uc_01334.pdf - 4694 characters
+[1914/2000] ✓ uc_00751.pdf - 4521 characters
+[1915/2000] ✓ uc_00460.pdf - 4915 characters
+[1916/2000] ✓ uc_00575.pdf - 4878 characters
+[1917/2000] ✓ uc_00593.pdf - 4380 characters
+[1918/2000] ✓ uc_01693.pdf - 4651 characters
+[1919/2000] ✓ uc_00813.pdf - 4693 characters
+[1920/2000] ✓ uc_00691.pdf - 4758 characters
+[1921/2000] ✓ uc_01923.pdf - 4713 characters
+[1922/2000] ✓ uc_01778.pdf - 4366 characters
+[1923/2000] ✓ uc_00907.pdf - 4835 characters
+[1924/2000] ✓ uc_00631.pdf - 4754 characters
+[1925/2000] ✓ uc_01016.pdf - 4797 characters
+[1926/2000] ✓ uc_01534.pdf - 4376 characters
+[1927/2000] ✓ uc_00540.pdf - 4686 characters
+[1928/2000] ✓ uc_00512.pdf - 4826 characters
+[1929/2000] ✓ uc_00569.pdf - 4823 characters
+[1930/2000] ✓ uc_01944.pdf - 4797 characters
+[1931/2000] ✓ uc_00176.pdf - 4907 characters
+[1932/2000] ✓ uc_01736.pdf - 4372 characters
+[1933/2000] ✓ uc_00596.pdf - 4768 characters
+[1934/2000] ✓ uc_00714.pdf - 4460 characters
+[1935/2000] ✓ uc_01961.pdf - 4893 characters
+[1936/2000] ✓ uc_00913.pdf - 4430 characters
+[1937/2000] ✓ uc_01572.pdf - 4702 characters
+[1938/2000] ✓ uc_00279.pdf - 4953 characters
+[1939/2000] ✓ uc_01261.pdf - 4875 characters
+[1940/2000] ✓ uc_00476.pdf - 4418 characters
+[1941/2000] ✓ uc_00276.pdf - 4864 characters
+[1942/2000] ✓ uc_01659.pdf - 4739 characters
+[1943/2000] ✓ uc_01983.pdf - 4308 characters
+[1944/2000] ✓ uc_01038.pdf - 4432 characters
+[1945/2000] ✓ uc_00259.pdf - 4798 characters
+[1946/2000] ✓ uc_01402.pdf - 4297 characters
+[1947/2000] ✓ uc_00966.pdf - 4386 characters
+[1948/2000] ✓ uc_01669.pdf - 4371 characters
+[1949/2000] ✓ uc_00549.pdf - 5068 characters
+[1950/2000] ✓ uc_00695.pdf - 5447 characters
+[1951/2000] ✓ uc_01986.pdf - 4311 characters
+[1952/2000] ✓ uc_00781.pdf - 5138 characters
+[1953/2000] ✓ uc_00482.pdf - 4356 characters
+[1954/2000] ✓ uc_01102.pdf - 4292 characters
+[1955/2000] ✓ uc_01131.pdf - 4860 characters
+[1956/2000] ✓ uc_00744.pdf - 4784 characters
+[1957/2000] ✓ uc_01473.pdf - 4738 characters
+[1958/2000] ✓ uc_00883.pdf - 4861 characters
+[1959/2000] ✓ uc_00198.pdf - 4746 characters
+[1960/2000] ✓ uc_01850.pdf - 4914 characters
+[1961/2000] ✓ uc_00032.pdf - 4374 characters
+[1962/2000] ✓ uc_00978.pdf - 5618 characters
+[1963/2000] ✓ uc_01166.pdf - 4514 characters
+[1964/2000] ✓ uc_00416.pdf - 4315 characters
+[1965/2000] ✓ uc_01215.pdf - 4372 characters
+[1966/2000] ✓ uc_01900.pdf - 4381 characters
+[1967/2000] ✓ uc_01861.pdf - 4726 characters
+[1968/2000] ✓ uc_01464.pdf - 4794 characters
+[1969/2000] ✓ uc_01093.pdf - 4368 characters
+[1970/2000] ✓ uc_00589.pdf - 4855 characters
+[1971/2000] ✓ uc_01175.pdf - 4249 characters
+[1972/2000] ✓ uc_01970.pdf - 4819 characters
+[1973/2000] ✓ uc_00720.pdf - 4391 characters
+[1974/2000] ✓ uc_01860.pdf - 4634 characters
+[1975/2000] ✓ uc_00385.pdf - 4415 characters
+[1976/2000] ✓ uc_01793.pdf - 4386 characters
+[1977/2000] ✓ uc_00880.pdf - 4881 characters
+[1978/2000] ✓ uc_00892.pdf - 4979 characters
+[1979/2000] ✓ uc_00930.pdf - 4711 characters
+[1980/2000] ✓ uc_01993.pdf - 4700 characters
+[1981/2000] ✓ uc_00043.pdf - 4395 characters
+[1982/2000] ✓ uc_00961.pdf - 4694 characters
+[1983/2000] ✓ uc_00524.pdf - 4686 characters
+[1984/2000] ✓ uc_01984.pdf - 4318 characters
+[1985/2000] ✓ uc_00872.pdf - 4300 characters
+[1986/2000] ✓ uc_00155.pdf - 4390 characters
+[1987/2000] ✓ uc_01973.pdf - 4343 characters
+[1988/2000] ✓ uc_00603.pdf - 4441 characters
+[1989/2000] ✓ uc_00166.pdf - 4634 characters
+[1990/2000] ✓ uc_01643.pdf - 5165 characters
+[1991/2000] ✓ uc_01140.pdf - 4314 characters
+[1992/2000] ✓ uc_01540.pdf - 4705 characters
+[1993/2000] ✓ uc_00504.pdf - 4305 characters
+[1994/2000] ✓ uc_01805.pdf - 4324 characters
+[1995/2000] ✓ uc_01591.pdf - 4467 characters
+[1996/2000] ✓ uc_00743.pdf - 4393 characters
+[1997/2000] ✓ uc_00627.pdf - 4869 characters
+[1998/2000] ✓ uc_01006.pdf - 4367 characters
+[1999/2000] ✓ uc_01607.pdf - 4776 characters
+[2000/2000] ✓ uc_01875.pdf - 5165 characters
+
+Successfully processed 2000 reports
+
+======================================================================
+STEP 2: GENERATING EMBEDDINGS
+======================================================================
+
+Loading model from /home/agauta01/anmol_work/bioclinicalbert_local on cuda...
+Running in OFFLINE mode (local files only)
+✓ Model loaded successfully!
+
+Generating embeddings for 2000 reports...
+Processed 8/2000 reports
+Processed 16/2000 reports
+Processed 24/2000 reports
+Processed 32/2000 reports
+Processed 40/2000 reports
+Processed 48/2000 reports
+Processed 56/2000 reports
+Processed 64/2000 reports
+Processed 72/2000 reports
+Processed 80/2000 reports
+Processed 88/2000 reports
+Processed 96/2000 reports
+Processed 104/2000 reports
+Processed 112/2000 reports
+Processed 120/2000 reports
+Processed 128/2000 reports
+Processed 136/2000 reports
+Processed 144/2000 reports
+Processed 152/2000 reports
+Processed 160/2000 reports
+Processed 168/2000 reports
+Processed 176/2000 reports
+Processed 184/2000 reports
+Processed 192/2000 reports
+Processed 200/2000 reports
+Processed 208/2000 reports
+Processed 216/2000 reports
+Processed 224/2000 reports
+Processed 232/2000 reports
+Processed 240/2000 reports
+Processed 248/2000 reports
+Processed 256/2000 reports
+Processed 264/2000 reports
+Processed 272/2000 reports
+Processed 280/2000 reports
+Processed 288/2000 reports
+Processed 296/2000 reports
+Processed 304/2000 reports
+Processed 312/2000 reports
+Processed 320/2000 reports
+Processed 328/2000 reports
+Processed 336/2000 reports
+Processed 344/2000 reports
+Processed 352/2000 reports
+Processed 360/2000 reports
+Processed 368/2000 reports
+Processed 376/2000 reports
+Processed 384/2000 reports
+Processed 392/2000 reports
+Processed 400/2000 reports
+Processed 408/2000 reports
+Processed 416/2000 reports
+Processed 424/2000 reports
+Processed 432/2000 reports
+Processed 440/2000 reports
+Processed 448/2000 reports
+Processed 456/2000 reports
+Processed 464/2000 reports
+Processed 472/2000 reports
+Processed 480/2000 reports
+Processed 488/2000 reports
+Processed 496/2000 reports
+Processed 504/2000 reports
+Processed 512/2000 reports
+Processed 520/2000 reports
+Processed 528/2000 reports
+Processed 536/2000 reports
+Processed 544/2000 reports
+Processed 552/2000 reports
+Processed 560/2000 reports
+Processed 568/2000 reports
+Processed 576/2000 reports
+Processed 584/2000 reports
+Processed 592/2000 reports
+Processed 600/2000 reports
+Processed 608/2000 reports
+Processed 616/2000 reports
+Processed 624/2000 reports
+Processed 632/2000 reports
+Processed 640/2000 reports
+Processed 648/2000 reports
+Processed 656/2000 reports
+Processed 664/2000 reports
+Processed 672/2000 reports
+Processed 680/2000 reports
+Processed 688/2000 reports
+Processed 696/2000 reports
+Processed 704/2000 reports
+Processed 712/2000 reports
+Processed 720/2000 reports
+Processed 728/2000 reports
+Processed 736/2000 reports
+Processed 744/2000 reports
+Processed 752/2000 reports
+Processed 760/2000 reports
+Processed 768/2000 reports
+Processed 776/2000 reports
+Processed 784/2000 reports
+Processed 792/2000 reports
+Processed 800/2000 reports
+Processed 808/2000 reports
+Processed 816/2000 reports
+Processed 824/2000 reports
+Processed 832/2000 reports
+Processed 840/2000 reports
+Processed 848/2000 reports
+Processed 856/2000 reports
+Processed 864/2000 reports
+Processed 872/2000 reports
+Processed 880/2000 reports
+Processed 888/2000 reports
+Processed 896/2000 reports
+Processed 904/2000 reports
+Processed 912/2000 reports
+Processed 920/2000 reports
+Processed 928/2000 reports
+Processed 936/2000 reports
+Processed 944/2000 reports
+Processed 952/2000 reports
+Processed 960/2000 reports
+Processed 968/2000 reports
+Processed 976/2000 reports
+Processed 984/2000 reports
+Processed 992/2000 reports
+Processed 1000/2000 reports
+Processed 1008/2000 reports
+Processed 1016/2000 reports
+Processed 1024/2000 reports
+Processed 1032/2000 reports
+Processed 1040/2000 reports
+Processed 1048/2000 reports
+Processed 1056/2000 reports
+Processed 1064/2000 reports
+Processed 1072/2000 reports
+Processed 1080/2000 reports
+Processed 1088/2000 reports
+Processed 1096/2000 reports
+Processed 1104/2000 reports
+Processed 1112/2000 reports
+Processed 1120/2000 reports
+Processed 1128/2000 reports
+Processed 1136/2000 reports
+Processed 1144/2000 reports
+Processed 1152/2000 reports
+Processed 1160/2000 reports
+Processed 1168/2000 reports
+Processed 1176/2000 reports
+Processed 1184/2000 reports
+Processed 1192/2000 reports
+Processed 1200/2000 reports
+Processed 1208/2000 reports
+Processed 1216/2000 reports
+Processed 1224/2000 reports
+Processed 1232/2000 reports
+Processed 1240/2000 reports
+Processed 1248/2000 reports
+Processed 1256/2000 reports
+Processed 1264/2000 reports
+Processed 1272/2000 reports
+Processed 1280/2000 reports
+Processed 1288/2000 reports
+Processed 1296/2000 reports
+Processed 1304/2000 reports
+Processed 1312/2000 reports
+Processed 1320/2000 reports
+Processed 1328/2000 reports
+Processed 1336/2000 reports
+Processed 1344/2000 reports
+Processed 1352/2000 reports
+Processed 1360/2000 reports
+Processed 1368/2000 reports
+Processed 1376/2000 reports
+Processed 1384/2000 reports
+Processed 1392/2000 reports
+Processed 1400/2000 reports
+Processed 1408/2000 reports
+Processed 1416/2000 reports
+Processed 1424/2000 reports
+Processed 1432/2000 reports
+Processed 1440/2000 reports
+Processed 1448/2000 reports
+Processed 1456/2000 reports
+Processed 1464/2000 reports
+Processed 1472/2000 reports
+Processed 1480/2000 reports
+Processed 1488/2000 reports
+Processed 1496/2000 reports
+Processed 1504/2000 reports
+Processed 1512/2000 reports
+Processed 1520/2000 reports
+Processed 1528/2000 reports
+Processed 1536/2000 reports
+Processed 1544/2000 reports
+Processed 1552/2000 reports
+Processed 1560/2000 reports
+Processed 1568/2000 reports
+Processed 1576/2000 reports
+Processed 1584/2000 reports
+Processed 1592/2000 reports
+Processed 1600/2000 reports
+Processed 1608/2000 reports
+Processed 1616/2000 reports
+Processed 1624/2000 reports
+Processed 1632/2000 reports
+Processed 1640/2000 reports
+Processed 1648/2000 reports
+Processed 1656/2000 reports
+Processed 1664/2000 reports
+Processed 1672/2000 reports
+Processed 1680/2000 reports
+Processed 1688/2000 reports
+Processed 1696/2000 reports
+Processed 1704/2000 reports
+Processed 1712/2000 reports
+Processed 1720/2000 reports
+Processed 1728/2000 reports
+Processed 1736/2000 reports
+Processed 1744/2000 reports
+Processed 1752/2000 reports
+Processed 1760/2000 reports
+Processed 1768/2000 reports
+Processed 1776/2000 reports
+Processed 1784/2000 reports
+Processed 1792/2000 reports
+Processed 1800/2000 reports
+Processed 1808/2000 reports
+Processed 1816/2000 reports
+Processed 1824/2000 reports
+Processed 1832/2000 reports
+Processed 1840/2000 reports
+Processed 1848/2000 reports
+Processed 1856/2000 reports
+Processed 1864/2000 reports
+Processed 1872/2000 reports
+Processed 1880/2000 reports
+Processed 1888/2000 reports
+Processed 1896/2000 reports
+Processed 1904/2000 reports
+Processed 1912/2000 reports
+Processed 1920/2000 reports
+Processed 1928/2000 reports
+Processed 1936/2000 reports
+Processed 1944/2000 reports
+Processed 1952/2000 reports
+Processed 1960/2000 reports
+Processed 1968/2000 reports
+Processed 1976/2000 reports
+Processed 1984/2000 reports
+Processed 1992/2000 reports
+Processed 2000/2000 reports
+Generated embeddings with shape: (2000, 768)
+
+======================================================================
+STEP 3: CLUSTERING
+======================================================================
+
+Performing kmeans clustering into 4 groups...
+Clustering complete!
+Cluster distribution: [597 626 405 372]
+
+======================================================================
+STEP 4: CALCULATING METRICS
+======================================================================
+
+Calculating clustering metrics...
+
+Clustering Quality Metrics:
+  Silhouette Score: 0.1024 (higher is better, range: -1 to 1)
+  Davies-Bouldin Index: 2.8116 (lower is better)
+  Calinski-Harabasz Score: 820.46 (higher is better)
+  Avg Within-Cluster Distance: 0.0028
+  Avg Between-Cluster Distance: 0.0045
+
+======================================================================
+STEP 6: MAPPING TO MAYO SCORES
+======================================================================
+
+Mapping clusters to Mayo severity scores...
+Note: Without ground truth, Mayo scores are assigned heuristically.
+Consider validating with clinical experts or labeled data.
+
+Cluster to Mayo Score Mapping:
+  Cluster 0 -> Mayo 1 (597 reports)
+  Cluster 1 -> Mayo 3 (626 reports)
+  Cluster 2 -> Mayo 0 (405 reports)
+  Cluster 3 -> Mayo 2 (372 reports)
+
+======================================================================
+STEP 8: SAVING RESULTS
+======================================================================
+
+======================================================================
+STEP 9: CREATING VISUALIZATIONS
+======================================================================
+
+Generating visualizations...
+Computing t-SNE (this may take a moment)...
+Visualizations saved to ./uc_clustering_results
+
+======================================================================
+PIPELINE COMPLETE!
+======================================================================
+
+Results saved to: ./uc_clustering_results
+
+Generated files:
+  - clustering_results.csv: Main results with Mayo scores
+  - embeddings.npy: BioClinicalBERT embeddings
+  - extracted_texts.json: Extracted PDF texts
+  - metrics_summary.csv: All clustering metrics
+  - clustering_report.txt: Detailed text report
+  - pca_visualization.png: 2D PCA plot
+  - tsne_visualization.png: 2D t-SNE plot
+  - similarity_heatmap.png: Cosine similarity matrix
+  - mayo_distribution.png: Distribution bar chart
+
+======================================================================
+SUMMARY STATISTICS
+======================================================================
+Total reports processed: 2000
+Mayo 0 (Normal/Quiescent): 405 reports
+Mayo 1 (Mild): 597 reports
+Mayo 2 (Moderate): 372 reports
+Mayo 3 (Severe): 626 reports
+3. ------- Calculate time elapsed ------- 
+Total of 81 seconds elapsed for process
+--------- Finished with job 270206
