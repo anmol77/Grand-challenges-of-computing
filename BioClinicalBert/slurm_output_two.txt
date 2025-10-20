@@ -1,0 +1,2463 @@
+--------- Start  job 274407
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: PyPDF2 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (3.0.1)
+Requirement already satisfied: typing_extensions>=3.10.0.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from PyPDF2) (4.1.1)
+
+[notice] A new release of pip is available: 23.2.1 -> 25.0.1
+[notice] To update, run: python -m pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: PyMuPDF in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (1.24.11)
+
+[notice] A new release of pip is available: 23.2.1 -> 25.0.1
+[notice] To update, run: python -m pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: transformers in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (4.46.3)
+Requirement already satisfied: filelock in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from transformers) (3.9.0)
+Requirement already satisfied: huggingface-hub<1.0,>=0.23.2 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (0.35.3)
+Requirement already satisfied: numpy>=1.17 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from transformers) (1.22.2)
+Requirement already satisfied: packaging>=20.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (25.0)
+Requirement already satisfied: pyyaml>=5.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (6.0.3)
+Requirement already satisfied: regex!=2019.12.17 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (2024.11.6)
+Requirement already satisfied: requests in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from transformers) (2.27.1)
+Requirement already satisfied: tokenizers<0.21,>=0.20 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (0.20.3)
+Requirement already satisfied: safetensors>=0.4.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (0.5.3)
+Requirement already satisfied: tqdm>=4.27 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers) (4.67.1)
+Requirement already satisfied: fsspec>=2023.5.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from huggingface-hub<1.0,>=0.23.2->transformers) (2025.3.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from huggingface-hub<1.0,>=0.23.2->transformers) (4.1.1)
+Requirement already satisfied: hf-xet<2.0.0,>=1.1.3 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from huggingface-hub<1.0,>=0.23.2->transformers) (1.1.10)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->transformers) (1.26.8)
+Requirement already satisfied: certifi>=2017.4.17 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->transformers) (2021.10.8)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->transformers) (2.0.12)
+Requirement already satisfied: idna<4,>=2.5 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->transformers) (3.3)
+
+[notice] A new release of pip is available: 23.2.1 -> 25.0.1
+[notice] To update, run: python -m pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: sentence-transformers in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (3.2.1)
+Requirement already satisfied: transformers<5.0.0,>=4.41.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from sentence-transformers) (4.46.3)
+Requirement already satisfied: tqdm in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from sentence-transformers) (4.67.1)
+Requirement already satisfied: torch>=1.11.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from sentence-transformers) (2.1.0+cu118)
+Requirement already satisfied: scikit-learn in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from sentence-transformers) (1.3.2)
+Requirement already satisfied: scipy in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from sentence-transformers) (1.10.1)
+Requirement already satisfied: huggingface-hub>=0.20.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from sentence-transformers) (0.35.3)
+Requirement already satisfied: Pillow in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from sentence-transformers) (9.3.0)
+Requirement already satisfied: filelock in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (3.9.0)
+Requirement already satisfied: fsspec>=2023.5.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (2025.3.0)
+Requirement already satisfied: packaging>=20.9 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (25.0)
+Requirement already satisfied: pyyaml>=5.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (6.0.3)
+Requirement already satisfied: requests in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (2.27.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (4.1.1)
+Requirement already satisfied: hf-xet<2.0.0,>=1.1.3 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (1.1.10)
+Requirement already satisfied: sympy in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from torch>=1.11.0->sentence-transformers) (1.11.1)
+Requirement already satisfied: networkx in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from torch>=1.11.0->sentence-transformers) (3.0)
+Requirement already satisfied: jinja2 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from torch>=1.11.0->sentence-transformers) (3.1.2)
+Requirement already satisfied: triton==2.1.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from torch>=1.11.0->sentence-transformers) (2.1.0)
+Requirement already satisfied: numpy>=1.17 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from transformers<5.0.0,>=4.41.0->sentence-transformers) (1.22.2)
+Requirement already satisfied: regex!=2019.12.17 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers<5.0.0,>=4.41.0->sentence-transformers) (2024.11.6)
+Requirement already satisfied: tokenizers<0.21,>=0.20 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers<5.0.0,>=4.41.0->sentence-transformers) (0.20.3)
+Requirement already satisfied: safetensors>=0.4.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from transformers<5.0.0,>=4.41.0->sentence-transformers) (0.5.3)
+Requirement already satisfied: joblib>=1.1.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from scikit-learn->sentence-transformers) (1.4.2)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from scikit-learn->sentence-transformers) (3.5.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from jinja2->torch>=1.11.0->sentence-transformers) (2.1.2)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->huggingface-hub>=0.20.0->sentence-transformers) (1.26.8)
+Requirement already satisfied: certifi>=2017.4.17 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->huggingface-hub>=0.20.0->sentence-transformers) (2021.10.8)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->huggingface-hub>=0.20.0->sentence-transformers) (2.0.12)
+Requirement already satisfied: idna<4,>=2.5 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from requests->huggingface-hub>=0.20.0->sentence-transformers) (3.3)
+Requirement already satisfied: mpmath>=0.19 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from sympy->torch>=1.11.0->sentence-transformers) (1.2.1)
+
+[notice] A new release of pip is available: 23.2.1 -> 25.0.1
+[notice] To update, run: python -m pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: matplotlib in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (3.7.5)
+Requirement already satisfied: contourpy>=1.0.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (1.1.1)
+Requirement already satisfied: cycler>=0.10 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (4.57.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (1.4.7)
+Requirement already satisfied: numpy<2,>=1.20 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from matplotlib) (1.22.2)
+Requirement already satisfied: packaging>=20.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (25.0)
+Requirement already satisfied: pillow>=6.2.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from matplotlib) (9.3.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (3.1.4)
+Requirement already satisfied: python-dateutil>=2.7 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from matplotlib) (2.8.2)
+Requirement already satisfied: importlib-resources>=3.2.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib) (6.4.5)
+Requirement already satisfied: zipp>=3.1.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from importlib-resources>=3.2.0->matplotlib) (3.7.0)
+Requirement already satisfied: six>=1.5 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+
+[notice] A new release of pip is available: 23.2.1 -> 25.0.1
+[notice] To update, run: python -m pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: seaborn in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (0.13.2)
+Requirement already satisfied: numpy!=1.24.0,>=1.20 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from seaborn) (1.22.2)
+Requirement already satisfied: pandas>=1.2 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from seaborn) (1.4.1)
+Requirement already satisfied: matplotlib!=3.6.1,>=3.4 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from seaborn) (3.7.5)
+Requirement already satisfied: contourpy>=1.0.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.1.1)
+Requirement already satisfied: cycler>=0.10 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (4.57.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.4.7)
+Requirement already satisfied: packaging>=20.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (25.0)
+Requirement already satisfied: pillow>=6.2.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib64/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (9.3.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (3.1.4)
+Requirement already satisfied: python-dateutil>=2.7 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (2.8.2)
+Requirement already satisfied: importlib-resources>=3.2.0 in /mnt/beegfs/home/agauta01/.local/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (6.4.5)
+Requirement already satisfied: pytz>=2020.1 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from pandas>=1.2->seaborn) (2021.3)
+Requirement already satisfied: zipp>=3.1.0 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from importlib-resources>=3.2.0->matplotlib!=3.6.1,>=3.4->seaborn) (3.7.0)
+Requirement already satisfied: six>=1.5 in /net/clusterhn.cluster.com/opt/rh/rh-python38/root/usr/local/lib/python3.8/site-packages (from python-dateutil>=2.7->matplotlib!=3.6.1,>=3.4->seaborn) (1.16.0)
+
+[notice] A new release of pip is available: 23.2.1 -> 25.0.1
+[notice] To update, run: python -m pip install --upgrade pip
+/opt/scikit-learn/site-packages/sklearn/manifold/_t_sne.py:780: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  warnings.warn(
+/opt/scikit-learn/site-packages/sklearn/manifold/_t_sne.py:790: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  warnings.warn(
+======================================================================
+UC PATHOLOGY REPORT CLUSTERING WITH BioClinicalBERT
+======================================================================
+Device: cuda
+Model: /home/agauta01/anmol_work/bioclinicalbert_local
+Offline mode: True
+Number of clusters: 4
+
+======================================================================
+STEP 1: LOADING PDF REPORTS
+======================================================================
+
+Found 2000 PDF files in /home/agauta01/anmol_work/uc_textual_reports_pdf
+Extracting text from PDFs...
+[1/2000] ✓ report_1082.pdf - 4198 characters
+[2/2000] ✓ report_1562.pdf - 4290 characters
+[3/2000] ✓ report_1671.pdf - 4365 characters
+[4/2000] ✓ report_0632.pdf - 4078 characters
+[5/2000] ✓ report_1453.pdf - 4259 characters
+[6/2000] ✓ report_0990.pdf - 4146 characters
+[7/2000] ✓ report_1672.pdf - 4151 characters
+[8/2000] ✓ report_1789.pdf - 3689 characters
+[9/2000] ✓ report_1820.pdf - 4024 characters
+[10/2000] ✓ report_1376.pdf - 4400 characters
+[11/2000] ✓ report_1950.pdf - 4211 characters
+[12/2000] ✓ report_0196.pdf - 4175 characters
+[13/2000] ✓ report_0558.pdf - 4118 characters
+[14/2000] ✓ report_0598.pdf - 3684 characters
+[15/2000] ✓ report_1580.pdf - 4098 characters
+[16/2000] ✓ report_1700.pdf - 3676 characters
+[17/2000] ✓ report_0388.pdf - 3694 characters
+[18/2000] ✓ report_1686.pdf - 4418 characters
+[19/2000] ✓ report_1544.pdf - 4157 characters
+[20/2000] ✓ report_0726.pdf - 4339 characters
+[21/2000] ✓ report_0217.pdf - 4261 characters
+[22/2000] ✓ report_0782.pdf - 4238 characters
+[23/2000] ✓ report_0051.pdf - 4072 characters
+[24/2000] ✓ report_0582.pdf - 4213 characters
+[25/2000] ✓ report_1714.pdf - 4168 characters
+[26/2000] ✓ report_1900.pdf - 4439 characters
+[27/2000] ✓ report_1005.pdf - 4089 characters
+[28/2000] ✓ report_0249.pdf - 4111 characters
+[29/2000] ✓ report_0010.pdf - 4170 characters
+[30/2000] ✓ report_1222.pdf - 4247 characters
+[31/2000] ✓ report_1149.pdf - 4248 characters
+[32/2000] ✓ report_1170.pdf - 3656 characters
+[33/2000] ✓ report_1311.pdf - 4068 characters
+[34/2000] ✓ report_0434.pdf - 4097 characters
+[35/2000] ✓ report_1961.pdf - 4096 characters
+[36/2000] ✓ report_0695.pdf - 4183 characters
+[37/2000] ✓ report_1778.pdf - 3691 characters
+[38/2000] ✓ report_0435.pdf - 4265 characters
+[39/2000] ✓ report_0228.pdf - 4109 characters
+[40/2000] ✓ report_0090.pdf - 4230 characters
+[41/2000] ✓ report_1400.pdf - 4172 characters
+[42/2000] ✓ report_0697.pdf - 4147 characters
+[43/2000] ✓ report_0131.pdf - 4196 characters
+[44/2000] ✓ report_0394.pdf - 3686 characters
+[45/2000] ✓ report_0112.pdf - 4239 characters
+[46/2000] ✓ report_1173.pdf - 3678 characters
+[47/2000] ✓ report_0968.pdf - 4219 characters
+[48/2000] ✓ report_0336.pdf - 3670 characters
+[49/2000] ✓ report_1026.pdf - 4281 characters
+[50/2000] ✓ report_0154.pdf - 4194 characters
+[51/2000] ✓ report_1369.pdf - 4181 characters
+[52/2000] ✓ report_1926.pdf - 4214 characters
+[53/2000] ✓ report_1404.pdf - 4245 characters
+[54/2000] ✓ report_0343.pdf - 4214 characters
+[55/2000] ✓ report_1997.pdf - 4276 characters
+[56/2000] ✓ report_0172.pdf - 4304 characters
+[57/2000] ✓ report_0946.pdf - 3695 characters
+[58/2000] ✓ report_1677.pdf - 3676 characters
+[59/2000] ✓ report_1701.pdf - 4050 characters
+[60/2000] ✓ report_0732.pdf - 4276 characters
+[61/2000] ✓ report_0928.pdf - 3701 characters
+[62/2000] ✓ report_1670.pdf - 3691 characters
+[63/2000] ✓ report_1558.pdf - 4320 characters
+[64/2000] ✓ report_1856.pdf - 4201 characters
+[65/2000] ✓ report_0945.pdf - 3651 characters
+[66/2000] ✓ report_0689.pdf - 4082 characters
+[67/2000] ✓ report_1242.pdf - 4097 characters
+[68/2000] ✓ report_0626.pdf - 4368 characters
+[69/2000] ✓ report_0957.pdf - 4291 characters
+[70/2000] ✓ report_1861.pdf - 4061 characters
+[71/2000] ✓ report_1150.pdf - 4240 characters
+[72/2000] ✓ report_0791.pdf - 4113 characters
+[73/2000] ✓ report_0424.pdf - 3680 characters
+[74/2000] ✓ report_0724.pdf - 4135 characters
+[75/2000] ✓ report_1536.pdf - 4102 characters
+[76/2000] ✓ report_1138.pdf - 4155 characters
+[77/2000] ✓ report_1483.pdf - 3695 characters
+[78/2000] ✓ report_1307.pdf - 4272 characters
+[79/2000] ✓ report_1532.pdf - 4148 characters
+[80/2000] ✓ report_1834.pdf - 4249 characters
+[81/2000] ✓ report_0778.pdf - 4198 characters
+[82/2000] ✓ report_1294.pdf - 4006 characters
+[83/2000] ✓ report_1487.pdf - 3704 characters
+[84/2000] ✓ report_1674.pdf - 3687 characters
+[85/2000] ✓ report_0512.pdf - 4279 characters
+[86/2000] ✓ report_1776.pdf - 4071 characters
+[87/2000] ✓ report_1338.pdf - 4235 characters
+[88/2000] ✓ report_0673.pdf - 3653 characters
+[89/2000] ✓ report_1915.pdf - 4198 characters
+[90/2000] ✓ report_0677.pdf - 4104 characters
+[91/2000] ✓ report_1198.pdf - 4147 characters
+[92/2000] ✓ report_1816.pdf - 4038 characters
+[93/2000] ✓ report_1039.pdf - 4196 characters
+[94/2000] ✓ report_1609.pdf - 4001 characters
+[95/2000] ✓ report_0314.pdf - 4265 characters
+[96/2000] ✓ report_0668.pdf - 4125 characters
+[97/2000] ✓ report_0737.pdf - 3716 characters
+[98/2000] ✓ report_1599.pdf - 4182 characters
+[99/2000] ✓ report_0616.pdf - 4188 characters
+[100/2000] ✓ report_1838.pdf - 4238 characters
+[101/2000] ✓ report_1999.pdf - 4025 characters
+[102/2000] ✓ report_0482.pdf - 4279 characters
+[103/2000] ✓ report_1716.pdf - 4114 characters
+[104/2000] ✓ report_0628.pdf - 3684 characters
+[105/2000] ✓ report_0868.pdf - 4341 characters
+[106/2000] ✓ report_0745.pdf - 4247 characters
+[107/2000] ✓ report_0380.pdf - 4124 characters
+[108/2000] ✓ report_0986.pdf - 4103 characters
+[109/2000] ✓ report_1597.pdf - 3662 characters
+[110/2000] ✓ report_1505.pdf - 3983 characters
+[111/2000] ✓ report_0833.pdf - 3697 characters
+[112/2000] ✓ report_1233.pdf - 4191 characters
+[113/2000] ✓ report_0470.pdf - 4160 characters
+[114/2000] ✓ report_1201.pdf - 4250 characters
+[115/2000] ✓ report_0794.pdf - 4166 characters
+[116/2000] ✓ report_0501.pdf - 3671 characters
+[117/2000] ✓ report_0503.pdf - 4399 characters
+[118/2000] ✓ report_1952.pdf - 4376 characters
+[119/2000] ✓ report_1268.pdf - 4221 characters
+[120/2000] ✓ report_1847.pdf - 4300 characters
+[121/2000] ✓ report_1273.pdf - 4164 characters
+[122/2000] ✓ report_1297.pdf - 4135 characters
+[123/2000] ✓ report_0417.pdf - 4233 characters
+[124/2000] ✓ report_0063.pdf - 4100 characters
+[125/2000] ✓ report_0560.pdf - 4195 characters
+[126/2000] ✓ report_1868.pdf - 4148 characters
+[127/2000] ✓ report_1474.pdf - 4126 characters
+[128/2000] ✓ report_1633.pdf - 4136 characters
+[129/2000] ✓ report_0148.pdf - 4200 characters
+[130/2000] ✓ report_0634.pdf - 4203 characters
+[131/2000] ✓ report_0104.pdf - 4071 characters
+[132/2000] ✓ report_1720.pdf - 3681 characters
+[133/2000] ✓ report_1811.pdf - 4209 characters
+[134/2000] ✓ report_0058.pdf - 4126 characters
+[135/2000] ✓ report_0094.pdf - 4188 characters
+[136/2000] ✓ report_1718.pdf - 4242 characters
+[137/2000] ✓ report_1425.pdf - 4199 characters
+[138/2000] ✓ report_1655.pdf - 4148 characters
+[139/2000] ✓ report_1188.pdf - 4277 characters
+[140/2000] ✓ report_0885.pdf - 4274 characters
+[141/2000] ✓ report_1690.pdf - 4156 characters
+[142/2000] ✓ report_1130.pdf - 3664 characters
+[143/2000] ✓ report_0593.pdf - 4197 characters
+[144/2000] ✓ report_0406.pdf - 3682 characters
+[145/2000] ✓ report_0971.pdf - 3696 characters
+[146/2000] ✓ report_1283.pdf - 4248 characters
+[147/2000] ✓ report_1402.pdf - 4053 characters
+[148/2000] ✓ report_1223.pdf - 4248 characters
+[149/2000] ✓ report_1048.pdf - 4233 characters
+[150/2000] ✓ report_0053.pdf - 4055 characters
+[151/2000] ✓ report_1888.pdf - 4231 characters
+[152/2000] ✓ report_0764.pdf - 4329 characters
+[153/2000] ✓ report_0674.pdf - 4028 characters
+[154/2000] ✓ report_1960.pdf - 4301 characters
+[155/2000] ✓ report_0923.pdf - 4446 characters
+[156/2000] ✓ report_1966.pdf - 4215 characters
+[157/2000] ✓ report_0950.pdf - 4212 characters
+[158/2000] ✓ report_1489.pdf - 4146 characters
+[159/2000] ✓ report_0956.pdf - 3646 characters
+[160/2000] ✓ report_1555.pdf - 4101 characters
+[161/2000] ✓ report_0226.pdf - 4291 characters
+[162/2000] ✓ report_1191.pdf - 3701 characters
+[163/2000] ✓ report_0776.pdf - 3674 characters
+[164/2000] ✓ report_1413.pdf - 4396 characters
+[165/2000] ✓ report_1454.pdf - 4213 characters
+[166/2000] ✓ report_1513.pdf - 3689 characters
+[167/2000] ✓ report_0731.pdf - 4216 characters
+[168/2000] ✓ report_0599.pdf - 4133 characters
+[169/2000] ✓ report_0457.pdf - 4074 characters
+[170/2000] ✓ report_1285.pdf - 4323 characters
+[171/2000] ✓ report_0930.pdf - 4315 characters
+[172/2000] ✓ report_1758.pdf - 4113 characters
+[173/2000] ✓ report_1885.pdf - 4102 characters
+[174/2000] ✓ report_1197.pdf - 3653 characters
+[175/2000] ✓ report_0219.pdf - 4109 characters
+[176/2000] ✓ report_1050.pdf - 4180 characters
+[177/2000] ✓ report_0423.pdf - 3668 characters
+[178/2000] ✓ report_0936.pdf - 4123 characters
+[179/2000] ✓ report_0774.pdf - 4318 characters
+[180/2000] ✓ report_1257.pdf - 4083 characters
+[181/2000] ✓ report_0313.pdf - 4295 characters
+[182/2000] ✓ report_0141.pdf - 4254 characters
+[183/2000] ✓ report_1041.pdf - 4191 characters
+[184/2000] ✓ report_0043.pdf - 4238 characters
+[185/2000] ✓ report_0412.pdf - 4370 characters
+[186/2000] ✓ report_0099.pdf - 4052 characters
+[187/2000] ✓ report_0455.pdf - 4174 characters
+[188/2000] ✓ report_1269.pdf - 4263 characters
+[189/2000] ✓ report_1240.pdf - 4085 characters
+[190/2000] ✓ report_1087.pdf - 4133 characters
+[191/2000] ✓ report_1204.pdf - 4228 characters
+[192/2000] ✓ report_1865.pdf - 4370 characters
+[193/2000] ✓ report_0328.pdf - 4268 characters
+[194/2000] ✓ report_0064.pdf - 4151 characters
+[195/2000] ✓ report_1455.pdf - 4356 characters
+[196/2000] ✓ report_1113.pdf - 4366 characters
+[197/2000] ✓ report_0591.pdf - 4171 characters
+[198/2000] ✓ report_1210.pdf - 3686 characters
+[199/2000] ✓ report_0644.pdf - 3696 characters
+[200/2000] ✓ report_0437.pdf - 4287 characters
+[201/2000] ✓ report_1260.pdf - 4223 characters
+[202/2000] ✓ report_0964.pdf - 4121 characters
+[203/2000] ✓ report_1654.pdf - 4214 characters
+[204/2000] ✓ report_0840.pdf - 4153 characters
+[205/2000] ✓ report_1025.pdf - 4232 characters
+[206/2000] ✓ report_0183.pdf - 4165 characters
+[207/2000] ✓ report_1883.pdf - 4254 characters
+[208/2000] ✓ report_0753.pdf - 3698 characters
+[209/2000] ✓ report_0403.pdf - 4218 characters
+[210/2000] ✓ report_0947.pdf - 4390 characters
+[211/2000] ✓ report_1947.pdf - 4303 characters
+[212/2000] ✓ report_0878.pdf - 3690 characters
+[213/2000] ✓ report_1830.pdf - 4251 characters
+[214/2000] ✓ report_0150.pdf - 4224 characters
+[215/2000] ✓ report_1337.pdf - 3643 characters
+[216/2000] ✓ report_0013.pdf - 4111 characters
+[217/2000] ✓ report_0381.pdf - 4243 characters
+[218/2000] ✓ report_0250.pdf - 4221 characters
+[219/2000] ✓ report_1590.pdf - 4085 characters
+[220/2000] ✓ report_1467.pdf - 4219 characters
+[221/2000] ✓ report_1503.pdf - 4091 characters
+[222/2000] ✓ report_1102.pdf - 4112 characters
+[223/2000] ✓ report_1963.pdf - 4147 characters
+[224/2000] ✓ report_0033.pdf - 4212 characters
+[225/2000] ✓ report_1920.pdf - 3706 characters
+[226/2000] ✓ report_0819.pdf - 4165 characters
+[227/2000] ✓ report_1171.pdf - 4247 characters
+[228/2000] ✓ report_0432.pdf - 3662 characters
+[229/2000] ✓ report_1657.pdf - 4224 characters
+[230/2000] ✓ report_1200.pdf - 4150 characters
+[231/2000] ✓ report_1293.pdf - 4126 characters
+[232/2000] ✓ report_0487.pdf - 4033 characters
+[233/2000] ✓ report_0282.pdf - 4206 characters
+[234/2000] ✓ report_1769.pdf - 4183 characters
+[235/2000] ✓ report_0210.pdf - 4237 characters
+[236/2000] ✓ report_1781.pdf - 4093 characters
+[237/2000] ✓ report_0227.pdf - 4151 characters
+[238/2000] ✓ report_1879.pdf - 4256 characters
+[239/2000] ✓ report_0621.pdf - 4173 characters
+[240/2000] ✓ report_0540.pdf - 4211 characters
+[241/2000] ✓ report_0491.pdf - 4198 characters
+[242/2000] ✓ report_0974.pdf - 4133 characters
+[243/2000] ✓ report_1800.pdf - 3682 characters
+[244/2000] ✓ report_1410.pdf - 4167 characters
+[245/2000] ✓ report_0734.pdf - 3702 characters
+[246/2000] ✓ report_0320.pdf - 4131 characters
+[247/2000] ✓ report_0958.pdf - 4135 characters
+[248/2000] ✓ report_0756.pdf - 3690 characters
+[249/2000] ✓ report_0513.pdf - 4264 characters
+[250/2000] ✓ report_0120.pdf - 4047 characters
+[251/2000] ✓ report_1460.pdf - 3704 characters
+[252/2000] ✓ report_0752.pdf - 4273 characters
+[253/2000] ✓ report_0983.pdf - 4055 characters
+[254/2000] ✓ report_1998.pdf - 4283 characters
+[255/2000] ✓ report_0510.pdf - 4158 characters
+[256/2000] ✓ report_1583.pdf - 4349 characters
+[257/2000] ✓ report_1324.pdf - 4250 characters
+[258/2000] ✓ report_0164.pdf - 4217 characters
+[259/2000] ✓ report_0436.pdf - 4252 characters
+[260/2000] ✓ report_0767.pdf - 4041 characters
+[261/2000] ✓ report_0577.pdf - 4158 characters
+[262/2000] ✓ report_0057.pdf - 4249 characters
+[263/2000] ✓ report_1098.pdf - 4154 characters
+[264/2000] ✓ report_1903.pdf - 4236 characters
+[265/2000] ✓ report_1226.pdf - 4146 characters
+[266/2000] ✓ report_1631.pdf - 4166 characters
+[267/2000] ✓ report_0951.pdf - 4308 characters
+[268/2000] ✓ report_1651.pdf - 4193 characters
+[269/2000] ✓ report_0121.pdf - 4133 characters
+[270/2000] ✓ report_0872.pdf - 3678 characters
+[271/2000] ✓ report_0590.pdf - 4365 characters
+[272/2000] ✓ report_1089.pdf - 3672 characters
+[273/2000] ✓ report_1423.pdf - 4222 characters
+[274/2000] ✓ report_1079.pdf - 4210 characters
+[275/2000] ✓ report_1339.pdf - 4230 characters
+[276/2000] ✓ report_1547.pdf - 4251 characters
+[277/2000] ✓ report_1818.pdf - 4251 characters
+[278/2000] ✓ report_0866.pdf - 4125 characters
+[279/2000] ✓ report_0389.pdf - 4321 characters
+[280/2000] ✓ report_1344.pdf - 4208 characters
+[281/2000] ✓ report_0416.pdf - 4314 characters
+[282/2000] ✓ report_1469.pdf - 4203 characters
+[283/2000] ✓ report_1096.pdf - 4305 characters
+[284/2000] ✓ report_1902.pdf - 4250 characters
+[285/2000] ✓ report_1266.pdf - 4130 characters
+[286/2000] ✓ report_0310.pdf - 4079 characters
+[287/2000] ✓ report_1831.pdf - 4058 characters
+[288/2000] ✓ report_0531.pdf - 4018 characters
+[289/2000] ✓ report_1443.pdf - 4284 characters
+[290/2000] ✓ report_1990.pdf - 4165 characters
+[291/2000] ✓ report_0302.pdf - 4230 characters
+[292/2000] ✓ report_1355.pdf - 4097 characters
+[293/2000] ✓ report_0046.pdf - 4288 characters
+[294/2000] ✓ report_0205.pdf - 3649 characters
+[295/2000] ✓ report_1771.pdf - 4165 characters
+[296/2000] ✓ report_0028.pdf - 4248 characters
+[297/2000] ✓ report_1959.pdf - 4351 characters
+[298/2000] ✓ report_1850.pdf - 4287 characters
+[299/2000] ✓ report_1424.pdf - 3663 characters
+[300/2000] ✓ report_0040.pdf - 4128 characters
+[301/2000] ✓ report_0246.pdf - 4152 characters
+[302/2000] ✓ report_1084.pdf - 4105 characters
+[303/2000] ✓ report_0011.pdf - 4077 characters
+[304/2000] ✓ report_0808.pdf - 4175 characters
+[305/2000] ✓ report_0828.pdf - 4071 characters
+[306/2000] ✓ report_0935.pdf - 4269 characters
+[307/2000] ✓ report_0242.pdf - 4128 characters
+[308/2000] ✓ report_1922.pdf - 3681 characters
+[309/2000] ✓ report_0203.pdf - 4249 characters
+[310/2000] ✓ report_1008.pdf - 3691 characters
+[311/2000] ✓ report_0428.pdf - 4221 characters
+[312/2000] ✓ report_0155.pdf - 4039 characters
+[313/2000] ✓ report_1065.pdf - 4164 characters
+[314/2000] ✓ report_0134.pdf - 4210 characters
+[315/2000] ✓ report_1067.pdf - 4099 characters
+[316/2000] ✓ report_1972.pdf - 3722 characters
+[317/2000] ✓ report_0856.pdf - 4269 characters
+[318/2000] ✓ report_1675.pdf - 3668 characters
+[319/2000] ✓ report_0477.pdf - 4229 characters
+[320/2000] ✓ report_1870.pdf - 4201 characters
+[321/2000] ✓ report_0994.pdf - 4169 characters
+[322/2000] ✓ report_1430.pdf - 4298 characters
+[323/2000] ✓ report_1214.pdf - 4283 characters
+[324/2000] ✓ report_1366.pdf - 4225 characters
+[325/2000] ✓ report_1449.pdf - 4159 characters
+[326/2000] ✓ report_0614.pdf - 4175 characters
+[327/2000] ✓ report_0303.pdf - 4233 characters
+[328/2000] ✓ report_0970.pdf - 4284 characters
+[329/2000] ✓ report_0049.pdf - 4361 characters
+[330/2000] ✓ report_0450.pdf - 4170 characters
+[331/2000] ✓ report_0169.pdf - 4161 characters
+[332/2000] ✓ report_1875.pdf - 4125 characters
+[333/2000] ✓ report_1928.pdf - 4039 characters
+[334/2000] ✓ report_0084.pdf - 4319 characters
+[335/2000] ✓ report_0719.pdf - 4221 characters
+[336/2000] ✓ report_0804.pdf - 4252 characters
+[337/2000] ✓ report_0653.pdf - 4150 characters
+[338/2000] ✓ report_0466.pdf - 4051 characters
+[339/2000] ✓ report_0220.pdf - 4138 characters
+[340/2000] ✓ report_1715.pdf - 4284 characters
+[341/2000] ✓ report_0562.pdf - 3689 characters
+[342/2000] ✓ report_0426.pdf - 4070 characters
+[343/2000] ✓ report_1634.pdf - 4378 characters
+[344/2000] ✓ report_0755.pdf - 4325 characters
+[345/2000] ✓ report_1309.pdf - 4188 characters
+[346/2000] ✓ report_1163.pdf - 4310 characters
+[347/2000] ✓ report_0490.pdf - 4161 characters
+[348/2000] ✓ report_0055.pdf - 3684 characters
+[349/2000] ✓ report_0113.pdf - 4345 characters
+[350/2000] ✓ report_0128.pdf - 4201 characters
+[351/2000] ✓ report_0722.pdf - 3705 characters
+[352/2000] ✓ report_1804.pdf - 4296 characters
+[353/2000] ✓ report_1296.pdf - 4368 characters
+[354/2000] ✓ report_1949.pdf - 4180 characters
+[355/2000] ✓ report_0567.pdf - 4247 characters
+[356/2000] ✓ report_0093.pdf - 3685 characters
+[357/2000] ✓ report_0001.pdf - 4135 characters
+[358/2000] ✓ report_0965.pdf - 3702 characters
+[359/2000] ✓ report_0864.pdf - 4195 characters
+[360/2000] ✓ report_1923.pdf - 4059 characters
+[361/2000] ✓ report_1554.pdf - 3695 characters
+[362/2000] ✓ report_0548.pdf - 4287 characters
+[363/2000] ✓ report_0475.pdf - 4170 characters
+[364/2000] ✓ report_0649.pdf - 4279 characters
+[365/2000] ✓ report_1100.pdf - 4197 characters
+[366/2000] ✓ report_1642.pdf - 4246 characters
+[367/2000] ✓ report_0216.pdf - 3694 characters
+[368/2000] ✓ report_0743.pdf - 4221 characters
+[369/2000] ✓ report_0456.pdf - 4233 characters
+[370/2000] ✓ report_1976.pdf - 3649 characters
+[371/2000] ✓ report_0347.pdf - 4290 characters
+[372/2000] ✓ report_0619.pdf - 4213 characters
+[373/2000] ✓ report_0239.pdf - 4203 characters
+[374/2000] ✓ report_1060.pdf - 4405 characters
+[375/2000] ✓ report_0919.pdf - 4125 characters
+[376/2000] ✓ report_0658.pdf - 4239 characters
+[377/2000] ✓ report_0297.pdf - 4129 characters
+[378/2000] ✓ report_1891.pdf - 3685 characters
+[379/2000] ✓ report_0736.pdf - 4062 characters
+[380/2000] ✓ report_0777.pdf - 4154 characters
+[381/2000] ✓ report_0715.pdf - 4250 characters
+[382/2000] ✓ report_0657.pdf - 3693 characters
+[383/2000] ✓ report_1448.pdf - 4327 characters
+[384/2000] ✓ report_1784.pdf - 4203 characters
+[385/2000] ✓ report_1553.pdf - 4119 characters
+[386/2000] ✓ report_0976.pdf - 4232 characters
+[387/2000] ✓ report_0191.pdf - 4154 characters
+[388/2000] ✓ report_0615.pdf - 4120 characters
+[389/2000] ✓ report_1845.pdf - 4104 characters
+[390/2000] ✓ report_1577.pdf - 4094 characters
+[391/2000] ✓ report_0126.pdf - 4321 characters
+[392/2000] ✓ report_1399.pdf - 4112 characters
+[393/2000] ✓ report_1764.pdf - 4369 characters
+[394/2000] ✓ report_0326.pdf - 4275 characters
+[395/2000] ✓ report_1641.pdf - 4171 characters
+[396/2000] ✓ report_1431.pdf - 4383 characters
+[397/2000] ✓ report_0105.pdf - 4165 characters
+[398/2000] ✓ report_1584.pdf - 4325 characters
+[399/2000] ✓ report_1206.pdf - 4363 characters
+[400/2000] ✓ report_1805.pdf - 4038 characters
+[401/2000] ✓ report_0321.pdf - 4178 characters
+[402/2000] ✓ report_0699.pdf - 4218 characters
+[403/2000] ✓ report_0894.pdf - 4240 characters
+[404/2000] ✓ report_0572.pdf - 4229 characters
+[405/2000] ✓ report_1765.pdf - 4047 characters
+[406/2000] ✓ report_1737.pdf - 4029 characters
+[407/2000] ✓ report_1803.pdf - 4269 characters
+[408/2000] ✓ report_1796.pdf - 4285 characters
+[409/2000] ✓ report_0991.pdf - 3685 characters
+[410/2000] ✓ report_1182.pdf - 4178 characters
+[411/2000] ✓ report_0258.pdf - 3696 characters
+[412/2000] ✓ report_0273.pdf - 4052 characters
+[413/2000] ✓ report_1643.pdf - 4224 characters
+[414/2000] ✓ report_1711.pdf - 4076 characters
+[415/2000] ✓ report_0291.pdf - 4225 characters
+[416/2000] ✓ report_1942.pdf - 3686 characters
+[417/2000] ✓ report_1256.pdf - 4048 characters
+[418/2000] ✓ report_1167.pdf - 4100 characters
+[419/2000] ✓ report_0879.pdf - 4233 characters
+[420/2000] ✓ report_1447.pdf - 4091 characters
+[421/2000] ✓ report_0960.pdf - 4333 characters
+[422/2000] ✓ report_1578.pdf - 4222 characters
+[423/2000] ✓ report_0761.pdf - 4077 characters
+[424/2000] ✓ report_0130.pdf - 4251 characters
+[425/2000] ✓ report_1591.pdf - 4279 characters
+[426/2000] ✓ report_1774.pdf - 4190 characters
+[427/2000] ✓ report_0062.pdf - 4381 characters
+[428/2000] ✓ report_1955.pdf - 4077 characters
+[429/2000] ✓ report_0809.pdf - 3692 characters
+[430/2000] ✓ report_0016.pdf - 4200 characters
+[431/2000] ✓ report_0253.pdf - 4234 characters
+[432/2000] ✓ report_0793.pdf - 4276 characters
+[433/2000] ✓ report_0570.pdf - 4136 characters
+[434/2000] ✓ report_0140.pdf - 4290 characters
+[435/2000] ✓ report_1911.pdf - 4283 characters
+[436/2000] ✓ report_0004.pdf - 4271 characters
+[437/2000] ✓ report_1994.pdf - 4197 characters
+[438/2000] ✓ report_0147.pdf - 4148 characters
+[439/2000] ✓ report_1989.pdf - 4140 characters
+[440/2000] ✓ report_1368.pdf - 4256 characters
+[441/2000] ✓ report_0439.pdf - 4127 characters
+[442/2000] ✓ report_1252.pdf - 3675 characters
+[443/2000] ✓ report_1812.pdf - 4239 characters
+[444/2000] ✓ report_1889.pdf - 4190 characters
+[445/2000] ✓ report_1030.pdf - 4157 characters
+[446/2000] ✓ report_0870.pdf - 4193 characters
+[447/2000] ✓ report_0309.pdf - 4295 characters
+[448/2000] ✓ report_0331.pdf - 4159 characters
+[449/2000] ✓ report_1916.pdf - 4383 characters
+[450/2000] ✓ report_1383.pdf - 4100 characters
+[451/2000] ✓ report_1882.pdf - 4198 characters
+[452/2000] ✓ report_0166.pdf - 4148 characters
+[453/2000] ✓ report_1746.pdf - 4310 characters
+[454/2000] ✓ report_1077.pdf - 3650 characters
+[455/2000] ✓ report_0022.pdf - 4362 characters
+[456/2000] ✓ report_0682.pdf - 4263 characters
+[457/2000] ✓ report_1618.pdf - 4058 characters
+[458/2000] ✓ report_1890.pdf - 4270 characters
+[459/2000] ✓ report_0111.pdf - 4085 characters
+[460/2000] ✓ report_1943.pdf - 4186 characters
+[461/2000] ✓ report_0536.pdf - 4322 characters
+[462/2000] ✓ report_0218.pdf - 4335 characters
+[463/2000] ✓ report_0301.pdf - 4143 characters
+[464/2000] ✓ report_1478.pdf - 4094 characters
+[465/2000] ✓ report_1407.pdf - 4131 characters
+[466/2000] ✓ report_0528.pdf - 4405 characters
+[467/2000] ✓ report_1312.pdf - 4351 characters
+[468/2000] ✓ report_0173.pdf - 4213 characters
+[469/2000] ✓ report_1364.pdf - 4098 characters
+[470/2000] ✓ report_1497.pdf - 3669 characters
+[471/2000] ✓ report_1080.pdf - 4194 characters
+[472/2000] ✓ report_1216.pdf - 4116 characters
+[473/2000] ✓ report_0995.pdf - 3703 characters
+[474/2000] ✓ report_0564.pdf - 4216 characters
+[475/2000] ✓ report_1542.pdf - 4315 characters
+[476/2000] ✓ report_0811.pdf - 4179 characters
+[477/2000] ✓ report_1379.pdf - 4307 characters
+[478/2000] ✓ report_1684.pdf - 4142 characters
+[479/2000] ✓ report_1656.pdf - 4303 characters
+[480/2000] ✓ report_1408.pdf - 4296 characters
+[481/2000] ✓ report_0982.pdf - 4259 characters
+[482/2000] ✓ report_0963.pdf - 4012 characters
+[483/2000] ✓ report_0659.pdf - 4312 characters
+[484/2000] ✓ report_0883.pdf - 3687 characters
+[485/2000] ✓ report_1908.pdf - 4278 characters
+[486/2000] ✓ report_0831.pdf - 4158 characters
+[487/2000] ✓ report_0020.pdf - 4108 characters
+[488/2000] ✓ report_0584.pdf - 4155 characters
+[489/2000] ✓ report_0127.pdf - 4231 characters
+[490/2000] ✓ report_0916.pdf - 4346 characters
+[491/2000] ✓ report_1145.pdf - 4316 characters
+[492/2000] ✓ report_0826.pdf - 4208 characters
+[493/2000] ✓ report_0357.pdf - 4139 characters
+[494/2000] ✓ report_0723.pdf - 4136 characters
+[495/2000] ✓ report_0603.pdf - 4130 characters
+[496/2000] ✓ report_1093.pdf - 4045 characters
+[497/2000] ✓ report_1537.pdf - 4333 characters
+[498/2000] ✓ report_1568.pdf - 3685 characters
+[499/2000] ✓ report_1742.pdf - 4324 characters
+[500/2000] ✓ report_1322.pdf - 4219 characters
+[501/2000] ✓ report_1476.pdf - 4207 characters
+[502/2000] ✓ report_0785.pdf - 3676 characters
+[503/2000] ✓ report_1519.pdf - 4303 characters
+[504/2000] ✓ report_0119.pdf - 4167 characters
+[505/2000] ✓ report_1187.pdf - 4388 characters
+[506/2000] ✓ report_0927.pdf - 4254 characters
+[507/2000] ✓ report_1573.pdf - 4169 characters
+[508/2000] ✓ report_1848.pdf - 4267 characters
+[509/2000] ✓ report_1004.pdf - 4229 characters
+[510/2000] ✓ report_1172.pdf - 4075 characters
+[511/2000] ✓ report_1815.pdf - 4105 characters
+[512/2000] ✓ report_0260.pdf - 4240 characters
+[513/2000] ✓ report_1826.pdf - 4217 characters
+[514/2000] ✓ report_1495.pdf - 4159 characters
+[515/2000] ✓ report_1086.pdf - 3703 characters
+[516/2000] ✓ report_0788.pdf - 4269 characters
+[517/2000] ✓ report_0006.pdf - 4108 characters
+[518/2000] ✓ report_1526.pdf - 4324 characters
+[519/2000] ✓ report_0139.pdf - 4224 characters
+[520/2000] ✓ report_0861.pdf - 4259 characters
+[521/2000] ✓ report_1678.pdf - 4213 characters
+[522/2000] ✓ report_1839.pdf - 4153 characters
+[523/2000] ✓ report_0393.pdf - 3677 characters
+[524/2000] ✓ report_0517.pdf - 4142 characters
+[525/2000] ✓ report_1175.pdf - 4310 characters
+[526/2000] ✓ report_1650.pdf - 4321 characters
+[527/2000] ✓ report_1038.pdf - 4152 characters
+[528/2000] ✓ report_0708.pdf - 4069 characters
+[529/2000] ✓ report_0904.pdf - 4117 characters
+[530/2000] ✓ report_0520.pdf - 4298 characters
+[531/2000] ✓ report_0222.pdf - 4079 characters
+[532/2000] ✓ report_0913.pdf - 4325 characters
+[533/2000] ✓ report_1582.pdf - 4276 characters
+[534/2000] ✓ report_0779.pdf - 4224 characters
+[535/2000] ✓ report_1314.pdf - 4332 characters
+[536/2000] ✓ report_0924.pdf - 4195 characters
+[537/2000] ✓ report_1533.pdf - 4330 characters
+[538/2000] ✓ report_0607.pdf - 4307 characters
+[539/2000] ✓ report_1934.pdf - 4185 characters
+[540/2000] ✓ report_0286.pdf - 4249 characters
+[541/2000] ✓ report_0835.pdf - 4253 characters
+[542/2000] ✓ report_1136.pdf - 4055 characters
+[543/2000] ✓ report_0917.pdf - 4269 characters
+[544/2000] ✓ report_0295.pdf - 4194 characters
+[545/2000] ✓ report_0252.pdf - 4221 characters
+[546/2000] ✓ report_1196.pdf - 4111 characters
+[547/2000] ✓ report_0667.pdf - 4335 characters
+[548/2000] ✓ report_1477.pdf - 4246 characters
+[549/2000] ✓ report_1340.pdf - 4272 characters
+[550/2000] ✓ report_0240.pdf - 4073 characters
+[551/2000] ✓ report_1074.pdf - 4284 characters
+[552/2000] ✓ report_1121.pdf - 4153 characters
+[553/2000] ✓ report_0036.pdf - 4055 characters
+[554/2000] ✓ report_1979.pdf - 4214 characters
+[555/2000] ✓ report_1610.pdf - 4169 characters
+[556/2000] ✓ report_1906.pdf - 4188 characters
+[557/2000] ✓ report_1177.pdf - 4241 characters
+[558/2000] ✓ report_1549.pdf - 4033 characters
+[559/2000] ✓ report_1514.pdf - 3656 characters
+[560/2000] ✓ report_1153.pdf - 3673 characters
+[561/2000] ✓ report_0898.pdf - 4251 characters
+[562/2000] ✓ report_0493.pdf - 4288 characters
+[563/2000] ✓ report_0184.pdf - 4234 characters
+[564/2000] ✓ report_1262.pdf - 4247 characters
+[565/2000] ✓ report_1518.pdf - 4093 characters
+[566/2000] ✓ report_1986.pdf - 4233 characters
+[567/2000] ✓ report_1653.pdf - 4052 characters
+[568/2000] ✓ report_0012.pdf - 4193 characters
+[569/2000] ✓ report_0305.pdf - 4350 characters
+[570/2000] ✓ report_0630.pdf - 4250 characters
+[571/2000] ✓ report_0170.pdf - 3664 characters
+[572/2000] ✓ report_1506.pdf - 4078 characters
+[573/2000] ✓ report_1126.pdf - 4098 characters
+[574/2000] ✓ report_0032.pdf - 4359 characters
+[575/2000] ✓ report_0676.pdf - 4199 characters
+[576/2000] ✓ report_0587.pdf - 4102 characters
+[577/2000] ✓ report_1978.pdf - 4228 characters
+[578/2000] ✓ report_0738.pdf - 4071 characters
+[579/2000] ✓ report_0733.pdf - 4138 characters
+[580/2000] ✓ report_1243.pdf - 4186 characters
+[581/2000] ✓ report_1373.pdf - 4200 characters
+[582/2000] ✓ report_1658.pdf - 4286 characters
+[583/2000] ✓ report_1351.pdf - 4241 characters
+[584/2000] ✓ report_0679.pdf - 4214 characters
+[585/2000] ✓ report_0296.pdf - 4151 characters
+[586/2000] ✓ report_1147.pdf - 4293 characters
+[587/2000] ✓ report_0009.pdf - 4241 characters
+[588/2000] ✓ report_0789.pdf - 4167 characters
+[589/2000] ✓ report_1302.pdf - 4186 characters
+[590/2000] ✓ report_0339.pdf - 3658 characters
+[591/2000] ✓ report_1602.pdf - 4250 characters
+[592/2000] ✓ report_1362.pdf - 3709 characters
+[593/2000] ✓ report_0921.pdf - 4253 characters
+[594/2000] ✓ report_0662.pdf - 4309 characters
+[595/2000] ✓ report_0504.pdf - 4269 characters
+[596/2000] ✓ report_0993.pdf - 4143 characters
+[597/2000] ✓ report_1531.pdf - 3999 characters
+[598/2000] ✓ report_1596.pdf - 4173 characters
+[599/2000] ✓ report_0754.pdf - 4302 characters
+[600/2000] ✓ report_1827.pdf - 4251 characters
+[601/2000] ✓ report_0725.pdf - 4165 characters
+[602/2000] ✓ report_0369.pdf - 4242 characters
+[603/2000] ✓ report_0713.pdf - 4255 characters
+[604/2000] ✓ report_0257.pdf - 4253 characters
+[605/2000] ✓ report_1353.pdf - 4053 characters
+[606/2000] ✓ report_0609.pdf - 4072 characters
+[607/2000] ✓ report_1114.pdf - 4071 characters
+[608/2000] ✓ report_1498.pdf - 4120 characters
+[609/2000] ✓ report_0884.pdf - 4066 characters
+[610/2000] ✓ report_1669.pdf - 4244 characters
+[611/2000] ✓ report_1028.pdf - 4268 characters
+[612/2000] ✓ report_0694.pdf - 4101 characters
+[613/2000] ✓ report_1754.pdf - 4358 characters
+[614/2000] ✓ report_1045.pdf - 4095 characters
+[615/2000] ✓ report_0912.pdf - 4088 characters
+[616/2000] ✓ report_0080.pdf - 4278 characters
+[617/2000] ✓ report_1323.pdf - 3688 characters
+[618/2000] ✓ report_0803.pdf - 4227 characters
+[619/2000] ✓ report_0454.pdf - 3674 characters
+[620/2000] ✓ report_0427.pdf - 4069 characters
+[621/2000] ✓ report_1661.pdf - 4146 characters
+[622/2000] ✓ report_1199.pdf - 4245 characters
+[623/2000] ✓ report_0523.pdf - 4313 characters
+[624/2000] ✓ report_1713.pdf - 4191 characters
+[625/2000] ✓ report_1131.pdf - 4183 characters
+[626/2000] ✓ report_0368.pdf - 4195 characters
+[627/2000] ✓ report_0353.pdf - 4207 characters
+[628/2000] ✓ report_1032.pdf - 4276 characters
+[629/2000] ✓ report_0610.pdf - 4328 characters
+[630/2000] ✓ report_1247.pdf - 4226 characters
+[631/2000] ✓ report_1280.pdf - 4360 characters
+[632/2000] ✓ report_0401.pdf - 4254 characters
+[633/2000] ✓ report_1068.pdf - 4124 characters
+[634/2000] ✓ report_1647.pdf - 4154 characters
+[635/2000] ✓ report_1832.pdf - 4149 characters
+[636/2000] ✓ report_1729.pdf - 4202 characters
+[637/2000] ✓ report_0274.pdf - 3695 characters
+[638/2000] ✓ report_1493.pdf - 4094 characters
+[639/2000] ✓ report_1721.pdf - 4160 characters
+[640/2000] ✓ report_0497.pdf - 4091 characters
+[641/2000] ✓ report_0021.pdf - 4128 characters
+[642/2000] ✓ report_0905.pdf - 4314 characters
+[643/2000] ✓ report_0071.pdf - 4077 characters
+[644/2000] ✓ report_0751.pdf - 4307 characters
+[645/2000] ✓ report_1552.pdf - 4264 characters
+[646/2000] ✓ report_0492.pdf - 4007 characters
+[647/2000] ✓ report_0352.pdf - 4345 characters
+[648/2000] ✓ report_0544.pdf - 4232 characters
+[649/2000] ✓ report_0890.pdf - 3690 characters
+[650/2000] ✓ report_0185.pdf - 4342 characters
+[651/2000] ✓ report_1620.pdf - 4124 characters
+[652/2000] ✓ report_0506.pdf - 4128 characters
+[653/2000] ✓ report_1785.pdf - 4098 characters
+[654/2000] ✓ report_1909.pdf - 4352 characters
+[655/2000] ✓ report_0527.pdf - 4110 characters
+[656/2000] ✓ report_0221.pdf - 4084 characters
+[657/2000] ✓ report_0304.pdf - 3695 characters
+[658/2000] ✓ report_1702.pdf - 4168 characters
+[659/2000] ✓ report_2000.pdf - 4350 characters
+[660/2000] ✓ report_0359.pdf - 4247 characters
+[661/2000] ✓ report_0508.pdf - 4108 characters
+[662/2000] ✓ report_0189.pdf - 3706 characters
+[663/2000] ✓ report_0243.pdf - 4278 characters
+[664/2000] ✓ report_0288.pdf - 4009 characters
+[665/2000] ✓ report_0348.pdf - 4380 characters
+[666/2000] ✓ report_1504.pdf - 4175 characters
+[667/2000] ✓ report_1354.pdf - 4172 characters
+[668/2000] ✓ report_1011.pdf - 4158 characters
+[669/2000] ✓ report_0002.pdf - 4091 characters
+[670/2000] ✓ report_1053.pdf - 4069 characters
+[671/2000] ✓ report_0187.pdf - 4231 characters
+[672/2000] ✓ report_0341.pdf - 4287 characters
+[673/2000] ✓ report_0769.pdf - 4339 characters
+[674/2000] ✓ report_0799.pdf - 4108 characters
+[675/2000] ✓ report_0145.pdf - 4243 characters
+[676/2000] ✓ report_0618.pdf - 3686 characters
+[677/2000] ✓ report_0775.pdf - 4373 characters
+[678/2000] ✓ report_1884.pdf - 4288 characters
+[679/2000] ✓ report_1329.pdf - 4374 characters
+[680/2000] ✓ report_0684.pdf - 4281 characters
+[681/2000] ✓ report_0969.pdf - 4176 characters
+[682/2000] ✓ report_1665.pdf - 4021 characters
+[683/2000] ✓ report_1235.pdf - 4172 characters
+[684/2000] ✓ report_0262.pdf - 4188 characters
+[685/2000] ✓ report_1779.pdf - 4216 characters
+[686/2000] ✓ report_1422.pdf - 3673 characters
+[687/2000] ✓ report_1743.pdf - 4332 characters
+[688/2000] ✓ report_0571.pdf - 4408 characters
+[689/2000] ✓ report_0519.pdf - 4256 characters
+[690/2000] ✓ report_0342.pdf - 4131 characters
+[691/2000] ✓ report_0026.pdf - 3669 characters
+[692/2000] ✓ report_1766.pdf - 4200 characters
+[693/2000] ✓ report_0897.pdf - 4196 characters
+[694/2000] ✓ report_1507.pdf - 4145 characters
+[695/2000] ✓ report_1244.pdf - 3689 characters
+[696/2000] ✓ report_0651.pdf - 4357 characters
+[697/2000] ✓ report_0133.pdf - 3677 characters
+[698/2000] ✓ report_0115.pdf - 4100 characters
+[699/2000] ✓ report_0934.pdf - 3660 characters
+[700/2000] ✓ report_1433.pdf - 4301 characters
+[701/2000] ✓ report_0714.pdf - 4217 characters
+[702/2000] ✓ report_1313.pdf - 4116 characters
+[703/2000] ✓ report_1343.pdf - 4301 characters
+[704/2000] ✓ report_0975.pdf - 3677 characters
+[705/2000] ✓ report_0707.pdf - 4369 characters
+[706/2000] ✓ report_0671.pdf - 4344 characters
+[707/2000] ✓ report_0661.pdf - 4279 characters
+[708/2000] ✓ report_1846.pdf - 4218 characters
+[709/2000] ✓ report_1587.pdf - 4209 characters
+[710/2000] ✓ report_1696.pdf - 4158 characters
+[711/2000] ✓ report_1880.pdf - 4197 characters
+[712/2000] ✓ report_1272.pdf - 4229 characters
+[713/2000] ✓ report_1181.pdf - 3663 characters
+[714/2000] ✓ report_1438.pdf - 3687 characters
+[715/2000] ✓ report_0845.pdf - 4019 characters
+[716/2000] ✓ report_1790.pdf - 4152 characters
+[717/2000] ✓ report_1559.pdf - 4122 characters
+[718/2000] ✓ report_1491.pdf - 4242 characters
+[719/2000] ✓ report_0117.pdf - 4289 characters
+[720/2000] ✓ report_0961.pdf - 4235 characters
+[721/2000] ✓ report_0275.pdf - 4023 characters
+[722/2000] ✓ report_1325.pdf - 4189 characters
+[723/2000] ✓ report_0937.pdf - 4151 characters
+[724/2000] ✓ report_1523.pdf - 3685 characters
+[725/2000] ✓ report_0650.pdf - 4073 characters
+[726/2000] ✓ report_0290.pdf - 3691 characters
+[727/2000] ✓ report_1752.pdf - 4207 characters
+[728/2000] ✓ report_0469.pdf - 4050 characters
+[729/2000] ✓ report_1844.pdf - 4208 characters
+[730/2000] ✓ report_0814.pdf - 4066 characters
+[731/2000] ✓ report_0037.pdf - 4185 characters
+[732/2000] ✓ report_1231.pdf - 4312 characters
+[733/2000] ✓ report_0122.pdf - 3652 characters
+[734/2000] ✓ report_1901.pdf - 4256 characters
+[735/2000] ✓ report_0545.pdf - 3693 characters
+[736/2000] ✓ report_0308.pdf - 4203 characters
+[737/2000] ✓ report_1159.pdf - 4159 characters
+[738/2000] ✓ report_0345.pdf - 4289 characters
+[739/2000] ✓ report_0578.pdf - 3656 characters
+[740/2000] ✓ report_1887.pdf - 4244 characters
+[741/2000] ✓ report_1019.pdf - 4175 characters
+[742/2000] ✓ report_0801.pdf - 4302 characters
+[743/2000] ✓ report_1841.pdf - 4169 characters
+[744/2000] ✓ report_1727.pdf - 3699 characters
+[745/2000] ✓ report_0346.pdf - 4355 characters
+[746/2000] ✓ report_1205.pdf - 4231 characters
+[747/2000] ✓ report_1274.pdf - 4227 characters
+[748/2000] ✓ report_0889.pdf - 4188 characters
+[749/2000] ✓ report_0886.pdf - 4285 characters
+[750/2000] ✓ report_1249.pdf - 4298 characters
+[751/2000] ✓ report_0638.pdf - 4209 characters
+[752/2000] ✓ report_0372.pdf - 4192 characters
+[753/2000] ✓ report_1541.pdf - 4301 characters
+[754/2000] ✓ report_1822.pdf - 4262 characters
+[755/2000] ✓ report_0574.pdf - 4242 characters
+[756/2000] ✓ report_1118.pdf - 4217 characters
+[757/2000] ✓ report_0233.pdf - 4088 characters
+[758/2000] ✓ report_1143.pdf - 4218 characters
+[759/2000] ✓ report_1286.pdf - 4275 characters
+[760/2000] ✓ report_1051.pdf - 4385 characters
+[761/2000] ✓ report_1162.pdf - 4158 characters
+[762/2000] ✓ report_0744.pdf - 4240 characters
+[763/2000] ✓ report_0152.pdf - 4282 characters
+[764/2000] ✓ report_1971.pdf - 4232 characters
+[765/2000] ✓ report_0985.pdf - 4082 characters
+[766/2000] ✓ report_0911.pdf - 4161 characters
+[767/2000] ✓ report_0029.pdf - 4118 characters
+[768/2000] ✓ report_0652.pdf - 4214 characters
+[769/2000] ✓ report_0083.pdf - 4324 characters
+[770/2000] ✓ report_0852.pdf - 4369 characters
+[771/2000] ✓ report_1569.pdf - 4361 characters
+[772/2000] ✓ report_0265.pdf - 4145 characters
+[773/2000] ✓ report_0367.pdf - 4246 characters
+[774/2000] ✓ report_0617.pdf - 3680 characters
+[775/2000] ✓ report_0815.pdf - 4171 characters
+[776/2000] ✓ report_0441.pdf - 4197 characters
+[777/2000] ✓ report_0079.pdf - 4249 characters
+[778/2000] ✓ report_0498.pdf - 4301 characters
+[779/2000] ✓ report_0050.pdf - 4261 characters
+[780/2000] ✓ report_0716.pdf - 4231 characters
+[781/2000] ✓ report_0838.pdf - 4118 characters
+[782/2000] ✓ report_1248.pdf - 4056 characters
+[783/2000] ✓ report_0690.pdf - 4254 characters
+[784/2000] ✓ report_1745.pdf - 4076 characters
+[785/2000] ✓ report_0939.pdf - 4060 characters
+[786/2000] ✓ report_1016.pdf - 4199 characters
+[787/2000] ✓ report_1668.pdf - 4288 characters
+[788/2000] ✓ report_0693.pdf - 4184 characters
+[789/2000] ✓ report_1221.pdf - 4103 characters
+[790/2000] ✓ report_0792.pdf - 3656 characters
+[791/2000] ✓ report_1932.pdf - 4081 characters
+[792/2000] ✓ report_0355.pdf - 4162 characters
+[793/2000] ✓ report_0980.pdf - 4187 characters
+[794/2000] ✓ report_1277.pdf - 4175 characters
+[795/2000] ✓ report_1579.pdf - 4317 characters
+[796/2000] ✓ report_1472.pdf - 4178 characters
+[797/2000] ✓ report_0784.pdf - 4097 characters
+[798/2000] ✓ report_0402.pdf - 4312 characters
+[799/2000] ✓ report_1636.pdf - 3669 characters
+[800/2000] ✓ report_1728.pdf - 4286 characters
+[801/2000] ✓ report_0500.pdf - 4251 characters
+[802/2000] ✓ report_1881.pdf - 4098 characters
+[803/2000] ✓ report_1213.pdf - 4373 characters
+[804/2000] ✓ report_0298.pdf - 4273 characters
+[805/2000] ✓ report_0044.pdf - 4222 characters
+[806/2000] ✓ report_1091.pdf - 3679 characters
+[807/2000] ✓ report_1225.pdf - 4085 characters
+[808/2000] ✓ report_0932.pdf - 4117 characters
+[809/2000] ✓ report_0606.pdf - 4133 characters
+[810/2000] ✓ report_1482.pdf - 4299 characters
+[811/2000] ✓ report_1581.pdf - 4101 characters
+[812/2000] ✓ report_1401.pdf - 4197 characters
+[813/2000] ✓ report_0254.pdf - 4336 characters
+[814/2000] ✓ report_1023.pdf - 4353 characters
+[815/2000] ✓ report_0076.pdf - 4267 characters
+[816/2000] ✓ report_0276.pdf - 4256 characters
+[817/2000] ✓ report_1254.pdf - 4320 characters
+[818/2000] ✓ report_1042.pdf - 4086 characters
+[819/2000] ✓ report_0132.pdf - 4226 characters
+[820/2000] ✓ report_0350.pdf - 4222 characters
+[821/2000] ✓ report_1973.pdf - 3668 characters
+[822/2000] ✓ report_1488.pdf - 4159 characters
+[823/2000] ✓ report_0294.pdf - 4147 characters
+[824/2000] ✓ report_0666.pdf - 4284 characters
+[825/2000] ✓ report_1732.pdf - 4286 characters
+[826/2000] ✓ report_1904.pdf - 4138 characters
+[827/2000] ✓ report_1535.pdf - 4400 characters
+[828/2000] ✓ report_1543.pdf - 4213 characters
+[829/2000] ✓ report_1112.pdf - 4266 characters
+[830/2000] ✓ report_0108.pdf - 4346 characters
+[831/2000] ✓ report_0521.pdf - 4162 characters
+[832/2000] ✓ report_0664.pdf - 4231 characters
+[833/2000] ✓ report_1094.pdf - 4145 characters
+[834/2000] ✓ report_0351.pdf - 3665 characters
+[835/2000] ✓ report_0194.pdf - 3683 characters
+[836/2000] ✓ report_1731.pdf - 3638 characters
+[837/2000] ✓ report_1824.pdf - 4227 characters
+[838/2000] ✓ report_0895.pdf - 3666 characters
+[839/2000] ✓ report_1810.pdf - 4286 characters
+[840/2000] ✓ report_1912.pdf - 4223 characters
+[841/2000] ✓ report_0235.pdf - 3655 characters
+[842/2000] ✓ report_0366.pdf - 4248 characters
+[843/2000] ✓ report_0704.pdf - 4224 characters
+[844/2000] ✓ report_0741.pdf - 4224 characters
+[845/2000] ✓ report_1546.pdf - 4291 characters
+[846/2000] ✓ report_0596.pdf - 3673 characters
+[847/2000] ✓ report_0162.pdf - 4197 characters
+[848/2000] ✓ report_0877.pdf - 4119 characters
+[849/2000] ✓ report_0631.pdf - 4144 characters
+[850/2000] ✓ report_0420.pdf - 4193 characters
+[851/2000] ✓ report_1490.pdf - 4205 characters
+[852/2000] ✓ report_1561.pdf - 4212 characters
+[853/2000] ✓ report_1843.pdf - 4130 characters
+[854/2000] ✓ report_0429.pdf - 4122 characters
+[855/2000] ✓ report_0143.pdf - 3665 characters
+[856/2000] ✓ report_1419.pdf - 4073 characters
+[857/2000] ✓ report_1592.pdf - 4164 characters
+[858/2000] ✓ report_1092.pdf - 4176 characters
+[859/2000] ✓ report_0190.pdf - 3655 characters
+[860/2000] ✓ report_1525.pdf - 4249 characters
+[861/2000] ✓ report_0278.pdf - 4312 characters
+[862/2000] ✓ report_1723.pdf - 4125 characters
+[863/2000] ✓ report_1021.pdf - 4172 characters
+[864/2000] ✓ report_0385.pdf - 4110 characters
+[865/2000] ✓ report_0747.pdf - 4109 characters
+[866/2000] ✓ report_0383.pdf - 4158 characters
+[867/2000] ✓ report_0656.pdf - 4271 characters
+[868/2000] ✓ report_1403.pdf - 4260 characters
+[869/2000] ✓ report_0797.pdf - 4184 characters
+[870/2000] ✓ report_0516.pdf - 4084 characters
+[871/2000] ✓ report_1802.pdf - 4297 characters
+[872/2000] ✓ report_0568.pdf - 4261 characters
+[873/2000] ✓ report_1557.pdf - 4121 characters
+[874/2000] ✓ report_0478.pdf - 4178 characters
+[875/2000] ✓ report_1993.pdf - 4307 characters
+[876/2000] ✓ report_0709.pdf - 4262 characters
+[877/2000] ✓ report_0096.pdf - 3653 characters
+[878/2000] ✓ report_1854.pdf - 4427 characters
+[879/2000] ✓ report_1437.pdf - 4184 characters
+[880/2000] ✓ report_0857.pdf - 3709 characters
+[881/2000] ✓ report_1046.pdf - 3699 characters
+[882/2000] ✓ report_0996.pdf - 4185 characters
+[883/2000] ✓ report_1981.pdf - 4064 characters
+[884/2000] ✓ report_1237.pdf - 4240 characters
+[885/2000] ✓ report_0979.pdf - 4248 characters
+[886/2000] ✓ report_1054.pdf - 3669 characters
+[887/2000] ✓ report_1230.pdf - 4285 characters
+[888/2000] ✓ report_1251.pdf - 4300 characters
+[889/2000] ✓ report_0110.pdf - 4216 characters
+[890/2000] ✓ report_1125.pdf - 4172 characters
+[891/2000] ✓ report_0005.pdf - 4166 characters
+[892/2000] ✓ report_1835.pdf - 4178 characters
+[893/2000] ✓ report_1907.pdf - 4210 characters
+[894/2000] ✓ report_0283.pdf - 4208 characters
+[895/2000] ✓ report_0008.pdf - 4304 characters
+[896/2000] ✓ report_1753.pdf - 3639 characters
+[897/2000] ✓ report_1014.pdf - 4180 characters
+[898/2000] ✓ report_0962.pdf - 4241 characters
+[899/2000] ✓ report_0458.pdf - 3671 characters
+[900/2000] ✓ report_1363.pdf - 3654 characters
+[901/2000] ✓ report_0264.pdf - 3688 characters
+[902/2000] ✓ report_0522.pdf - 4261 characters
+[903/2000] ✓ report_0622.pdf - 4224 characters
+[904/2000] ✓ report_1462.pdf - 4207 characters
+[905/2000] ✓ report_1106.pdf - 4273 characters
+[906/2000] ✓ report_1863.pdf - 4166 characters
+[907/2000] ✓ report_0853.pdf - 4294 characters
+[908/2000] ✓ report_1703.pdf - 4080 characters
+[909/2000] ✓ report_0086.pdf - 3678 characters
+[910/2000] ✓ report_1127.pdf - 4047 characters
+[911/2000] ✓ report_1129.pdf - 4271 characters
+[912/2000] ✓ report_1278.pdf - 4058 characters
+[913/2000] ✓ report_0061.pdf - 4314 characters
+[914/2000] ✓ report_0123.pdf - 4241 characters
+[915/2000] ✓ report_1496.pdf - 4077 characters
+[916/2000] ✓ report_1756.pdf - 4347 characters
+[917/2000] ✓ report_1938.pdf - 4093 characters
+[918/2000] ✓ report_0193.pdf - 4363 characters
+[919/2000] ✓ report_0772.pdf - 4184 characters
+[920/2000] ✓ report_1275.pdf - 3704 characters
+[921/2000] ✓ report_1913.pdf - 4265 characters
+[922/2000] ✓ report_0092.pdf - 4348 characters
+[923/2000] ✓ report_0334.pdf - 4270 characters
+[924/2000] ✓ report_0136.pdf - 3659 characters
+[925/2000] ✓ report_1649.pdf - 4264 characters
+[926/2000] ✓ report_1000.pdf - 4094 characters
+[927/2000] ✓ report_0849.pdf - 4131 characters
+[928/2000] ✓ report_0481.pdf - 3675 characters
+[929/2000] ✓ report_1565.pdf - 4183 characters
+[930/2000] ✓ report_1705.pdf - 4148 characters
+[931/2000] ✓ report_0038.pdf - 4204 characters
+[932/2000] ✓ report_0880.pdf - 4192 characters
+[933/2000] ✓ report_1024.pdf - 4172 characters
+[934/2000] ✓ report_0576.pdf - 4159 characters
+[935/2000] ✓ report_0201.pdf - 4280 characters
+[936/2000] ✓ report_0915.pdf - 4112 characters
+[937/2000] ✓ report_1501.pdf - 3682 characters
+[938/2000] ✓ report_0602.pdf - 4180 characters
+[939/2000] ✓ report_0908.pdf - 4102 characters
+[940/2000] ✓ report_1833.pdf - 3665 characters
+[941/2000] ✓ report_1037.pdf - 4199 characters
+[942/2000] ✓ report_1378.pdf - 3988 characters
+[943/2000] ✓ report_0832.pdf - 4160 characters
+[944/2000] ✓ report_1782.pdf - 4224 characters
+[945/2000] ✓ report_1574.pdf - 3703 characters
+[946/2000] ✓ report_1349.pdf - 4290 characters
+[947/2000] ✓ report_0471.pdf - 4308 characters
+[948/2000] ✓ report_1693.pdf - 4125 characters
+[949/2000] ✓ report_0056.pdf - 4279 characters
+[950/2000] ✓ report_0865.pdf - 4214 characters
+[951/2000] ✓ report_1239.pdf - 3698 characters
+[952/2000] ✓ report_0484.pdf - 4223 characters
+[953/2000] ✓ report_0097.pdf - 4100 characters
+[954/2000] ✓ report_1787.pdf - 4270 characters
+[955/2000] ✓ report_0920.pdf - 4089 characters
+[956/2000] ✓ report_0386.pdf - 4319 characters
+[957/2000] ✓ report_0529.pdf - 4101 characters
+[958/2000] ✓ report_1246.pdf - 4155 characters
+[959/2000] ✓ report_1320.pdf - 4338 characters
+[960/2000] ✓ report_0422.pdf - 4285 characters
+[961/2000] ✓ report_1780.pdf - 3651 characters
+[962/2000] ✓ report_1381.pdf - 4294 characters
+[963/2000] ✓ report_1103.pdf - 4122 characters
+[964/2000] ✓ report_1853.pdf - 4058 characters
+[965/2000] ✓ report_0073.pdf - 4094 characters
+[966/2000] ✓ report_0583.pdf - 3659 characters
+[967/2000] ✓ report_0405.pdf - 3675 characters
+[968/2000] ✓ report_1043.pdf - 4118 characters
+[969/2000] ✓ report_0065.pdf - 4091 characters
+[970/2000] ✓ report_0449.pdf - 4185 characters
+[971/2000] ✓ report_0680.pdf - 4227 characters
+[972/2000] ✓ report_0981.pdf - 4168 characters
+[973/2000] ✓ report_1070.pdf - 4152 characters
+[974/2000] ✓ report_0199.pdf - 4243 characters
+[975/2000] ✓ report_1614.pdf - 4241 characters
+[976/2000] ✓ report_1576.pdf - 3688 characters
+[977/2000] ✓ report_0223.pdf - 3687 characters
+[978/2000] ✓ report_1185.pdf - 4167 characters
+[979/2000] ✓ report_0907.pdf - 4066 characters
+[980/2000] ✓ report_0730.pdf - 3684 characters
+[981/2000] ✓ report_1134.pdf - 4040 characters
+[982/2000] ✓ report_0999.pdf - 4129 characters
+[983/2000] ✓ report_0557.pdf - 4099 characters
+[984/2000] ✓ report_1814.pdf - 4230 characters
+[985/2000] ✓ report_0408.pdf - 4169 characters
+[986/2000] ✓ report_1135.pdf - 4096 characters
+[987/2000] ✓ report_0727.pdf - 3644 characters
+[988/2000] ✓ report_1010.pdf - 4021 characters
+[989/2000] ✓ report_1946.pdf - 4168 characters
+[990/2000] ✓ report_0810.pdf - 4279 characters
+[991/2000] ✓ report_1681.pdf - 4108 characters
+[992/2000] ✓ report_0244.pdf - 4163 characters
+[993/2000] ✓ report_1001.pdf - 4119 characters
+[994/2000] ✓ report_1925.pdf - 3704 characters
+[995/2000] ✓ report_0683.pdf - 4239 characters
+[996/2000] ✓ report_0703.pdf - 4206 characters
+[997/2000] ✓ report_1031.pdf - 3673 characters
+[998/2000] ✓ report_1157.pdf - 4326 characters
+[999/2000] ✓ report_1326.pdf - 4132 characters
+[1000/2000] ✓ report_0875.pdf - 4217 characters
+[1001/2000] ✓ report_1939.pdf - 4131 characters
+[1002/2000] ✓ report_0072.pdf - 4253 characters
+[1003/2000] ✓ report_1228.pdf - 3650 characters
+[1004/2000] ✓ report_0103.pdf - 3696 characters
+[1005/2000] ✓ report_0095.pdf - 4276 characters
+[1006/2000] ✓ report_0142.pdf - 4285 characters
+[1007/2000] ✓ report_0485.pdf - 4305 characters
+[1008/2000] ✓ report_1058.pdf - 4040 characters
+[1009/2000] ✓ report_1710.pdf - 4142 characters
+[1010/2000] ✓ report_0236.pdf - 4292 characters
+[1011/2000] ✓ report_0324.pdf - 4284 characters
+[1012/2000] ✓ report_0161.pdf - 3673 characters
+[1013/2000] ✓ report_0625.pdf - 4092 characters
+[1014/2000] ✓ report_1303.pdf - 3674 characters
+[1015/2000] ✓ report_0462.pdf - 4310 characters
+[1016/2000] ✓ report_1099.pdf - 4185 characters
+[1017/2000] ✓ report_0909.pdf - 4316 characters
+[1018/2000] ✓ report_0678.pdf - 4319 characters
+[1019/2000] ✓ report_1712.pdf - 4224 characters
+[1020/2000] ✓ report_1538.pdf - 4383 characters
+[1021/2000] ✓ report_1195.pdf - 4089 characters
+[1022/2000] ✓ report_1107.pdf - 4116 characters
+[1023/2000] ✓ report_0149.pdf - 4199 characters
+[1024/2000] ✓ report_0159.pdf - 4019 characters
+[1025/2000] ✓ report_1747.pdf - 4132 characters
+[1026/2000] ✓ report_1730.pdf - 4155 characters
+[1027/2000] ✓ report_0496.pdf - 4236 characters
+[1028/2000] ✓ report_1806.pdf - 3689 characters
+[1029/2000] ✓ report_1992.pdf - 4275 characters
+[1030/2000] ✓ report_0874.pdf - 4294 characters
+[1031/2000] ✓ report_1639.pdf - 4183 characters
+[1032/2000] ✓ report_1316.pdf - 4164 characters
+[1033/2000] ✓ report_1384.pdf - 4134 characters
+[1034/2000] ✓ report_0460.pdf - 4179 characters
+[1035/2000] ✓ report_1334.pdf - 3687 characters
+[1036/2000] ✓ report_0929.pdf - 3714 characters
+[1037/2000] ✓ report_1081.pdf - 4273 characters
+[1038/2000] ✓ report_1825.pdf - 4093 characters
+[1039/2000] ✓ report_1628.pdf - 4182 characters
+[1040/2000] ✓ report_1572.pdf - 4213 characters
+[1041/2000] ✓ report_1611.pdf - 4235 characters
+[1042/2000] ✓ report_0414.pdf - 4213 characters
+[1043/2000] ✓ report_0030.pdf - 4044 characters
+[1044/2000] ✓ report_1975.pdf - 4133 characters
+[1045/2000] ✓ report_0559.pdf - 4213 characters
+[1046/2000] ✓ report_0433.pdf - 4183 characters
+[1047/2000] ✓ report_0841.pdf - 3710 characters
+[1048/2000] ✓ report_0687.pdf - 4309 characters
+[1049/2000] ✓ report_1871.pdf - 4378 characters
+[1050/2000] ✓ report_1481.pdf - 4153 characters
+[1051/2000] ✓ report_1332.pdf - 4110 characters
+[1052/2000] ✓ report_0989.pdf - 4384 characters
+[1053/2000] ✓ report_0091.pdf - 4117 characters
+[1054/2000] ✓ report_0376.pdf - 4080 characters
+[1055/2000] ✓ report_1168.pdf - 3657 characters
+[1056/2000] ✓ report_1371.pdf - 4035 characters
+[1057/2000] ✓ report_1757.pdf - 4313 characters
+[1058/2000] ✓ report_1295.pdf - 4151 characters
+[1059/2000] ✓ report_0539.pdf - 4104 characters
+[1060/2000] ✓ report_0629.pdf - 3706 characters
+[1061/2000] ✓ report_1006.pdf - 4276 characters
+[1062/2000] ✓ report_0247.pdf - 4356 characters
+[1063/2000] ✓ report_0461.pdf - 3662 characters
+[1064/2000] ✓ report_0269.pdf - 4045 characters
+[1065/2000] ✓ report_0688.pdf - 4357 characters
+[1066/2000] ✓ report_1750.pdf - 4328 characters
+[1067/2000] ✓ report_0691.pdf - 3722 characters
+[1068/2000] ✓ report_1842.pdf - 4061 characters
+[1069/2000] ✓ report_1954.pdf - 4261 characters
+[1070/2000] ✓ report_0089.pdf - 4166 characters
+[1071/2000] ✓ report_0248.pdf - 4100 characters
+[1072/2000] ✓ report_1897.pdf - 4193 characters
+[1073/2000] ✓ report_1097.pdf - 4232 characters
+[1074/2000] ✓ report_1459.pdf - 4216 characters
+[1075/2000] ✓ report_1629.pdf - 4117 characters
+[1076/2000] ✓ report_1382.pdf - 4421 characters
+[1077/2000] ✓ report_1819.pdf - 4051 characters
+[1078/2000] ✓ report_1739.pdf - 4268 characters
+[1079/2000] ✓ report_1442.pdf - 4330 characters
+[1080/2000] ✓ report_1550.pdf - 3988 characters
+[1081/2000] ✓ report_1499.pdf - 4219 characters
+[1082/2000] ✓ report_0451.pdf - 4171 characters
+[1083/2000] ✓ report_1673.pdf - 3659 characters
+[1084/2000] ✓ report_1069.pdf - 4107 characters
+[1085/2000] ✓ report_0023.pdf - 3673 characters
+[1086/2000] ✓ report_1148.pdf - 4171 characters
+[1087/2000] ✓ report_0175.pdf - 4329 characters
+[1088/2000] ✓ report_0174.pdf - 3682 characters
+[1089/2000] ✓ report_1158.pdf - 4188 characters
+[1090/2000] ✓ report_0007.pdf - 4200 characters
+[1091/2000] ✓ report_1078.pdf - 4268 characters
+[1092/2000] ✓ report_0109.pdf - 3674 characters
+[1093/2000] ✓ report_1630.pdf - 3705 characters
+[1094/2000] ✓ report_1035.pdf - 4283 characters
+[1095/2000] ✓ report_0014.pdf - 4376 characters
+[1096/2000] ✓ report_1740.pdf - 4077 characters
+[1097/2000] ✓ report_0415.pdf - 4096 characters
+[1098/2000] ✓ report_0375.pdf - 4177 characters
+[1099/2000] ✓ report_1767.pdf - 4109 characters
+[1100/2000] ✓ report_0834.pdf - 4247 characters
+[1101/2000] ✓ report_1968.pdf - 3713 characters
+[1102/2000] ✓ report_0705.pdf - 4304 characters
+[1103/2000] ✓ report_1124.pdf - 4011 characters
+[1104/2000] ✓ report_1397.pdf - 4210 characters
+[1105/2000] ✓ report_1662.pdf - 4226 characters
+[1106/2000] ✓ report_0129.pdf - 4183 characters
+[1107/2000] ✓ report_0692.pdf - 4037 characters
+[1108/2000] ✓ report_1013.pdf - 4253 characters
+[1109/2000] ✓ report_0742.pdf - 4255 characters
+[1110/2000] ✓ report_1315.pdf - 4255 characters
+[1111/2000] ✓ report_0499.pdf - 4363 characters
+[1112/2000] ✓ report_1166.pdf - 3671 characters
+[1113/2000] ✓ report_0611.pdf - 4218 characters
+[1114/2000] ✓ report_0225.pdf - 4194 characters
+[1115/2000] ✓ report_1253.pdf - 4182 characters
+[1116/2000] ✓ report_0648.pdf - 3671 characters
+[1117/2000] ✓ report_1346.pdf - 4247 characters
+[1118/2000] ✓ report_0171.pdf - 4352 characters
+[1119/2000] ✓ report_0829.pdf - 3684 characters
+[1120/2000] ✓ report_1659.pdf - 4148 characters
+[1121/2000] ✓ report_1951.pdf - 4227 characters
+[1122/2000] ✓ report_0474.pdf - 4284 characters
+[1123/2000] ✓ report_0440.pdf - 4308 characters
+[1124/2000] ✓ report_1791.pdf - 4143 characters
+[1125/2000] ✓ report_0822.pdf - 4337 characters
+[1126/2000] ✓ report_0526.pdf - 4282 characters
+[1127/2000] ✓ report_0238.pdf - 4265 characters
+[1128/2000] ✓ report_0067.pdf - 3661 characters
+[1129/2000] ✓ report_0685.pdf - 4249 characters
+[1130/2000] ✓ report_0066.pdf - 4110 characters
+[1131/2000] ✓ report_0795.pdf - 3668 characters
+[1132/2000] ✓ report_0284.pdf - 4345 characters
+[1133/2000] ✓ report_0763.pdf - 4279 characters
+[1134/2000] ✓ report_0710.pdf - 3983 characters
+[1135/2000] ✓ report_0953.pdf - 4010 characters
+[1136/2000] ✓ report_0087.pdf - 4241 characters
+[1137/2000] ✓ report_0075.pdf - 3687 characters
+[1138/2000] ✓ report_0855.pdf - 4183 characters
+[1139/2000] ✓ report_1267.pdf - 4140 characters
+[1140/2000] ✓ report_1687.pdf - 4190 characters
+[1141/2000] ✓ report_0312.pdf - 4243 characters
+[1142/2000] ✓ report_0107.pdf - 3999 characters
+[1143/2000] ✓ report_0361.pdf - 4163 characters
+[1144/2000] ✓ report_0256.pdf - 4107 characters
+[1145/2000] ✓ report_1867.pdf - 3715 characters
+[1146/2000] ✓ report_1229.pdf - 4188 characters
+[1147/2000] ✓ report_0074.pdf - 4288 characters
+[1148/2000] ✓ report_1232.pdf - 4195 characters
+[1149/2000] ✓ report_1211.pdf - 3683 characters
+[1150/2000] ✓ report_0914.pdf - 4219 characters
+[1151/2000] ✓ report_1593.pdf - 4107 characters
+[1152/2000] ✓ report_0869.pdf - 4194 characters
+[1153/2000] ✓ report_0400.pdf - 4127 characters
+[1154/2000] ✓ report_1151.pdf - 4237 characters
+[1155/2000] ✓ report_0031.pdf - 4266 characters
+[1156/2000] ✓ report_0015.pdf - 4246 characters
+[1157/2000] ✓ report_1186.pdf - 4292 characters
+[1158/2000] ✓ report_1119.pdf - 4119 characters
+[1159/2000] ✓ report_1735.pdf - 3653 characters
+[1160/2000] ✓ report_1304.pdf - 4283 characters
+[1161/2000] ✓ report_0329.pdf - 4140 characters
+[1162/2000] ✓ report_1809.pdf - 4255 characters
+[1163/2000] ✓ report_0323.pdf - 4111 characters
+[1164/2000] ✓ report_1357.pdf - 4122 characters
+[1165/2000] ✓ report_0700.pdf - 4286 characters
+[1166/2000] ✓ report_0042.pdf - 4321 characters
+[1167/2000] ✓ report_0156.pdf - 4316 characters
+[1168/2000] ✓ report_1676.pdf - 4134 characters
+[1169/2000] ✓ report_1945.pdf - 4161 characters
+[1170/2000] ✓ report_1931.pdf - 4255 characters
+[1171/2000] ✓ report_1749.pdf - 4335 characters
+[1172/2000] ✓ report_0839.pdf - 4209 characters
+[1173/2000] ✓ report_1509.pdf - 4167 characters
+[1174/2000] ✓ report_0762.pdf - 4229 characters
+[1175/2000] ✓ report_1708.pdf - 4227 characters
+[1176/2000] ✓ report_0757.pdf - 4228 characters
+[1177/2000] ✓ report_1586.pdf - 4230 characters
+[1178/2000] ✓ report_0892.pdf - 4401 characters
+[1179/2000] ✓ report_0362.pdf - 3702 characters
+[1180/2000] ✓ report_1699.pdf - 4378 characters
+[1181/2000] ✓ report_1468.pdf - 4291 characters
+[1182/2000] ✓ report_1492.pdf - 4176 characters
+[1183/2000] ✓ report_0613.pdf - 4099 characters
+[1184/2000] ✓ report_1305.pdf - 4210 characters
+[1185/2000] ✓ report_1502.pdf - 3680 characters
+[1186/2000] ✓ report_1595.pdf - 4290 characters
+[1187/2000] ✓ report_1110.pdf - 4176 characters
+[1188/2000] ✓ report_1265.pdf - 3657 characters
+[1189/2000] ✓ report_1250.pdf - 4129 characters
+[1190/2000] ✓ report_0561.pdf - 4117 characters
+[1191/2000] ✓ report_0146.pdf - 4145 characters
+[1192/2000] ✓ report_0655.pdf - 4199 characters
+[1193/2000] ✓ report_1598.pdf - 4213 characters
+[1194/2000] ✓ report_1308.pdf - 4213 characters
+[1195/2000] ✓ report_1748.pdf - 4022 characters
+[1196/2000] ✓ report_0280.pdf - 3706 characters
+[1197/2000] ✓ report_0896.pdf - 4174 characters
+[1198/2000] ✓ report_1605.pdf - 4247 characters
+[1199/2000] ✓ report_0701.pdf - 4353 characters
+[1200/2000] ✓ report_1212.pdf - 4105 characters
+[1201/2000] ✓ report_1281.pdf - 4187 characters
+[1202/2000] ✓ report_1461.pdf - 4104 characters
+[1203/2000] ✓ report_0643.pdf - 4201 characters
+[1204/2000] ✓ report_1390.pdf - 4249 characters
+[1205/2000] ✓ report_1083.pdf - 4185 characters
+[1206/2000] ✓ report_1852.pdf - 3731 characters
+[1207/2000] ✓ report_1003.pdf - 4240 characters
+[1208/2000] ✓ report_1057.pdf - 4214 characters
+[1209/2000] ✓ report_1859.pdf - 3681 characters
+[1210/2000] ✓ report_1894.pdf - 4386 characters
+[1211/2000] ✓ report_1350.pdf - 4245 characters
+[1212/2000] ✓ report_1534.pdf - 4158 characters
+[1213/2000] ✓ report_0551.pdf - 4084 characters
+[1214/2000] ✓ report_0453.pdf - 4201 characters
+[1215/2000] ✓ report_1956.pdf - 4161 characters
+[1216/2000] ✓ report_0563.pdf - 4173 characters
+[1217/2000] ✓ report_1299.pdf - 4107 characters
+[1218/2000] ✓ report_1539.pdf - 3672 characters
+[1219/2000] ✓ report_0330.pdf - 3640 characters
+[1220/2000] ✓ report_0530.pdf - 4302 characters
+[1221/2000] ✓ report_1436.pdf - 4276 characters
+[1222/2000] ✓ report_1685.pdf - 4198 characters
+[1223/2000] ✓ report_0824.pdf - 4289 characters
+[1224/2000] ✓ report_1944.pdf - 4175 characters
+[1225/2000] ✓ report_0672.pdf - 4183 characters
+[1226/2000] ✓ report_1905.pdf - 4184 characters
+[1227/2000] ✓ report_0997.pdf - 4174 characters
+[1228/2000] ✓ report_0364.pdf - 4095 characters
+[1229/2000] ✓ report_0867.pdf - 4223 characters
+[1230/2000] ✓ report_1434.pdf - 4294 characters
+[1231/2000] ✓ report_0595.pdf - 4107 characters
+[1232/2000] ✓ report_1799.pdf - 4243 characters
+[1233/2000] ✓ report_0901.pdf - 4303 characters
+[1234/2000] ✓ report_0702.pdf - 4296 characters
+[1235/2000] ✓ report_1606.pdf - 4239 characters
+[1236/2000] ✓ report_0854.pdf - 4211 characters
+[1237/2000] ✓ report_0209.pdf - 4277 characters
+[1238/2000] ✓ report_0798.pdf - 4309 characters
+[1239/2000] ✓ report_1548.pdf - 4082 characters
+[1240/2000] ✓ report_0237.pdf - 4121 characters
+[1241/2000] ✓ report_0825.pdf - 4384 characters
+[1242/2000] ✓ report_0488.pdf - 4214 characters
+[1243/2000] ✓ report_1466.pdf - 4246 characters
+[1244/2000] ✓ report_1387.pdf - 4286 characters
+[1245/2000] ✓ report_0267.pdf - 4145 characters
+[1246/2000] ✓ report_0101.pdf - 4153 characters
+[1247/2000] ✓ report_0241.pdf - 4115 characters
+[1248/2000] ✓ report_0766.pdf - 4172 characters
+[1249/2000] ✓ report_0463.pdf - 4092 characters
+[1250/2000] ✓ report_0588.pdf - 4206 characters
+[1251/2000] ✓ report_1319.pdf - 4265 characters
+[1252/2000] ✓ report_1619.pdf - 3670 characters
+[1253/2000] ✓ report_0851.pdf - 4065 characters
+[1254/2000] ✓ report_0230.pdf - 4145 characters
+[1255/2000] ✓ report_1064.pdf - 4096 characters
+[1256/2000] ✓ report_1564.pdf - 4242 characters
+[1257/2000] ✓ report_1585.pdf - 4255 characters
+[1258/2000] ✓ report_1567.pdf - 4282 characters
+[1259/2000] ✓ report_0192.pdf - 3667 characters
+[1260/2000] ✓ report_0787.pdf - 4267 characters
+[1261/2000] ✓ report_1111.pdf - 4130 characters
+[1262/2000] ✓ report_0533.pdf - 4148 characters
+[1263/2000] ✓ report_1236.pdf - 3674 characters
+[1264/2000] ✓ report_0569.pdf - 4116 characters
+[1265/2000] ✓ report_1783.pdf - 4208 characters
+[1266/2000] ✓ report_0941.pdf - 4158 characters
+[1267/2000] ✓ report_1761.pdf - 4103 characters
+[1268/2000] ✓ report_1741.pdf - 4309 characters
+[1269/2000] ✓ report_0413.pdf - 4260 characters
+[1270/2000] ✓ report_0601.pdf - 4070 characters
+[1271/2000] ✓ report_1829.pdf - 4266 characters
+[1272/2000] ✓ report_1405.pdf - 4261 characters
+[1273/2000] ✓ report_0198.pdf - 4167 characters
+[1274/2000] ✓ report_1588.pdf - 3707 characters
+[1275/2000] ✓ report_1924.pdf - 3674 characters
+[1276/2000] ✓ report_0069.pdf - 4348 characters
+[1277/2000] ✓ report_1983.pdf - 4033 characters
+[1278/2000] ✓ report_1666.pdf - 4165 characters
+[1279/2000] ✓ report_1142.pdf - 4261 characters
+[1280/2000] ✓ report_1452.pdf - 4250 characters
+[1281/2000] ✓ report_0070.pdf - 4107 characters
+[1282/2000] ✓ report_0163.pdf - 3646 characters
+[1283/2000] ✓ report_0213.pdf - 3683 characters
+[1284/2000] ✓ report_1560.pdf - 4108 characters
+[1285/2000] ✓ report_0992.pdf - 4270 characters
+[1286/2000] ✓ report_0052.pdf - 4187 characters
+[1287/2000] ✓ report_0017.pdf - 4247 characters
+[1288/2000] ✓ report_1169.pdf - 4238 characters
+[1289/2000] ✓ report_0639.pdf - 4114 characters
+[1290/2000] ✓ report_1516.pdf - 4244 characters
+[1291/2000] ✓ report_1133.pdf - 4130 characters
+[1292/2000] ✓ report_0608.pdf - 4154 characters
+[1293/2000] ✓ report_1184.pdf - 3675 characters
+[1294/2000] ✓ report_1556.pdf - 4199 characters
+[1295/2000] ✓ report_0039.pdf - 3672 characters
+[1296/2000] ✓ report_0384.pdf - 4282 characters
+[1297/2000] ✓ report_1515.pdf - 3690 characters
+[1298/2000] ✓ report_1180.pdf - 4207 characters
+[1299/2000] ✓ report_0575.pdf - 4227 characters
+[1300/2000] ✓ report_0535.pdf - 4096 characters
+[1301/2000] ✓ report_1692.pdf - 4063 characters
+[1302/2000] ✓ report_1174.pdf - 4236 characters
+[1303/2000] ✓ report_1018.pdf - 4188 characters
+[1304/2000] ✓ report_0735.pdf - 3639 characters
+[1305/2000] ✓ report_0452.pdf - 4318 characters
+[1306/2000] ✓ report_1279.pdf - 4271 characters
+[1307/2000] ✓ report_0721.pdf - 4094 characters
+[1308/2000] ✓ report_0373.pdf - 4053 characters
+[1309/2000] ✓ report_1071.pdf - 4346 characters
+[1310/2000] ✓ report_1760.pdf - 4153 characters
+[1311/2000] ✓ report_1406.pdf - 4245 characters
+[1312/2000] ✓ report_1857.pdf - 4273 characters
+[1313/2000] ✓ report_1331.pdf - 4213 characters
+[1314/2000] ✓ report_0179.pdf - 4148 characters
+[1315/2000] ✓ report_0844.pdf - 4359 characters
+[1316/2000] ✓ report_0922.pdf - 4090 characters
+[1317/2000] ✓ report_1445.pdf - 4249 characters
+[1318/2000] ✓ report_1886.pdf - 4197 characters
+[1319/2000] ✓ report_0812.pdf - 4332 characters
+[1320/2000] ✓ report_1385.pdf - 4239 characters
+[1321/2000] ✓ report_1707.pdf - 4289 characters
+[1322/2000] ✓ report_0480.pdf - 4161 characters
+[1323/2000] ✓ report_0641.pdf - 3707 characters
+[1324/2000] ✓ report_0642.pdf - 4236 characters
+[1325/2000] ✓ report_0663.pdf - 4157 characters
+[1326/2000] ✓ report_1734.pdf - 4131 characters
+[1327/2000] ✓ report_0807.pdf - 4252 characters
+[1328/2000] ✓ report_0138.pdf - 3658 characters
+[1329/2000] ✓ report_1860.pdf - 3672 characters
+[1330/2000] ✓ report_1040.pdf - 4333 characters
+[1331/2000] ✓ report_1128.pdf - 4174 characters
+[1332/2000] ✓ report_1152.pdf - 4184 characters
+[1333/2000] ✓ report_0446.pdf - 3684 characters
+[1334/2000] ✓ report_1836.pdf - 4173 characters
+[1335/2000] ✓ report_1007.pdf - 3679 characters
+[1336/2000] ✓ report_1217.pdf - 4281 characters
+[1337/2000] ✓ report_1418.pdf - 4081 characters
+[1338/2000] ✓ report_0633.pdf - 3671 characters
+[1339/2000] ✓ report_1105.pdf - 4391 characters
+[1340/2000] ✓ report_1463.pdf - 4262 characters
+[1341/2000] ✓ report_1389.pdf - 4381 characters
+[1342/2000] ✓ report_1736.pdf - 4399 characters
+[1343/2000] ✓ report_1208.pdf - 3665 characters
+[1344/2000] ✓ report_0157.pdf - 4213 characters
+[1345/2000] ✓ report_0289.pdf - 4286 characters
+[1346/2000] ✓ report_1953.pdf - 4179 characters
+[1347/2000] ✓ report_1359.pdf - 4055 characters
+[1348/2000] ✓ report_0407.pdf - 4278 characters
+[1349/2000] ✓ report_1627.pdf - 4177 characters
+[1350/2000] ✓ report_0059.pdf - 3705 characters
+[1351/2000] ✓ report_0363.pdf - 4298 characters
+[1352/2000] ✓ report_0054.pdf - 3656 characters
+[1353/2000] ✓ report_0620.pdf - 4232 characters
+[1354/2000] ✓ report_1047.pdf - 3671 characters
+[1355/2000] ✓ report_0823.pdf - 4217 characters
+[1356/2000] ✓ report_0370.pdf - 3704 characters
+[1357/2000] ✓ report_0307.pdf - 4266 characters
+[1358/2000] ✓ report_0720.pdf - 3678 characters
+[1359/2000] ✓ report_0813.pdf - 4146 characters
+[1360/2000] ✓ report_0398.pdf - 4191 characters
+[1361/2000] ✓ report_1914.pdf - 4317 characters
+[1362/2000] ✓ report_1219.pdf - 4233 characters
+[1363/2000] ✓ report_1603.pdf - 4151 characters
+[1364/2000] ✓ report_0770.pdf - 3681 characters
+[1365/2000] ✓ report_1612.pdf - 4207 characters
+[1366/2000] ✓ report_0495.pdf - 4071 characters
+[1367/2000] ✓ report_0125.pdf - 4270 characters
+[1368/2000] ✓ report_0605.pdf - 4212 characters
+[1369/2000] ✓ report_1964.pdf - 4118 characters
+[1370/2000] ✓ report_1540.pdf - 4264 characters
+[1371/2000] ✓ report_0208.pdf - 4097 characters
+[1372/2000] ✓ report_0891.pdf - 4109 characters
+[1373/2000] ✓ report_1263.pdf - 4293 characters
+[1374/2000] ✓ report_1679.pdf - 4269 characters
+[1375/2000] ✓ report_1414.pdf - 4304 characters
+[1376/2000] ✓ report_0580.pdf - 4394 characters
+[1377/2000] ✓ report_0623.pdf - 4086 characters
+[1378/2000] ✓ report_0206.pdf - 4070 characters
+[1379/2000] ✓ report_0158.pdf - 4281 characters
+[1380/2000] ✓ report_1209.pdf - 4149 characters
+[1381/2000] ✓ report_1935.pdf - 4272 characters
+[1382/2000] ✓ report_1473.pdf - 4041 characters
+[1383/2000] ✓ report_1893.pdf - 4181 characters
+[1384/2000] ✓ report_0509.pdf - 4240 characters
+[1385/2000] ✓ report_1318.pdf - 4264 characters
+[1386/2000] ✓ report_1980.pdf - 4147 characters
+[1387/2000] ✓ report_1192.pdf - 4221 characters
+[1388/2000] ✓ report_1108.pdf - 4139 characters
+[1389/2000] ✓ report_0888.pdf - 4209 characters
+[1390/2000] ✓ report_1104.pdf - 4374 characters
+[1391/2000] ✓ report_1049.pdf - 3686 characters
+[1392/2000] ✓ report_0151.pdf - 4165 characters
+[1393/2000] ✓ report_0078.pdf - 4214 characters
+[1394/2000] ✓ report_0837.pdf - 4181 characters
+[1395/2000] ✓ report_1858.pdf - 4178 characters
+[1396/2000] ✓ report_0604.pdf - 3679 characters
+[1397/2000] ✓ report_0589.pdf - 4228 characters
+[1398/2000] ✓ report_1751.pdf - 4313 characters
+[1399/2000] ✓ report_1055.pdf - 4263 characters
+[1400/2000] ✓ report_1777.pdf - 4211 characters
+[1401/2000] ✓ report_0550.pdf - 4134 characters
+[1402/2000] ✓ report_0594.pdf - 3700 characters
+[1403/2000] ✓ report_0830.pdf - 4093 characters
+[1404/2000] ✓ report_0245.pdf - 4154 characters
+[1405/2000] ✓ report_1840.pdf - 4142 characters
+[1406/2000] ✓ report_1333.pdf - 4225 characters
+[1407/2000] ✓ report_0940.pdf - 4373 characters
+[1408/2000] ✓ report_1374.pdf - 4176 characters
+[1409/2000] ✓ report_1725.pdf - 4167 characters
+[1410/2000] ✓ report_1996.pdf - 4133 characters
+[1411/2000] ✓ report_1512.pdf - 3656 characters
+[1412/2000] ✓ report_0507.pdf - 4298 characters
+[1413/2000] ✓ report_1109.pdf - 4193 characters
+[1414/2000] ✓ report_1484.pdf - 4357 characters
+[1415/2000] ✓ report_0918.pdf - 4234 characters
+[1416/2000] ✓ report_1494.pdf - 4194 characters
+[1417/2000] ✓ report_0060.pdf - 4222 characters
+[1418/2000] ✓ report_0532.pdf - 4082 characters
+[1419/2000] ✓ report_0967.pdf - 3680 characters
+[1420/2000] ✓ report_1933.pdf - 4329 characters
+[1421/2000] ✓ report_0712.pdf - 4157 characters
+[1422/2000] ✓ report_1801.pdf - 3658 characters
+[1423/2000] ✓ report_1985.pdf - 3667 characters
+[1424/2000] ✓ report_0202.pdf - 4015 characters
+[1425/2000] ✓ report_0542.pdf - 3664 characters
+[1426/2000] ✓ report_0438.pdf - 4191 characters
+[1427/2000] ✓ report_0261.pdf - 4229 characters
+[1428/2000] ✓ report_0624.pdf - 4081 characters
+[1429/2000] ✓ report_1798.pdf - 4124 characters
+[1430/2000] ✓ report_1090.pdf - 4107 characters
+[1431/2000] ✓ report_1982.pdf - 4267 characters
+[1432/2000] ✓ report_0102.pdf - 4249 characters
+[1433/2000] ✓ report_1667.pdf - 4181 characters
+[1434/2000] ✓ report_1941.pdf - 3639 characters
+[1435/2000] ✓ report_0137.pdf - 4282 characters
+[1436/2000] ✓ report_1203.pdf - 4177 characters
+[1437/2000] ✓ report_0317.pdf - 4101 characters
+[1438/2000] ✓ report_1876.pdf - 4239 characters
+[1439/2000] ✓ report_1688.pdf - 4182 characters
+[1440/2000] ✓ report_1178.pdf - 4125 characters
+[1441/2000] ✓ report_1458.pdf - 4323 characters
+[1442/2000] ✓ report_0750.pdf - 4154 characters
+[1443/2000] ✓ report_1439.pdf - 4238 characters
+[1444/2000] ✓ report_1624.pdf - 4350 characters
+[1445/2000] ✓ report_0502.pdf - 4035 characters
+[1446/2000] ✓ report_0340.pdf - 4233 characters
+[1447/2000] ✓ report_1072.pdf - 4290 characters
+[1448/2000] ✓ report_1837.pdf - 4214 characters
+[1449/2000] ✓ report_0356.pdf - 4232 characters
+[1450/2000] ✓ report_0382.pdf - 3673 characters
+[1451/2000] ✓ report_1917.pdf - 4239 characters
+[1452/2000] ✓ report_0279.pdf - 4353 characters
+[1453/2000] ✓ report_0817.pdf - 4253 characters
+[1454/2000] ✓ report_0186.pdf - 4136 characters
+[1455/2000] ✓ report_1910.pdf - 4342 characters
+[1456/2000] ✓ report_1361.pdf - 4242 characters
+[1457/2000] ✓ report_0176.pdf - 4167 characters
+[1458/2000] ✓ report_0319.pdf - 4225 characters
+[1459/2000] ✓ report_1123.pdf - 4242 characters
+[1460/2000] ✓ report_0489.pdf - 4268 characters
+[1461/2000] ✓ report_0443.pdf - 4102 characters
+[1462/2000] ✓ report_1290.pdf - 4205 characters
+[1463/2000] ✓ report_1321.pdf - 4291 characters
+[1464/2000] ✓ report_1375.pdf - 4119 characters
+[1465/2000] ✓ report_1457.pdf - 4338 characters
+[1466/2000] ✓ report_1663.pdf - 4235 characters
+[1467/2000] ✓ report_1372.pdf - 4285 characters
+[1468/2000] ✓ report_1017.pdf - 4156 characters
+[1469/2000] ✓ report_0479.pdf - 4281 characters
+[1470/2000] ✓ report_1683.pdf - 4131 characters
+[1471/2000] ✓ report_1370.pdf - 4134 characters
+[1472/2000] ✓ report_1073.pdf - 4211 characters
+[1473/2000] ✓ report_0931.pdf - 4364 characters
+[1474/2000] ✓ report_0300.pdf - 4265 characters
+[1475/2000] ✓ report_1066.pdf - 4372 characters
+[1476/2000] ✓ report_1417.pdf - 4111 characters
+[1477/2000] ✓ report_1335.pdf - 4200 characters
+[1478/2000] ✓ report_0555.pdf - 3659 characters
+[1479/2000] ✓ report_0654.pdf - 4327 characters
+[1480/2000] ✓ report_1485.pdf - 4264 characters
+[1481/2000] ✓ report_0287.pdf - 4233 characters
+[1482/2000] ✓ report_0925.pdf - 4214 characters
+[1483/2000] ✓ report_0988.pdf - 4155 characters
+[1484/2000] ✓ report_0977.pdf - 4176 characters
+[1485/2000] ✓ report_1807.pdf - 4208 characters
+[1486/2000] ✓ report_0910.pdf - 4107 characters
+[1487/2000] ✓ report_0177.pdf - 4113 characters
+[1488/2000] ✓ report_1059.pdf - 4183 characters
+[1489/2000] ✓ report_0887.pdf - 4048 characters
+[1490/2000] ✓ report_1813.pdf - 4112 characters
+[1491/2000] ✓ report_0973.pdf - 4196 characters
+[1492/2000] ✓ report_0635.pdf - 4292 characters
+[1493/2000] ✓ report_0025.pdf - 4241 characters
+[1494/2000] ✓ report_1698.pdf - 4279 characters
+[1495/2000] ✓ report_1744.pdf - 4286 characters
+[1496/2000] ✓ report_1817.pdf - 4103 characters
+[1497/2000] ✓ report_0271.pdf - 3674 characters
+[1498/2000] ✓ report_0514.pdf - 4077 characters
+[1499/2000] ✓ report_0848.pdf - 3656 characters
+[1500/2000] ✓ report_0178.pdf - 4121 characters
+[1501/2000] ✓ report_0374.pdf - 4247 characters
+[1502/2000] ✓ report_1571.pdf - 4179 characters
+[1503/2000] ✓ report_1365.pdf - 4157 characters
+[1504/2000] ✓ report_0211.pdf - 4061 characters
+[1505/2000] ✓ report_0505.pdf - 4295 characters
+[1506/2000] ✓ report_0952.pdf - 4314 characters
+[1507/2000] ✓ report_1156.pdf - 4281 characters
+[1508/2000] ✓ report_0212.pdf - 4134 characters
+[1509/2000] ✓ report_1137.pdf - 4158 characters
+[1510/2000] ✓ report_0377.pdf - 3696 characters
+[1511/2000] ✓ report_0325.pdf - 3686 characters
+[1512/2000] ✓ report_0586.pdf - 4207 characters
+[1513/2000] ✓ report_0188.pdf - 4135 characters
+[1514/2000] ✓ report_0251.pdf - 3661 characters
+[1515/2000] ✓ report_1862.pdf - 3658 characters
+[1516/2000] ✓ report_0943.pdf - 4237 characters
+[1517/2000] ✓ report_1227.pdf - 4180 characters
+[1518/2000] ✓ report_1929.pdf - 3683 characters
+[1519/2000] ✓ report_0293.pdf - 4242 characters
+[1520/2000] ✓ report_0041.pdf - 4144 characters
+[1521/2000] ✓ report_0525.pdf - 4197 characters
+[1522/2000] ✓ report_1238.pdf - 3654 characters
+[1523/2000] ✓ report_0906.pdf - 4267 characters
+[1524/2000] ✓ report_0681.pdf - 4208 characters
+[1525/2000] ✓ report_0448.pdf - 4183 characters
+[1526/2000] ✓ report_0581.pdf - 4090 characters
+[1527/2000] ✓ report_1241.pdf - 4231 characters
+[1528/2000] ✓ report_0805.pdf - 4213 characters
+[1529/2000] ✓ report_0337.pdf - 3675 characters
+[1530/2000] ✓ report_0579.pdf - 3693 characters
+[1531/2000] ✓ report_0459.pdf - 4264 characters
+[1532/2000] ✓ report_0552.pdf - 4226 characters
+[1533/2000] ✓ report_1626.pdf - 3677 characters
+[1534/2000] ✓ report_0592.pdf - 4121 characters
+[1535/2000] ✓ report_1528.pdf - 4240 characters
+[1536/2000] ✓ report_0665.pdf - 4143 characters
+[1537/2000] ✓ report_0327.pdf - 4116 characters
+[1538/2000] ✓ report_1155.pdf - 4100 characters
+[1539/2000] ✓ report_0718.pdf - 3693 characters
+[1540/2000] ✓ report_0627.pdf - 4114 characters
+[1541/2000] ✓ report_1009.pdf - 4296 characters
+[1542/2000] ✓ report_1632.pdf - 4206 characters
+[1543/2000] ✓ report_1892.pdf - 4220 characters
+[1544/2000] ✓ report_1396.pdf - 4300 characters
+[1545/2000] ✓ report_1936.pdf - 4210 characters
+[1546/2000] ✓ report_1974.pdf - 4087 characters
+[1547/2000] ✓ report_1918.pdf - 4166 characters
+[1548/2000] ✓ report_1330.pdf - 4273 characters
+[1549/2000] ✓ report_0224.pdf - 4400 characters
+[1550/2000] ✓ report_0942.pdf - 4213 characters
+[1551/2000] ✓ report_0836.pdf - 3999 characters
+[1552/2000] ✓ report_0299.pdf - 4296 characters
+[1553/2000] ✓ report_0556.pdf - 4327 characters
+[1554/2000] ✓ report_0515.pdf - 4061 characters
+[1555/2000] ✓ report_1411.pdf - 4227 characters
+[1556/2000] ✓ report_1828.pdf - 4241 characters
+[1557/2000] ✓ report_0972.pdf - 4166 characters
+[1558/2000] ✓ report_1264.pdf - 4208 characters
+[1559/2000] ✓ report_0476.pdf - 4191 characters
+[1560/2000] ✓ report_1622.pdf - 4280 characters
+[1561/2000] ✓ report_1570.pdf - 4094 characters
+[1562/2000] ✓ report_1566.pdf - 4070 characters
+[1563/2000] ✓ report_0048.pdf - 4206 characters
+[1564/2000] ✓ report_1245.pdf - 4098 characters
+[1565/2000] ✓ report_1056.pdf - 3649 characters
+[1566/2000] ✓ report_0790.pdf - 3664 characters
+[1567/2000] ✓ report_0272.pdf - 4217 characters
+[1568/2000] ✓ report_0144.pdf - 3676 characters
+[1569/2000] ✓ report_1284.pdf - 4283 characters
+[1570/2000] ✓ report_0371.pdf - 4135 characters
+[1571/2000] ✓ report_0465.pdf - 4181 characters
+[1572/2000] ✓ report_1991.pdf - 4206 characters
+[1573/2000] ✓ report_1027.pdf - 4084 characters
+[1574/2000] ✓ report_1733.pdf - 4314 characters
+[1575/2000] ✓ report_1444.pdf - 4239 characters
+[1576/2000] ✓ report_1795.pdf - 4298 characters
+[1577/2000] ✓ report_1722.pdf - 4211 characters
+[1578/2000] ✓ report_0421.pdf - 4087 characters
+[1579/2000] ✓ report_0197.pdf - 4341 characters
+[1580/2000] ✓ report_0850.pdf - 4257 characters
+[1581/2000] ✓ report_1012.pdf - 4172 characters
+[1582/2000] ✓ report_0959.pdf - 4127 characters
+[1583/2000] ✓ report_0472.pdf - 4303 characters
+[1584/2000] ✓ report_0019.pdf - 4365 characters
+[1585/2000] ✓ report_1607.pdf - 3679 characters
+[1586/2000] ✓ report_0759.pdf - 4228 characters
+[1587/2000] ✓ report_1139.pdf - 4097 characters
+[1588/2000] ✓ report_0358.pdf - 4158 characters
+[1589/2000] ✓ report_1398.pdf - 4134 characters
+[1590/2000] ✓ report_0153.pdf - 4207 characters
+[1591/2000] ✓ report_1036.pdf - 4168 characters
+[1592/2000] ✓ report_1717.pdf - 4253 characters
+[1593/2000] ✓ report_1864.pdf - 3683 characters
+[1594/2000] ✓ report_0168.pdf - 4131 characters
+[1595/2000] ✓ report_1763.pdf - 4278 characters
+[1596/2000] ✓ report_0395.pdf - 4288 characters
+[1597/2000] ✓ report_0447.pdf - 3673 characters
+[1598/2000] ✓ report_1520.pdf - 4099 characters
+[1599/2000] ✓ report_1646.pdf - 4216 characters
+[1600/2000] ✓ report_0573.pdf - 4187 characters
+[1601/2000] ✓ report_1140.pdf - 3682 characters
+[1602/2000] ✓ report_0306.pdf - 3678 characters
+[1603/2000] ✓ report_0534.pdf - 4198 characters
+[1604/2000] ✓ report_1508.pdf - 4090 characters
+[1605/2000] ✓ report_1348.pdf - 4166 characters
+[1606/2000] ✓ report_0998.pdf - 4083 characters
+[1607/2000] ✓ report_0118.pdf - 4212 characters
+[1608/2000] ✓ report_0270.pdf - 4301 characters
+[1609/2000] ✓ report_0806.pdf - 4152 characters
+[1610/2000] ✓ report_0749.pdf - 4081 characters
+[1611/2000] ✓ report_1617.pdf - 4236 characters
+[1612/2000] ✓ report_1234.pdf - 4256 characters
+[1613/2000] ✓ report_1409.pdf - 4215 characters
+[1614/2000] ✓ report_0728.pdf - 4126 characters
+[1615/2000] ✓ report_1161.pdf - 4133 characters
+[1616/2000] ✓ report_0399.pdf - 4129 characters
+[1617/2000] ✓ report_1623.pdf - 4257 characters
+[1618/2000] ✓ report_1179.pdf - 4216 characters
+[1619/2000] ✓ report_0468.pdf - 4325 characters
+[1620/2000] ✓ report_1193.pdf - 4313 characters
+[1621/2000] ✓ report_0882.pdf - 3693 characters
+[1622/2000] ✓ report_0955.pdf - 4035 characters
+[1623/2000] ✓ report_1202.pdf - 4205 characters
+[1624/2000] ✓ report_1190.pdf - 4166 characters
+[1625/2000] ✓ report_0259.pdf - 4325 characters
+[1626/2000] ✓ report_1529.pdf - 4218 characters
+[1627/2000] ✓ report_1486.pdf - 4366 characters
+[1628/2000] ✓ report_1300.pdf - 4195 characters
+[1629/2000] ✓ report_0100.pdf - 4409 characters
+[1630/2000] ✓ report_1726.pdf - 4023 characters
+[1631/2000] ✓ report_0229.pdf - 4329 characters
+[1632/2000] ✓ report_1738.pdf - 3705 characters
+[1633/2000] ✓ report_0114.pdf - 4162 characters
+[1634/2000] ✓ report_0266.pdf - 4231 characters
+[1635/2000] ✓ report_0698.pdf - 4335 characters
+[1636/2000] ✓ report_0637.pdf - 4210 characters
+[1637/2000] ✓ report_1416.pdf - 4077 characters
+[1638/2000] ✓ report_1317.pdf - 4169 characters
+[1639/2000] ✓ report_1358.pdf - 4217 characters
+[1640/2000] ✓ report_1154.pdf - 4141 characters
+[1641/2000] ✓ report_0881.pdf - 4456 characters
+[1642/2000] ✓ report_0338.pdf - 4225 characters
+[1643/2000] ✓ report_1427.pdf - 4165 characters
+[1644/2000] ✓ report_0524.pdf - 4263 characters
+[1645/2000] ✓ report_1755.pdf - 4396 characters
+[1646/2000] ✓ report_0404.pdf - 4232 characters
+[1647/2000] ✓ report_1660.pdf - 4326 characters
+[1648/2000] ✓ report_0537.pdf - 3696 characters
+[1649/2000] ✓ report_1292.pdf - 4272 characters
+[1650/2000] ✓ report_0783.pdf - 3670 characters
+[1651/2000] ✓ report_1475.pdf - 4189 characters
+[1652/2000] ✓ report_0311.pdf - 4102 characters
+[1653/2000] ✓ report_1395.pdf - 4147 characters
+[1654/2000] ✓ report_1224.pdf - 3639 characters
+[1655/2000] ✓ report_1545.pdf - 3687 characters
+[1656/2000] ✓ report_0541.pdf - 4269 characters
+[1657/2000] ✓ report_0195.pdf - 3680 characters
+[1658/2000] ✓ report_1336.pdf - 4203 characters
+[1659/2000] ✓ report_0984.pdf - 4099 characters
+[1660/2000] ✓ report_0847.pdf - 4334 characters
+[1661/2000] ✓ report_0268.pdf - 4331 characters
+[1662/2000] ✓ report_1270.pdf - 3661 characters
+[1663/2000] ✓ report_1451.pdf - 4348 characters
+[1664/2000] ✓ report_0876.pdf - 4196 characters
+[1665/2000] ✓ report_1613.pdf - 4197 characters
+[1666/2000] ✓ report_1680.pdf - 3689 characters
+[1667/2000] ✓ report_1327.pdf - 4319 characters
+[1668/2000] ✓ report_0938.pdf - 3689 characters
+[1669/2000] ✓ report_1432.pdf - 4254 characters
+[1670/2000] ✓ report_0106.pdf - 4221 characters
+[1671/2000] ✓ report_1034.pdf - 4198 characters
+[1672/2000] ✓ report_0640.pdf - 4153 characters
+[1673/2000] ✓ report_1770.pdf - 3678 characters
+[1674/2000] ✓ report_0978.pdf - 4249 characters
+[1675/2000] ✓ report_1719.pdf - 4303 characters
+[1676/2000] ✓ report_0900.pdf - 3682 characters
+[1677/2000] ✓ report_0214.pdf - 4295 characters
+[1678/2000] ✓ report_1874.pdf - 4268 characters
+[1679/2000] ✓ report_1652.pdf - 4134 characters
+[1680/2000] ✓ report_0068.pdf - 4250 characters
+[1681/2000] ✓ report_1691.pdf - 4179 characters
+[1682/2000] ✓ report_0893.pdf - 4094 characters
+[1683/2000] ✓ report_0379.pdf - 4240 characters
+[1684/2000] ✓ report_1146.pdf - 4234 characters
+[1685/2000] ✓ report_0670.pdf - 4125 characters
+[1686/2000] ✓ report_0116.pdf - 4148 characters
+[1687/2000] ✓ report_1044.pdf - 4244 characters
+[1688/2000] ✓ report_0645.pdf - 4055 characters
+[1689/2000] ✓ report_1116.pdf - 4186 characters
+[1690/2000] ✓ report_1709.pdf - 4270 characters
+[1691/2000] ✓ report_1393.pdf - 4236 characters
+[1692/2000] ✓ report_0397.pdf - 3646 characters
+[1693/2000] ✓ report_0781.pdf - 3707 characters
+[1694/2000] ✓ report_0392.pdf - 4278 characters
+[1695/2000] ✓ report_1759.pdf - 4142 characters
+[1696/2000] ✓ report_1601.pdf - 4316 characters
+[1697/2000] ✓ report_1165.pdf - 4285 characters
+[1698/2000] ✓ report_0018.pdf - 4175 characters
+[1699/2000] ✓ report_1638.pdf - 4178 characters
+[1700/2000] ✓ report_1391.pdf - 4125 characters
+[1701/2000] ✓ report_1500.pdf - 4385 characters
+[1702/2000] ✓ report_1694.pdf - 4304 characters
+[1703/2000] ✓ report_0802.pdf - 4167 characters
+[1704/2000] ✓ report_1061.pdf - 4217 characters
+[1705/2000] ✓ report_0768.pdf - 4147 characters
+[1706/2000] ✓ report_0933.pdf - 4193 characters
+[1707/2000] ✓ report_1020.pdf - 4083 characters
+[1708/2000] ✓ report_1616.pdf - 3699 characters
+[1709/2000] ✓ report_1977.pdf - 4227 characters
+[1710/2000] ✓ report_0860.pdf - 4235 characters
+[1711/2000] ✓ report_1435.pdf - 4157 characters
+[1712/2000] ✓ report_0390.pdf - 4290 characters
+[1713/2000] ✓ report_0612.pdf - 4184 characters
+[1714/2000] ✓ report_0740.pdf - 4271 characters
+[1715/2000] ✓ report_0088.pdf - 4075 characters
+[1716/2000] ✓ report_1122.pdf - 3653 characters
+[1717/2000] ✓ report_1517.pdf - 4090 characters
+[1718/2000] ✓ report_0354.pdf - 4267 characters
+[1719/2000] ✓ report_0706.pdf - 4205 characters
+[1720/2000] ✓ report_0863.pdf - 4168 characters
+[1721/2000] ✓ report_0873.pdf - 4162 characters
+[1722/2000] ✓ report_0409.pdf - 4263 characters
+[1723/2000] ✓ report_1144.pdf - 4144 characters
+[1724/2000] ✓ report_1873.pdf - 4467 characters
+[1725/2000] ✓ report_1511.pdf - 3680 characters
+[1726/2000] ✓ report_0773.pdf - 4174 characters
+[1727/2000] ✓ report_1635.pdf - 4382 characters
+[1728/2000] ✓ report_1896.pdf - 4253 characters
+[1729/2000] ✓ report_1768.pdf - 4184 characters
+[1730/2000] ✓ report_1644.pdf - 4335 characters
+[1731/2000] ✓ report_0820.pdf - 4154 characters
+[1732/2000] ✓ report_0344.pdf - 4345 characters
+[1733/2000] ✓ report_0786.pdf - 4220 characters
+[1734/2000] ✓ report_1773.pdf - 4093 characters
+[1735/2000] ✓ report_1342.pdf - 3687 characters
+[1736/2000] ✓ report_1352.pdf - 4218 characters
+[1737/2000] ✓ report_0077.pdf - 4156 characters
+[1738/2000] ✓ report_1866.pdf - 4113 characters
+[1739/2000] ✓ report_1682.pdf - 4287 characters
+[1740/2000] ✓ report_1471.pdf - 4297 characters
+[1741/2000] ✓ report_1919.pdf - 4125 characters
+[1742/2000] ✓ report_0858.pdf - 4277 characters
+[1743/2000] ✓ report_1367.pdf - 4127 characters
+[1744/2000] ✓ report_1704.pdf - 4273 characters
+[1745/2000] ✓ report_1987.pdf - 4255 characters
+[1746/2000] ✓ report_0765.pdf - 4190 characters
+[1747/2000] ✓ report_1291.pdf - 3692 characters
+[1748/2000] ✓ report_1563.pdf - 4272 characters
+[1749/2000] ✓ report_0467.pdf - 4303 characters
+[1750/2000] ✓ report_1002.pdf - 4345 characters
+[1751/2000] ✓ report_1797.pdf - 4085 characters
+[1752/2000] ✓ report_1600.pdf - 4128 characters
+[1753/2000] ✓ report_1288.pdf - 4273 characters
+[1754/2000] ✓ report_0444.pdf - 4262 characters
+[1755/2000] ✓ report_0669.pdf - 4228 characters
+[1756/2000] ✓ report_1895.pdf - 4102 characters
+[1757/2000] ✓ report_1287.pdf - 4354 characters
+[1758/2000] ✓ report_0387.pdf - 4184 characters
+[1759/2000] ✓ report_0796.pdf - 4311 characters
+[1760/2000] ✓ report_1088.pdf - 4182 characters
+[1761/2000] ✓ report_0047.pdf - 4115 characters
+[1762/2000] ✓ report_1724.pdf - 4140 characters
+[1763/2000] ✓ report_1063.pdf - 4207 characters
+[1764/2000] ✓ report_0124.pdf - 4094 characters
+[1765/2000] ✓ report_1347.pdf - 4242 characters
+[1766/2000] ✓ report_1306.pdf - 4066 characters
+[1767/2000] ✓ report_0215.pdf - 4307 characters
+[1768/2000] ✓ report_1589.pdf - 4179 characters
+[1769/2000] ✓ report_1029.pdf - 4066 characters
+[1770/2000] ✓ report_0486.pdf - 4172 characters
+[1771/2000] ✓ report_0771.pdf - 4292 characters
+[1772/2000] ✓ report_0165.pdf - 4173 characters
+[1773/2000] ✓ report_1530.pdf - 4185 characters
+[1774/2000] ✓ report_0180.pdf - 4210 characters
+[1775/2000] ✓ report_1164.pdf - 4204 characters
+[1776/2000] ✓ report_1788.pdf - 4113 characters
+[1777/2000] ✓ report_1878.pdf - 4206 characters
+[1778/2000] ✓ report_0758.pdf - 4136 characters
+[1779/2000] ✓ report_0332.pdf - 4050 characters
+[1780/2000] ✓ report_1793.pdf - 4231 characters
+[1781/2000] ✓ report_0315.pdf - 4322 characters
+[1782/2000] ✓ report_0024.pdf - 4213 characters
+[1783/2000] ✓ report_0425.pdf - 3714 characters
+[1784/2000] ✓ report_0549.pdf - 4324 characters
+[1785/2000] ✓ report_0686.pdf - 4293 characters
+[1786/2000] ✓ report_1521.pdf - 4097 characters
+[1787/2000] ✓ report_1289.pdf - 4189 characters
+[1788/2000] ✓ report_1446.pdf - 4358 characters
+[1789/2000] ✓ report_0285.pdf - 4299 characters
+[1790/2000] ✓ report_0445.pdf - 4253 characters
+[1791/2000] ✓ report_0800.pdf - 4163 characters
+[1792/2000] ✓ report_1522.pdf - 4237 characters
+[1793/2000] ✓ report_1772.pdf - 3694 characters
+[1794/2000] ✓ report_0846.pdf - 4169 characters
+[1795/2000] ✓ report_1470.pdf - 4256 characters
+[1796/2000] ✓ report_1440.pdf - 4014 characters
+[1797/2000] ✓ report_0748.pdf - 4130 characters
+[1798/2000] ✓ report_1412.pdf - 4164 characters
+[1799/2000] ✓ report_0081.pdf - 4215 characters
+[1800/2000] ✓ report_1441.pdf - 3692 characters
+[1801/2000] ✓ report_1189.pdf - 4312 characters
+[1802/2000] ✓ report_0565.pdf - 3668 characters
+[1803/2000] ✓ report_0711.pdf - 4172 characters
+[1804/2000] ✓ report_0739.pdf - 4166 characters
+[1805/2000] ✓ report_1988.pdf - 4215 characters
+[1806/2000] ✓ report_0600.pdf - 4201 characters
+[1807/2000] ✓ report_1849.pdf - 4322 characters
+[1808/2000] ✓ report_1792.pdf - 4372 characters
+[1809/2000] ✓ report_1429.pdf - 3667 characters
+[1810/2000] ✓ report_0546.pdf - 4274 characters
+[1811/2000] ✓ report_1117.pdf - 3655 characters
+[1812/2000] ✓ report_1648.pdf - 4214 characters
+[1813/2000] ✓ report_1062.pdf - 4276 characters
+[1814/2000] ✓ report_0318.pdf - 4252 characters
+[1815/2000] ✓ report_1927.pdf - 4125 characters
+[1816/2000] ✓ report_1877.pdf - 4121 characters
+[1817/2000] ✓ report_0045.pdf - 4276 characters
+[1818/2000] ✓ report_1132.pdf - 3697 characters
+[1819/2000] ✓ report_0987.pdf - 4172 characters
+[1820/2000] ✓ report_1276.pdf - 4128 characters
+[1821/2000] ✓ report_1615.pdf - 4368 characters
+[1822/2000] ✓ report_1120.pdf - 4149 characters
+[1823/2000] ✓ report_0717.pdf - 3670 characters
+[1824/2000] ✓ report_1215.pdf - 4400 characters
+[1825/2000] ✓ report_0566.pdf - 3697 characters
+[1826/2000] ✓ report_1271.pdf - 4232 characters
+[1827/2000] ✓ report_0949.pdf - 4150 characters
+[1828/2000] ✓ report_0597.pdf - 3662 characters
+[1829/2000] ✓ report_1899.pdf - 4191 characters
+[1830/2000] ✓ report_1604.pdf - 4136 characters
+[1831/2000] ✓ report_0902.pdf - 4168 characters
+[1832/2000] ✓ report_0255.pdf - 4336 characters
+[1833/2000] ✓ report_1937.pdf - 4130 characters
+[1834/2000] ✓ report_0431.pdf - 4115 characters
+[1835/2000] ✓ report_1775.pdf - 4162 characters
+[1836/2000] ✓ report_1823.pdf - 4214 characters
+[1837/2000] ✓ report_1259.pdf - 3670 characters
+[1838/2000] ✓ report_0494.pdf - 4131 characters
+[1839/2000] ✓ report_0926.pdf - 4217 characters
+[1840/2000] ✓ report_1786.pdf - 4261 characters
+[1841/2000] ✓ report_1075.pdf - 4188 characters
+[1842/2000] ✓ report_0636.pdf - 4285 characters
+[1843/2000] ✓ report_0204.pdf - 4149 characters
+[1844/2000] ✓ report_0553.pdf - 4298 characters
+[1845/2000] ✓ report_0660.pdf - 4324 characters
+[1846/2000] ✓ report_1207.pdf - 4066 characters
+[1847/2000] ✓ report_1360.pdf - 4108 characters
+[1848/2000] ✓ report_1958.pdf - 4286 characters
+[1849/2000] ✓ report_0263.pdf - 4045 characters
+[1850/2000] ✓ report_1033.pdf - 4206 characters
+[1851/2000] ✓ report_0859.pdf - 4220 characters
+[1852/2000] ✓ report_1101.pdf - 4220 characters
+[1853/2000] ✓ report_1762.pdf - 4151 characters
+[1854/2000] ✓ report_0098.pdf - 4225 characters
+[1855/2000] ✓ report_1428.pdf - 4237 characters
+[1856/2000] ✓ report_0862.pdf - 4161 characters
+[1857/2000] ✓ report_1115.pdf - 4293 characters
+[1858/2000] ✓ report_1697.pdf - 3714 characters
+[1859/2000] ✓ report_0335.pdf - 4134 characters
+[1860/2000] ✓ report_1194.pdf - 4172 characters
+[1861/2000] ✓ report_1594.pdf - 4043 characters
+[1862/2000] ✓ report_1022.pdf - 4206 characters
+[1863/2000] ✓ report_1076.pdf - 4214 characters
+[1864/2000] ✓ report_1621.pdf - 4231 characters
+[1865/2000] ✓ report_1258.pdf - 4172 characters
+[1866/2000] ✓ report_1808.pdf - 3664 characters
+[1867/2000] ✓ report_0082.pdf - 4251 characters
+[1868/2000] ✓ report_0085.pdf - 4214 characters
+[1869/2000] ✓ report_0647.pdf - 3689 characters
+[1870/2000] ✓ report_0430.pdf - 4134 characters
+[1871/2000] ✓ report_1456.pdf - 4284 characters
+[1872/2000] ✓ report_1794.pdf - 4302 characters
+[1873/2000] ✓ report_1345.pdf - 4263 characters
+[1874/2000] ✓ report_0234.pdf - 3692 characters
+[1875/2000] ✓ report_1298.pdf - 4186 characters
+[1876/2000] ✓ report_1450.pdf - 4105 characters
+[1877/2000] ✓ report_1255.pdf - 4256 characters
+[1878/2000] ✓ report_0322.pdf - 4190 characters
+[1879/2000] ✓ report_0333.pdf - 4316 characters
+[1880/2000] ✓ report_0518.pdf - 4141 characters
+[1881/2000] ✓ report_1965.pdf - 4107 characters
+[1882/2000] ✓ report_1898.pdf - 4232 characters
+[1883/2000] ✓ report_1645.pdf - 4045 characters
+[1884/2000] ✓ report_0411.pdf - 4188 characters
+[1885/2000] ✓ report_1527.pdf - 4155 characters
+[1886/2000] ✓ report_0200.pdf - 3709 characters
+[1887/2000] ✓ report_1261.pdf - 4269 characters
+[1888/2000] ✓ report_0871.pdf - 3688 characters
+[1889/2000] ✓ report_0899.pdf - 4073 characters
+[1890/2000] ✓ report_1664.pdf - 4254 characters
+[1891/2000] ✓ report_1183.pdf - 4393 characters
+[1892/2000] ✓ report_1386.pdf - 4135 characters
+[1893/2000] ✓ report_0780.pdf - 4320 characters
+[1894/2000] ✓ report_0442.pdf - 4082 characters
+[1895/2000] ✓ report_1640.pdf - 4173 characters
+[1896/2000] ✓ report_1465.pdf - 4046 characters
+[1897/2000] ✓ report_0035.pdf - 4346 characters
+[1898/2000] ✓ report_1420.pdf - 4127 characters
+[1899/2000] ✓ report_0675.pdf - 4224 characters
+[1900/2000] ✓ report_0729.pdf - 4153 characters
+[1901/2000] ✓ report_1095.pdf - 4213 characters
+[1902/2000] ✓ report_0944.pdf - 4270 characters
+[1903/2000] ✓ report_1480.pdf - 4134 characters
+[1904/2000] ✓ report_1160.pdf - 4190 characters
+[1905/2000] ✓ report_1301.pdf - 4076 characters
+[1906/2000] ✓ report_0966.pdf - 4089 characters
+[1907/2000] ✓ report_1218.pdf - 4223 characters
+[1908/2000] ✓ report_1637.pdf - 4077 characters
+[1909/2000] ✓ report_1141.pdf - 4202 characters
+[1910/2000] ✓ report_0231.pdf - 4119 characters
+[1911/2000] ✓ report_0281.pdf - 4071 characters
+[1912/2000] ✓ report_1380.pdf - 4218 characters
+[1913/2000] ✓ report_1464.pdf - 4172 characters
+[1914/2000] ✓ report_0160.pdf - 4237 characters
+[1915/2000] ✓ report_1341.pdf - 4297 characters
+[1916/2000] ✓ report_0554.pdf - 3642 characters
+[1917/2000] ✓ report_1855.pdf - 4159 characters
+[1918/2000] ✓ report_1377.pdf - 4087 characters
+[1919/2000] ✓ report_1625.pdf - 4331 characters
+[1920/2000] ✓ report_1921.pdf - 4199 characters
+[1921/2000] ✓ report_0843.pdf - 4250 characters
+[1922/2000] ✓ report_0003.pdf - 4167 characters
+[1923/2000] ✓ report_1869.pdf - 3702 characters
+[1924/2000] ✓ report_1510.pdf - 3666 characters
+[1925/2000] ✓ report_1421.pdf - 4132 characters
+[1926/2000] ✓ report_1695.pdf - 3680 characters
+[1927/2000] ✓ report_0903.pdf - 4097 characters
+[1928/2000] ✓ report_0816.pdf - 4042 characters
+[1929/2000] ✓ report_1948.pdf - 4147 characters
+[1930/2000] ✓ report_1940.pdf - 4315 characters
+[1931/2000] ✓ report_0948.pdf - 4287 characters
+[1932/2000] ✓ report_0365.pdf - 3673 characters
+[1933/2000] ✓ report_1706.pdf - 4385 characters
+[1934/2000] ✓ report_1356.pdf - 4321 characters
+[1935/2000] ✓ report_0181.pdf - 4056 characters
+[1936/2000] ✓ report_1392.pdf - 4231 characters
+[1937/2000] ✓ report_1575.pdf - 4071 characters
+[1938/2000] ✓ report_1930.pdf - 4137 characters
+[1939/2000] ✓ report_0746.pdf - 4246 characters
+[1940/2000] ✓ report_1608.pdf - 4315 characters
+[1941/2000] ✓ report_0316.pdf - 4247 characters
+[1942/2000] ✓ report_0464.pdf - 3651 characters
+[1943/2000] ✓ report_0167.pdf - 4286 characters
+[1944/2000] ✓ report_1388.pdf - 4326 characters
+[1945/2000] ✓ report_1328.pdf - 4376 characters
+[1946/2000] ✓ report_1394.pdf - 4277 characters
+[1947/2000] ✓ report_1995.pdf - 4239 characters
+[1948/2000] ✓ report_1015.pdf - 4097 characters
+[1949/2000] ✓ report_0585.pdf - 4118 characters
+[1950/2000] ✓ report_1085.pdf - 4245 characters
+[1951/2000] ✓ report_0360.pdf - 4245 characters
+[1952/2000] ✓ report_0646.pdf - 4118 characters
+[1953/2000] ✓ report_1220.pdf - 4363 characters
+[1954/2000] ✓ report_0034.pdf - 4229 characters
+[1955/2000] ✓ report_0821.pdf - 4147 characters
+[1956/2000] ✓ report_1524.pdf - 4183 characters
+[1957/2000] ✓ report_1052.pdf - 4024 characters
+[1958/2000] ✓ report_1851.pdf - 4384 characters
+[1959/2000] ✓ report_0547.pdf - 4113 characters
+[1960/2000] ✓ report_0396.pdf - 3660 characters
+[1961/2000] ✓ report_1967.pdf - 4071 characters
+[1962/2000] ✓ report_1872.pdf - 4145 characters
+[1963/2000] ✓ report_0292.pdf - 4341 characters
+[1964/2000] ✓ report_1957.pdf - 4371 characters
+[1965/2000] ✓ report_1426.pdf - 4208 characters
+[1966/2000] ✓ report_1176.pdf - 4267 characters
+[1967/2000] ✓ report_0543.pdf - 4077 characters
+[1968/2000] ✓ report_1551.pdf - 4154 characters
+[1969/2000] ✓ report_0410.pdf - 4133 characters
+[1970/2000] ✓ report_0349.pdf - 4222 characters
+[1971/2000] ✓ report_0419.pdf - 3702 characters
+[1972/2000] ✓ report_0954.pdf - 3653 characters
+[1973/2000] ✓ report_0818.pdf - 4236 characters
+[1974/2000] ✓ report_1821.pdf - 4156 characters
+[1975/2000] ✓ report_0842.pdf - 4152 characters
+[1976/2000] ✓ report_0182.pdf - 4162 characters
+[1977/2000] ✓ report_0378.pdf - 4152 characters
+[1978/2000] ✓ report_0232.pdf - 4254 characters
+[1979/2000] ✓ report_1310.pdf - 4157 characters
+[1980/2000] ✓ report_1969.pdf - 4261 characters
+[1981/2000] ✓ report_1962.pdf - 4147 characters
+[1982/2000] ✓ report_0473.pdf - 4381 characters
+[1983/2000] ✓ report_1689.pdf - 4090 characters
+[1984/2000] ✓ report_0391.pdf - 3692 characters
+[1985/2000] ✓ report_0760.pdf - 4214 characters
+[1986/2000] ✓ report_0827.pdf - 4314 characters
+[1987/2000] ✓ report_1282.pdf - 4181 characters
+[1988/2000] ✓ report_0696.pdf - 3707 characters
+[1989/2000] ✓ report_0027.pdf - 4363 characters
+[1990/2000] ✓ report_0207.pdf - 3681 characters
+[1991/2000] ✓ report_1415.pdf - 4158 characters
+[1992/2000] ✓ report_1984.pdf - 4192 characters
+[1993/2000] ✓ report_1970.pdf - 4324 characters
+[1994/2000] ✓ report_0538.pdf - 3699 characters
+[1995/2000] ✓ report_0277.pdf - 4310 characters
+[1996/2000] ✓ report_0511.pdf - 4307 characters
+[1997/2000] ✓ report_0418.pdf - 4045 characters
+[1998/2000] ✓ report_0135.pdf - 4264 characters
+[1999/2000] ✓ report_1479.pdf - 4182 characters
+[2000/2000] ✓ report_0483.pdf - 3668 characters
+
+Successfully processed 2000 reports
+
+======================================================================
+STEP 2: GENERATING EMBEDDINGS
+======================================================================
+
+Loading model from /home/agauta01/anmol_work/bioclinicalbert_local on cuda...
+Running in OFFLINE mode (local files only)
+✓ Model loaded successfully!
+
+Generating embeddings for 2000 reports...
+Processed 8/2000 reports
+Processed 16/2000 reports
+Processed 24/2000 reports
+Processed 32/2000 reports
+Processed 40/2000 reports
+Processed 48/2000 reports
+Processed 56/2000 reports
+Processed 64/2000 reports
+Processed 72/2000 reports
+Processed 80/2000 reports
+Processed 88/2000 reports
+Processed 96/2000 reports
+Processed 104/2000 reports
+Processed 112/2000 reports
+Processed 120/2000 reports
+Processed 128/2000 reports
+Processed 136/2000 reports
+Processed 144/2000 reports
+Processed 152/2000 reports
+Processed 160/2000 reports
+Processed 168/2000 reports
+Processed 176/2000 reports
+Processed 184/2000 reports
+Processed 192/2000 reports
+Processed 200/2000 reports
+Processed 208/2000 reports
+Processed 216/2000 reports
+Processed 224/2000 reports
+Processed 232/2000 reports
+Processed 240/2000 reports
+Processed 248/2000 reports
+Processed 256/2000 reports
+Processed 264/2000 reports
+Processed 272/2000 reports
+Processed 280/2000 reports
+Processed 288/2000 reports
+Processed 296/2000 reports
+Processed 304/2000 reports
+Processed 312/2000 reports
+Processed 320/2000 reports
+Processed 328/2000 reports
+Processed 336/2000 reports
+Processed 344/2000 reports
+Processed 352/2000 reports
+Processed 360/2000 reports
+Processed 368/2000 reports
+Processed 376/2000 reports
+Processed 384/2000 reports
+Processed 392/2000 reports
+Processed 400/2000 reports
+Processed 408/2000 reports
+Processed 416/2000 reports
+Processed 424/2000 reports
+Processed 432/2000 reports
+Processed 440/2000 reports
+Processed 448/2000 reports
+Processed 456/2000 reports
+Processed 464/2000 reports
+Processed 472/2000 reports
+Processed 480/2000 reports
+Processed 488/2000 reports
+Processed 496/2000 reports
+Processed 504/2000 reports
+Processed 512/2000 reports
+Processed 520/2000 reports
+Processed 528/2000 reports
+Processed 536/2000 reports
+Processed 544/2000 reports
+Processed 552/2000 reports
+Processed 560/2000 reports
+Processed 568/2000 reports
+Processed 576/2000 reports
+Processed 584/2000 reports
+Processed 592/2000 reports
+Processed 600/2000 reports
+Processed 608/2000 reports
+Processed 616/2000 reports
+Processed 624/2000 reports
+Processed 632/2000 reports
+Processed 640/2000 reports
+Processed 648/2000 reports
+Processed 656/2000 reports
+Processed 664/2000 reports
+Processed 672/2000 reports
+Processed 680/2000 reports
+Processed 688/2000 reports
+Processed 696/2000 reports
+Processed 704/2000 reports
+Processed 712/2000 reports
+Processed 720/2000 reports
+Processed 728/2000 reports
+Processed 736/2000 reports
+Processed 744/2000 reports
+Processed 752/2000 reports
+Processed 760/2000 reports
+Processed 768/2000 reports
+Processed 776/2000 reports
+Processed 784/2000 reports
+Processed 792/2000 reports
+Processed 800/2000 reports
+Processed 808/2000 reports
+Processed 816/2000 reports
+Processed 824/2000 reports
+Processed 832/2000 reports
+Processed 840/2000 reports
+Processed 848/2000 reports
+Processed 856/2000 reports
+Processed 864/2000 reports
+Processed 872/2000 reports
+Processed 880/2000 reports
+Processed 888/2000 reports
+Processed 896/2000 reports
+Processed 904/2000 reports
+Processed 912/2000 reports
+Processed 920/2000 reports
+Processed 928/2000 reports
+Processed 936/2000 reports
+Processed 944/2000 reports
+Processed 952/2000 reports
+Processed 960/2000 reports
+Processed 968/2000 reports
+Processed 976/2000 reports
+Processed 984/2000 reports
+Processed 992/2000 reports
+Processed 1000/2000 reports
+Processed 1008/2000 reports
+Processed 1016/2000 reports
+Processed 1024/2000 reports
+Processed 1032/2000 reports
+Processed 1040/2000 reports
+Processed 1048/2000 reports
+Processed 1056/2000 reports
+Processed 1064/2000 reports
+Processed 1072/2000 reports
+Processed 1080/2000 reports
+Processed 1088/2000 reports
+Processed 1096/2000 reports
+Processed 1104/2000 reports
+Processed 1112/2000 reports
+Processed 1120/2000 reports
+Processed 1128/2000 reports
+Processed 1136/2000 reports
+Processed 1144/2000 reports
+Processed 1152/2000 reports
+Processed 1160/2000 reports
+Processed 1168/2000 reports
+Processed 1176/2000 reports
+Processed 1184/2000 reports
+Processed 1192/2000 reports
+Processed 1200/2000 reports
+Processed 1208/2000 reports
+Processed 1216/2000 reports
+Processed 1224/2000 reports
+Processed 1232/2000 reports
+Processed 1240/2000 reports
+Processed 1248/2000 reports
+Processed 1256/2000 reports
+Processed 1264/2000 reports
+Processed 1272/2000 reports
+Processed 1280/2000 reports
+Processed 1288/2000 reports
+Processed 1296/2000 reports
+Processed 1304/2000 reports
+Processed 1312/2000 reports
+Processed 1320/2000 reports
+Processed 1328/2000 reports
+Processed 1336/2000 reports
+Processed 1344/2000 reports
+Processed 1352/2000 reports
+Processed 1360/2000 reports
+Processed 1368/2000 reports
+Processed 1376/2000 reports
+Processed 1384/2000 reports
+Processed 1392/2000 reports
+Processed 1400/2000 reports
+Processed 1408/2000 reports
+Processed 1416/2000 reports
+Processed 1424/2000 reports
+Processed 1432/2000 reports
+Processed 1440/2000 reports
+Processed 1448/2000 reports
+Processed 1456/2000 reports
+Processed 1464/2000 reports
+Processed 1472/2000 reports
+Processed 1480/2000 reports
+Processed 1488/2000 reports
+Processed 1496/2000 reports
+Processed 1504/2000 reports
+Processed 1512/2000 reports
+Processed 1520/2000 reports
+Processed 1528/2000 reports
+Processed 1536/2000 reports
+Processed 1544/2000 reports
+Processed 1552/2000 reports
+Processed 1560/2000 reports
+Processed 1568/2000 reports
+Processed 1576/2000 reports
+Processed 1584/2000 reports
+Processed 1592/2000 reports
+Processed 1600/2000 reports
+Processed 1608/2000 reports
+Processed 1616/2000 reports
+Processed 1624/2000 reports
+Processed 1632/2000 reports
+Processed 1640/2000 reports
+Processed 1648/2000 reports
+Processed 1656/2000 reports
+Processed 1664/2000 reports
+Processed 1672/2000 reports
+Processed 1680/2000 reports
+Processed 1688/2000 reports
+Processed 1696/2000 reports
+Processed 1704/2000 reports
+Processed 1712/2000 reports
+Processed 1720/2000 reports
+Processed 1728/2000 reports
+Processed 1736/2000 reports
+Processed 1744/2000 reports
+Processed 1752/2000 reports
+Processed 1760/2000 reports
+Processed 1768/2000 reports
+Processed 1776/2000 reports
+Processed 1784/2000 reports
+Processed 1792/2000 reports
+Processed 1800/2000 reports
+Processed 1808/2000 reports
+Processed 1816/2000 reports
+Processed 1824/2000 reports
+Processed 1832/2000 reports
+Processed 1840/2000 reports
+Processed 1848/2000 reports
+Processed 1856/2000 reports
+Processed 1864/2000 reports
+Processed 1872/2000 reports
+Processed 1880/2000 reports
+Processed 1888/2000 reports
+Processed 1896/2000 reports
+Processed 1904/2000 reports
+Processed 1912/2000 reports
+Processed 1920/2000 reports
+Processed 1928/2000 reports
+Processed 1936/2000 reports
+Processed 1944/2000 reports
+Processed 1952/2000 reports
+Processed 1960/2000 reports
+Processed 1968/2000 reports
+Processed 1976/2000 reports
+Processed 1984/2000 reports
+Processed 1992/2000 reports
+Processed 2000/2000 reports
+Generated embeddings with shape: (2000, 768)
+
+======================================================================
+STEP 3: CLUSTERING
+======================================================================
+
+Performing kmeans clustering into 4 groups...
+Clustering complete!
+Cluster distribution: [280 862 497 361]
+
+======================================================================
+STEP 4: CALCULATING METRICS
+======================================================================
+
+Calculating clustering metrics...
+
+Clustering Quality Metrics:
+  Silhouette Score: 0.2829 (higher is better, range: -1 to 1)
+  Davies-Bouldin Index: 1.4532 (lower is better)
+  Calinski-Harabasz Score: 947.01 (higher is better)
+  Avg Within-Cluster Distance: 0.0026
+  Avg Between-Cluster Distance: 0.0049
+
+======================================================================
+STEP 6: MAPPING TO MAYO SCORES
+======================================================================
+
+Mapping clusters to Mayo severity scores...
+Note: Without ground truth, Mayo scores are assigned heuristically.
+Consider validating with clinical experts or labeled data.
+
+Cluster to Mayo Score Mapping:
+  Cluster 0 -> Mayo 2 (280 reports)
+  Cluster 1 -> Mayo 0 (862 reports)
+  Cluster 2 -> Mayo 1 (497 reports)
+  Cluster 3 -> Mayo 3 (361 reports)
+
+======================================================================
+STEP 8: SAVING RESULTS
+======================================================================
+
+======================================================================
+STEP 9: CREATING VISUALIZATIONS
+======================================================================
+
+Generating visualizations...
+Computing t-SNE (this may take a moment)...
+Visualizations saved to ./uc_clustering_results_two
+
+======================================================================
+PIPELINE COMPLETE!
+======================================================================
+
+Results saved to: ./uc_clustering_results_two
+
+Generated files:
+  - clustering_results.csv: Main results with Mayo scores
+  - embeddings.npy: BioClinicalBERT embeddings
+  - extracted_texts.json: Extracted PDF texts
+  - metrics_summary.csv: All clustering metrics
+  - clustering_report.txt: Detailed text report
+  - pca_visualization.png: 2D PCA plot
+  - tsne_visualization.png: 2D t-SNE plot
+  - similarity_heatmap.png: Cosine similarity matrix
+  - mayo_distribution.png: Distribution bar chart
+
+======================================================================
+SUMMARY STATISTICS
+======================================================================
+Total reports processed: 2000
+Mayo 0 (Normal/Quiescent): 862 reports
+Mayo 1 (Mild): 497 reports
+Mayo 2 (Moderate): 280 reports
+Mayo 3 (Severe): 361 reports
+3. ------- Calculate time elapsed ------- 
+Total of 93 seconds elapsed for process
+--------- Finished with job 274407
