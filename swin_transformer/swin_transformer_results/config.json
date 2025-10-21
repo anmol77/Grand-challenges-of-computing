@@ -1,0 +1,27 @@
+{
+    "data_root": "/home/agauta01/anmol_work/LIMUC-Dataset",
+    "output_dir": "/home/agauta01/work/swin_transformer_results",
+    "model_name": "swin_base_patch4_window12_384",
+    "pretrained": true,
+    "pretrained_weights_path": "/home/agauta01/work/swin_base_weights/swin_base_patch4_window12_384.pth",
+    "num_classes": 4,
+    "img_size": 384,
+    "batch_size": 16,
+    "num_epochs": 100,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.05,
+    "warmup_epochs": 5,
+    "min_lr": 1e-06,
+    "use_augmentation": true,
+    "num_workers": 4,
+    "device": "cuda",
+    "mixed_precision": true,
+    "patience": 15,
+    "class_names": [
+        "Mayo 0",
+        "Mayo 1",
+        "Mayo 2",
+        "Mayo 3"
+    ],
+    "distributed": false
+}
