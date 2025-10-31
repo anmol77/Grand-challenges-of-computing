@@ -1,4 +1,4 @@
-## Efficient Net V2 
+## Efficient Net V2 with LIMUC-dataset
 This model is a family of Convolutional neural networks designed for image classification. The model is trained with two distinct dataset: *LIMUC-dataset* and *Kvasir-dataset*. 
 
 #### LIMUC-dataset/first-implementation
