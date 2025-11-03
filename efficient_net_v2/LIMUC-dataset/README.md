@@ -1,5 +1,5 @@
 ## Efficient Net V2 with LIMUC-dataset
-This model is a family of Convolutional neural networks designed for image classification. The model is trained with two distinct dataset: *LIMUC-dataset* and *Kvasir-dataset*. 
+This model is a family of Convolutional neural networks designed for image classification. The model is trained with LIMUC-dataset to classify severity scores for ulcerative colitis using different images. 
 
 #### LIMUC-dataset/first-implementation
 **Description**:
