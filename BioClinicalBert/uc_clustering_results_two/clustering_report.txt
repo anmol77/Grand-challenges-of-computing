@@ -1,0 +1,19 @@
+UC PATHOLOGY REPORT CLUSTERING REPORT
+======================================================================
+
+Model: /home/agauta01/anmol_work/bioclinicalbert_local
+Offline mode: True
+Number of reports: 2000
+Embedding dimension: 768
+Number of clusters: 4
+
+CLUSTERING QUALITY METRICS:
+  Silhouette Score: 0.2829
+  Davies-Bouldin Index: 1.4532
+  Calinski-Harabasz Score: 947.01
+
+CLUSTER DISTRIBUTION:
+  Mayo 0: 862 reports (43.1%)
+  Mayo 1: 497 reports (24.9%)
+  Mayo 2: 280 reports (14.0%)
+  Mayo 3: 361 reports (18.1%)

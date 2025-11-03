@@ -1,0 +1,2 @@
+silhouette_score,davies_bouldin_score,calinski_harabasz_score,avg_within_cluster_distance,avg_between_cluster_distance
+0.2829237,1.4532368213183862,947.0067166194798,0.0025918358,0.0049456856
