@@ -68,6 +68,17 @@ BioClinical BERT is is a specialized version of BERT that’s been pretrained on
  - Second largest cluster, surprisingly high proportion.
  - Expected terms: "ulceration," "severe friability," "spontaneous hemorrhage," "extensive mucosal damage".
 
+### Findings for uc_textual_reports_two
+So to make textual reports better, I added words like mild, symptomatic, severe, minimal, marked etc which did improve the metrics a little bit.
+
+- Silhouette Score: 0.2829 (0.1024 -> 0.2829 which is 176% improvement)
+- Davies-Bouldin Index: 1.4532 (2.8116 -> 1.4532 which is 48 % improvement)
+- Calinski-Harabasz Score: 947.01 (820.46 -> 947.01 which is 15 % improvement)
+- Avg Within-Cluster Distance: 0.0026 (0.0028 -> 0.0026 (which is 7 % tighter)
+- Avg Between-Cluster Distance: 0.0049 (0.0045 -> 0.0049 which is +9% separation)
+
+This shows that contextual language can make all the difference when it comes to diagnosis of disease and better training of models.
+
 #### Mapping Limitation
 - No ground truth validation: Mayo scores assigned by centroid magnitude, not validated against actual clinical assessments.
 - Assumption-based: Mapping assumes severity correlates with embedding vector norms, which may not hold.
