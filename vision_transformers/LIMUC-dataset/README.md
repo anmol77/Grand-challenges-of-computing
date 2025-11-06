@@ -40,7 +40,7 @@ Per Class Performance Analysis
   - Near complete failure with 7.1% precision, 2.0% recall, and 3.1% F1-Score.
   - Model correctly identified only 2% of severe ulcerative colitis cases.
   - Of the few predictions made for Mayo 3, only 7.1 % were correct.
-  - Critical failre given the urgency of identifying severe disease.
+  - Critical failure given the urgency of identifying severe disease.
  
 Training Challenges:
 - Validation Accuracy fluctuated wildly (epoch 3: 8.13% to epoch 4: 49.92%) indicating unstable learning.
