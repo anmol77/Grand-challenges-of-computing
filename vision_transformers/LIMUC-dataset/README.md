@@ -6,7 +6,7 @@ Vision Transformer(ViT) is a deep learning model that applies the Transformer ar
 - Implements a Vision Transformer(ViT) from scratch with patch embeddings(8x8 patches), multi-head self-attention mechanisms and 12 transformer blocks with 768 embedding dimensions, designed specifically for ulcerative colitis severity classification (Mayo 0-Mayo 3).
 - Addresses dataset imbalance through multiple strategies including computed class weights applied to the loss function, label smoothing(0.1) and extensive data augmentation(random crops, flips, rotations, color jittering, and random erasing) to improve model robustness across all Mayo severity scores.
 - Uses AdamW optimizer with weight decay (0.05) for regularization, cosine annealing learning rate scheduler that gradually reduces learning rate over 150 epochs, gradient clipping (max norm 1.0) to prevent exploding gradients, and early stopping with 15-epoch patience to prevent overfitting.
-- Trains on the LIMUC-dataset to classify endoscopic images into four Mayo scores representing ulcerative colitis severity levels, with a small batch size (8) suitable for the limited medical imaging dataset and high-resolution analysis requirements.
+- Trains on the LIMUC-dataset to classify colonoscopy images into four Mayo scores representing ulcerative colitis severity levels, with a small batch size (8) suitable for the limited medical imaging dataset and high-resolution analysis requirements.
 - Unlike stadard ViT implementations, includes an additional pre-classification layer that reduces dimensionality (768-> 384) with layer normalization and GELU activation before the final classificaiton layer, potentially improving feature refinement for the fine-grained medical classification task.
 
 **Findings**
