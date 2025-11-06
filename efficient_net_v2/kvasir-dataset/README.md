@@ -51,4 +51,4 @@ Per-Class Performance:
 - Should complement, not replace,expert clinical judgement.
 - Early detection of polyps and inflammatory conditions may reduce healthcare costs through prevetion.
 - Might not be that useful for esophagitis and z-line classification and require more dataset for this class.
-- Transfer learning from Efficient V@ effectively adapted to medical domain.
+- Transfer learning from Efficient V2-S effectively adapted to medical domain.
