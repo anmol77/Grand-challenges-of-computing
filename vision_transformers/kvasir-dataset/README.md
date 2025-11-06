@@ -34,7 +34,7 @@ Per Class Performance:
 | **weighted avg**       | 0.6982     | 0.695   | 0.6896    |
 
 - Normal-pylorus has the best overall performance. High recall shows excellent sensitivity for identifying normal pyloric tissue. Strong precision minimizes false positives.
-- Normal-cecum has the second best performance. Exceptional recall indicates very few missed cases of noral cecum. High performance on normal anatomical structures consistent across models. Clear visual characteristics of cecal landmarks facilitate classification.
+- Normal-cecum has the second best performance. Exceptional recall indicates very few missed cases of normal cecum. High performance on normal anatomical structures consistent across models. Clear visual characteristics of cecal landmarks facilitate classification.
 - Ulcerative colitis has high precision but low recall. When model predicts ulcerative colitis, it's correct 77% of the time. Critical weakness: misses 53% of actual ulcerative colitis cases. Conservative prediction strategy may prioritize avoiding false positives.
 - Dyed-resection-margins have balanced performance. Highest recall among non-normal classes suggests good sensitivity. Artificial dye markers may provide distinctive visual cues. Moderate precision indicates some confusion with other classes
 - Dyed-lifted-polyps have adequate performance. Lower recall (64%) means 36% of cases are missed. Decent precision suggests predictions are reasonably reliable. Dye-enhanced features not fully leveraged by the model
