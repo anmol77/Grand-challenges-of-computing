@@ -105,7 +105,7 @@ Key Points:
 - No class below 87 % F1-Score.
 - Previously worst class (ulcerative-colitis) now among best performers.
 
-## Architectural Advanatages Demonstrated
+## Architectural Advantages Demonstrated
 - Multi-scale windows effectively capture both local mucosal details and global patterns.
 - Shifted window attention creates efficient long-range dependencies.
 - ImageNet pretraining provides generalizable visual features causing effective transfer learning.
