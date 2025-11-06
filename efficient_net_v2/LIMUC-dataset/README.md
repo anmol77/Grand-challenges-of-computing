@@ -3,7 +3,7 @@ This model is a family of Convolutional neural networks designed for image class
 
 #### LIMUC-dataset/first-implementation
 **Description**:
-- Uses LIMUC-dataset to categorize endoscopic images into 4 Mayo score classes (0-3) on the basis of severity levels (lowest to highest)
+- Uses LIMUC-dataset to categorize colonoscopic images into 4 Mayo score classes (0-3) on the basis of severity levels (lowest to highest)
 - Loads pre-trained EfficientNetV2-S model and fine-tunes it by replacing the final classifier layer, adding dropout for regularization.
 - Computes balanced class weights to address uneven distribution of images across severity classes to remove bias.
 - Implements data augmentation (flips, rotations, color jitter), early stopping, learning rate scheduling, and an 80-10-10 train/validation/test split.
