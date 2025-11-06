@@ -1,7 +1,7 @@
 ## Swin Transformer with LIMUC-dataset
 A swin transformer is an advanced type of Vision Transformer(ViT) designed for better efficiency and scalability in computer vision tasks. It divides an image into small windows and applies self-attention locally within each window, then shifts the windows between layers to let them interact. This makes it hierarchical like a CNN and efficient for high-resolution images. This model is powerful for tasks like classification, detection, and segmentation.
 
-####LIMUC-dataset/swin_transformer.py
+#### LIMUC-dataset/swin_transformer.py
 **Description**:
 - Uses the Swin Base Patch4 Window12 model with 384x384 input resolution from the timm library, loading pretrained weights from a local file to leverage transfer learning for ulcerative colitis Mayo score classification (Mayo 0-3).
 - Implements mixed precision training (AMP) for memory efficiency, reduced batch size (16) to accommodate the larger Swin Base model, and longer training schedule (100 epochs) with warmup period (5 epochs) and cosine learning rate decay from 1e-4 to 1e-6.
